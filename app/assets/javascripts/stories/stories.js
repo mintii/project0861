@@ -1,12 +1,18 @@
-var Meteorite = function(name) {
-  this.name = name;
-};
-
 Meteorite.prototype.generateTree = function(grammar) {
-    var trace = tracery.createGrammar(grammar);
-    this.storyTree = trace.expand("#origin#");
-
+  var trace = tracery.createGrammar(grammar);
+  this.storyTree = trace.expand("#origin#");
 };
+
+Meteorite.prototype.setNextMeteorite = function() {
+  Game.findMeteorite(this);
+
+  this.nextMeteorite = //something
+};
+
+Meteorite.prototype.renderStory = function() {
+  // add case logic
+  return this.storyTree.finalText;
+}
 
 Meteorite.prototype.confusedGrammar = function() {return {
     "hello": ["Hello!", "Whaddup whaddup!", "Salve!", "Konnichiwa!", "<stares at you>", "Bonjourno."],
@@ -15,6 +21,27 @@ Meteorite.prototype.confusedGrammar = function() {return {
     "confusedStatement": ["Help me!", "I've lost my fam.", "Where am I?", "Huhwhahuh?!"],
     "origin": ["#greeting#  #introduction#  #confusedStatement#"]
   };
+}
+
+Meteorite.prototype.coherentGrammar = function() { return {
+  "thanks": ["THANKS", "Wowzers, you're great!", "Domo Arigato.", "Thank you, but our princess is in another castle."],
+  "timeframe": ["year", "day", "century", "light-year", "parsec"],
+  "spaceThing": ["the hubble telescope", "andromeda", "the kuiper belt", "Reno, NV"],
+  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE", `There are other ${this.recclass} meteorites just like me who survived... I am sure of it.`],
+  "clue": [],
+  "origin": []
+  }
+
+// var warStory = {
+//   "timeunit": ["year", "day", "century", "light-year", "parsec"],
+//   "timeframe": ["50000 #timeunit#s", "a #timeunit#", "42 #timeunit#s"],
+//   "activity": ["taking a high-orbit stroll around Sirius"],
+//   "initialSetting": ["About #timeframe# ago my family was #activity# when #pointOfConflict#." ],
+//   "pointOfConflict": ["The <em>steel</em> swarm tore most of us into spacedust.", "One of the <em>steel</em> beings "],
+//   "origin": []
+//   }
+
+
 }
 
 
