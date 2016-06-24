@@ -1,0 +1,3 @@
+Meteorite.prototype.generateStory = function() {
+
+}
