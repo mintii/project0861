@@ -1,10 +1,8 @@
 $(document).on("ready", function() {
   var n = new Meteorite("Nogata");
+  n.generateTree(n.confusedGrammar());
 
-
-  var trace = tracery.createGrammar(n.confusedGrammar());
-  var story = trace.expand("#origin#").finalText;
-  $("body").append(`<p>${story}</p>`);
+  $("body").append(`<p>${n.storyTree.finalText}</p>`);
 });
 
 
