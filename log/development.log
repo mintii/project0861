@@ -668,3 +668,1110 @@ Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb
 
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 14:41:57 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 14:52:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 148ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:52:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:52:55 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 14:52:55 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 14:52:55 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 14:52:55 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 14:52:55 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 14:53:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:53:51 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 14:53:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:53:51 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 14:53:51 -0500
+
+
+Started GET "/assets/map.self-f14c9c2422cbc4eb17c179a6a914da756689154e399179597656518cfc03898e.css?body=1" for ::1 at 2016-06-24 14:53:51 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 14:53:51 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 14:54:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:54:16 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:54:16 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 14:54:16 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 14:54:16 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 14:54:16 -0500
+
+
+Started GET "/assets/map.self-319e6d58152e7f9cc920bca060d2487b8866a0dee2b5af1caa96ff9c39886cb4.css?body=1" for ::1 at 2016-06-24 14:54:16 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 15:04:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 15:04:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 15:04:53 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 15:04:53 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 15:04:53 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 15:04:53 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 15:04:53 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:53:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 222ms (Views: 222.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/assets/torque.self-0cca3b7b340cb4590f30d146c617c58576f449fa47a3b53d7fe6924cfc0321a6.js?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:53:50 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:54:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:54:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:54:29 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:54:29 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:54:29 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:54:29 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:54:29 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:54:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:54:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:54:49 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:54:49 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:54:49 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:54:49 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:54:49 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:55:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:55:04 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:55:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:55:04 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:55:04 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:55:04 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:55:04 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:55:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:55:29 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:55:29 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:55:29 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:55:29 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:55:29 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:55:29 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:56:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:56:10 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:56:10 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:56:10 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:56:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:56:10 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:56:10 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:57:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:57:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:57:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:57:50 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:57:50 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:57:50 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:57:50 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:57:50 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:58:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:58:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:58:41 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:58:41 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:58:41 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:58:41 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:58:41 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:59:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:59:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:59:04 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 16:59:04 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 16:59:04 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:59:04 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:59:04 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:07:25 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:07:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:07:25 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:07:25 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:07:25 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:07:25 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:07:25 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:09:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:09:20 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:09:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:09:20 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:09:20 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:09:20 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:09:20 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:12:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:12:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:12:44 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:12:44 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:12:44 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:12:44 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:12:44 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:12:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:12:52 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:12:52 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:12:52 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:12:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:12:52 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:12:52 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:13:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:13:13 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:13:13 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:13:13 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:13:13 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:13:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:13:13 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:36:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:36:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:36:47 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:36:47 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:36:47 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:36:47 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:36:47 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:37:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:37:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:37:14 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:37:14 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:37:14 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:37:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:37:14 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:39:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:39:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:39:55 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:39:55 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:39:55 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:39:55 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:39:55 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:40:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:40:51 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:40:51 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:40:51 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:40:51 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:40:51 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:40:51 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:41:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:41:02 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:41:02 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:41:02 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:41:02 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:41:02 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:41:02 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:41:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:41:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:41:27 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:41:27 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:41:27 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:41:27 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:41:27 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:42:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:42:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:42:30 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:42:30 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:42:30 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:42:30 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:42:30 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:43:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:43:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:43:24 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:43:24 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:43:24 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:43:24 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:43:24 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:45:37 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:45:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:45:37 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:45:37 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:45:37 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:45:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:45:37 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:49:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:49:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:49:43 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:49:43 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:49:43 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:49:43 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:49:43 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:49:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:49:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:49:59 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:49:59 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:49:59 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:49:59 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:49:59 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:50:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:50:15 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:50:15 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:50:15 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:50:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:50:15 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:50:15 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:50:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:50:29 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:50:29 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:50:29 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:50:29 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:50:29 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:50:29 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:51:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:51:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:51:05 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:51:05 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:51:05 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:51:05 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:51:05 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:52:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:52:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:52:02 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:52:02 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:52:02 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:52:02 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:52:02 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:55:18 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:55:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:55:18 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 17:55:18 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:55:18 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 17:55:18 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:55:18 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:04:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:04:15 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:04:15 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:04:15 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:04:15 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:04:15 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:04:15 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:07:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 197ms (Views: 196.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:07:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:07:53 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:07:53 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:07:53 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:07:53 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:07:53 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:08:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:08:09 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:08:09 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:08:09 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:08:09 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:08:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:08:09 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:13:26 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 99ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:13:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:13:26 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:13:26 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:13:26 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:13:26 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:13:26 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:15:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:15:16 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:15:16 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:15:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:15:16 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:15:16 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:15:16 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:17:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:17:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:17:14 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:17:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:17:14 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:17:14 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:17:14 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:17:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:17:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:17:37 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:17:37 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:17:37 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:17:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:17:37 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:20:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:20:54 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:20:54 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:20:54 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:20:54 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:20:54 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:20:54 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:21:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:21:10 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:21:10 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:21:10 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:21:10 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:21:10 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:21:10 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:21:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:21:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:21:37 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:21:37 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:21:37 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:21:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:21:37 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 18:21:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 18:21:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 18:21:59 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 18:21:59 -0500
+
+
+Started GET "/assets/map.self-a2b7944a6d5ca3da3485982fe198115e8474ef1081b6bd7c045a7cde9a38d3c0.js?body=1" for ::1 at 2016-06-24 18:21:59 -0500
+
+
+Started GET "/assets/map.self-660d49e880af9a6376627cfe2c62013c8844bd17810d8e6a60d0d49a0a1d4142.css?body=1" for ::1 at 2016-06-24 18:21:59 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 18:21:59 -0500
