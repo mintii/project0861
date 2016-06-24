@@ -1815,3 +1815,3351 @@ Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71
 
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 15:07:48 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:38:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/meteorite.self-575625abf0e7eca87973e8f28a3c37c06cf7a0db6bfce418f6edac8726ee2b6e.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/tester.self-5ebe3bd4a0d0fcbb07e429490f3550232bfe10d2e491874e485d14e3aa42d035.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:38:38 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:38:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/meteorite.self-575625abf0e7eca87973e8f28a3c37c06cf7a0db6bfce418f6edac8726ee2b6e.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/tester.self-5ebe3bd4a0d0fcbb07e429490f3550232bfe10d2e491874e485d14e3aa42d035.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:38:41 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:38:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/meteorite.self-575625abf0e7eca87973e8f28a3c37c06cf7a0db6bfce418f6edac8726ee2b6e.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:38:56 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:39:18 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/meteorite.self-b7b6a4a5e8badeddcd4af6215023111521c96e56d426ab92aabb830fada91a22.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:39:18 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:40:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 142ms (Views: 141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/meteorite.self-525290d23e32b34c238f8bd7931d1e76f6c69ca83367c528ca8cab1c96ae27d7.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:40:21 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:47:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/meteorite.self-525290d23e32b34c238f8bd7931d1e76f6c69ca83367c528ca8cab1c96ae27d7.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:47:09 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:47:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/meteorite.self-1e9d3e34c72bb56a469d27c0749bffeb09db3b7fde075cbc97592fdb846baeb3.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:47:17 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:47:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/meteorite.self-0c42313335e1ede7937aa28dc2aa150ca660c5c4af863953070611d92b724673.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:47:39 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:48:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/meteorite.self-f58d381e77dd51da18019dd6fd31b9b5f4548984354d54374cb2ea651b2c37a7.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:48:13 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:48:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-b0804c641351093338eb1631b67a18893b1e4c301c060d7567b716699f7ad0d9.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:48:32 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:48:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 130ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/meteorite.self-430ce3a2101a5f2f814f0dc4b7ba379020a4fa28fa81bc51f87cb75edf805f17.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:48:59 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:49:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/meteorite.self-430ce3a2101a5f2f814f0dc4b7ba379020a4fa28fa81bc51f87cb75edf805f17.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:49:19 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:49:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/meteorite.self-430ce3a2101a5f2f814f0dc4b7ba379020a4fa28fa81bc51f87cb75edf805f17.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:49:55 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:50:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 140ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/meteorite.self-27c0379f02409718a80c36a5c60697408a167928cbefbdad27c3c72492bff179.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:50:12 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:50:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/meteorite.self-1c9ffa1467fa36a5c486ff58ca515eb5de103f397c6f3fe2d41aa4412b51c96c.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:50:51 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:52:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/assets/meteorite.self-01f4761aa739b0090f2f286b33af4e6de2252c57e5291f5119cbd7e9de901987.js?body=1" for ::1 at 2016-06-24 16:52:36 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:53:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 133ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/meteorite.self-2a3299d977ad6d5b938a93aaab2666754037f905b6ed25cb546b2186882ddf75.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:53:29 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:53:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/meteorite.self-9b6911d7fbfb543f6feffcacb1234b52f367e8f97fc83ff9bbd15c89f918d98d.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:53:42 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:54:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/meteorite.self-0295e9d567cce89d34a6b940b35a2966a50396c02b2153d182aa112e5a845790.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:54:04 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:54:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/meteorite.self-74f403e9e577fff6857d1d2f789eb18c2f9a4e44a45105e10c3e47f35ba17a52.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:54:20 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:54:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:54:27 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:54:27 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:54:27 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:54:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:54:28 -0500
+
+
+Started GET "/assets/meteorite.self-0295e9d567cce89d34a6b940b35a2966a50396c02b2153d182aa112e5a845790.js?body=1" for ::1 at 2016-06-24 16:54:28 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:54:28 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:54:28 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:54:28 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:54:28 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:55:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/meteorite.self-c24ecbfb2a0f19d2e586c44da6d0d5bcbc6659c0d5dccd216cdb8a875c415f4a.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:55:58 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:56:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 133ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/meteorite.self-ed126c939bf9c630e441b474213b49e589deb2c99c4bf705381be25937062f03.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:56:08 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:56:46 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/meteorite.self-6de3b11f3b7d0307d828b810a7045b993494bfc7e504044890ce15ad3256a1dd.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:56:47 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:56:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/meteorite.self-ed126c939bf9c630e441b474213b49e589deb2c99c4bf705381be25937062f03.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:56:58 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:57:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/meteorite.self-5754bf01bbd5fb05d2252cbc0672122af8aee3e2077876ba115d216dd2f70852.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:57:23 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:57:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:57:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:57:31 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:57:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:57:31 -0500
+
+
+Started GET "/assets/meteorite.self-6de3b11f3b7d0307d828b810a7045b993494bfc7e504044890ce15ad3256a1dd.js?body=1" for ::1 at 2016-06-24 16:57:32 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:57:32 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:57:32 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:57:32 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:57:32 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:57:32 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:57:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/meteorite.self-ed126c939bf9c630e441b474213b49e589deb2c99c4bf705381be25937062f03.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:57:38 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:58:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/meteorite.self-54d9139c24b8f100e4f1b6f549ebb996f7cf0c6e2df3799dbd08c0acef7299f2.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:58:10 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:58:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 133ms (Views: 133.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/meteorite.self-d29ae162521f30252ae41d48a497788fea83c2938e41e13708b272babf77cb8b.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:58:25 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:58:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 129ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/meteorite.self-cc3b1c4bc47a9d213067523bd28a4ae60302c41d3572ae5f8a3dc95b9cb43645.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:58:51 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:59:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/meteorite.self-d0eb78389a6ee058a0812d0e4e42fc29a1a8d51c315d39516ec5012abc93a961.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:59:28 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:59:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 141ms (Views: 140.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-ce85c717010002467eb2b5e199ccb604a1d65605f2d8833bfa3fd1b4d2362684.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:59:33 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:59:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/meteorite.self-cc3b1c4bc47a9d213067523bd28a4ae60302c41d3572ae5f8a3dc95b9cb43645.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:59:42 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 16:59:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 149ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 16:59:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 16:59:55 -0500
+
+
+Started GET "/assets/meteorite.self-749a38afeee3acd114913baa67868e5738b33505c195d6d875e10d1eb3dde119.js?body=1" for ::1 at 2016-06-24 16:59:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 16:59:55 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 16:59:55 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 16:59:56 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 16:59:56 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 16:59:56 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 16:59:56 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 16:59:56 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:00:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/meteorite.self-cc3b1c4bc47a9d213067523bd28a4ae60302c41d3572ae5f8a3dc95b9cb43645.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:00:08 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:00:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/meteorite.self-c94eae66e1f35242eed0362e089e20097032da74a2f21d2a5118df122f6d0b15.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:00:14 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:00:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/meteorite.self-cc3b1c4bc47a9d213067523bd28a4ae60302c41d3572ae5f8a3dc95b9cb43645.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:00:20 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:02:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/meteorite.self-38139aebb326a1546439d69c971d04a8353b4b7478546ee3bbd12618810231ca.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:02:18 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:02:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/meteorite.self-9f0140e138dc86b4ee44c0a97d95f04d5678069dab0304e8a2f2cfd92134652e.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:02:36 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:03:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 142ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/meteorite.self-be2a58d0166c45afe148e6905e48d78438c2f6d4670fe7d31a05cb4d5a072b81.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:03:00 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:03:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/meteorite.self-c75812c96ab5eb8fddff52b74806ede72f4c0ab20c8d6605ed1ec0dd3bc6f6e7.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:03:14 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:03:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/meteorite.self-384cda5491082ce995c9761d17b21c17503da24fe7a53cec2e72066fb256faf1.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:03:30 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:03:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/meteorite.self-64508c78f895bc254e716f764abc8278ad6b71ab10dd41969c256a3ea9d10ed0.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:03:40 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:03:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-03a81b792c15c59c9310f524e1257e758431046230860e732ea19e29abcb188b.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:03:52 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:04:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/meteorite.self-9d4a88a4381ea1e01e696cb5eac3f89292c6b081ac3c6ceafba6b51ace561a2c.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:04:07 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:04:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-a840f58b20aefa2a3916d6103981901c023513e692771877fef77dce171f6263.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:04:19 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:04:26 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/meteorite.self-03a81b792c15c59c9310f524e1257e758431046230860e732ea19e29abcb188b.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:04:26 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:04:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 138ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/meteorite.self-b5ec6691ee905a17d8b34c1d18886cd8b4f56b94375e96cb7747a8a43030dfea.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:04:56 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:05:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/meteorite.self-c029784b0300cc0fd92cd110c7b39f5ea2033bce62070ad64fc3b998b54e4b05.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:05:06 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:05:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 135ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/meteorite.self-6abceff82d4a65235ee66719e6aefb46ec957b6970a9489467b9e025b1790b95.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:05:16 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:05:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/meteorite.self-b0b78ac5efebac6d8ed88ded989c6d3c59941fbcee49c300b3e69de2975a428f.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:05:36 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:05:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:05:41 -0500
+
+
+Started GET "/assets/meteorite.self-54ada84294b3629aa79eec01eb805ed09dc53d1bcaa4a56fba47167902a47b66.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:05:42 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:05:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 134ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/meteorite.self-906c7bc0e696a1b1412cbd9e47fe13ca241b2032ce73cbf7b1ad1a3b991d18ca.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:05:48 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:06:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 144ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/meteorite.self-e7215d772c66d6f88f10f587656e0b366966f685b7061a31c9b7c84a8dc5de50.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:06:00 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:07:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/meteorite.self-0fb84a6311ff8df5ab2c9fcabb336062f79d0a63ec378d75a465e4c92f0008d2.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:07:08 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:07:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/meteorite.self-6abceff82d4a65235ee66719e6aefb46ec957b6970a9489467b9e025b1790b95.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:07:16 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:08:11 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/meteorite.self-906468016cd8f5711fda9487b47a325f1b1ae004d904f9eba1459ae34fa7c0ae.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:08:11 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:09:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-1dcad07aeed52c115fafe312cf342db83332988adcdf1a37d77d723016307b17.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:09:49 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:10:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/meteorite.self-5473fb247c513fb4aff3ba544c994807b2a9820b1a5707820005d6f510f6f089.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:10:28 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:10:37 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 140.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/meteorite.self-9832212e16a8c8b5df2736f28a22bdaf60c1315e151620400c168b1695b4474e.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:10:37 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:11:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/meteorite.self-92be1c5e90016123e98959389c469f1b0fd2ed8d1d785f94efa40f1008aea122.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:11:19 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:11:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/meteorite.self-55139e9225b476d833339b1d764744522a15fbd8aa24aa4a381aae006def9442.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:11:28 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:11:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 135ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/meteorite.self-9eaecddbf392dcc533b8499e4cc43a22b800e71b020a20940a6b02c592d77bd8.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:11:43 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:22:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 152ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-b32ea419d49ac8916bad5d0f972fe448f7c28190810c8b9f0b096eafb05a6b80.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:22:05 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:25:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/meteorite.self-4ad399de9dded86098705b695f6c56e984f40ba5e2a8b135fe9abc144f5bf9db.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/tester.self-545e139503776eb707dd2e22ba57039ace5efe8b6d35595ff831dbbea77c2425.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:25:34 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:28:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 144ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/meteorite.self-7e0319d55173933f8a9b68b6b5df6541058d90ea1905d7d8db9d0169c51952f5.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:28:11 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:28:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/meteorite.self-0cb788c51641115fc2cc9b7b844884dda97dc54320349cb64efa5cd8c976fa7a.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:28:57 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:29:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:29:21 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/meteorite.self-e04d2fadae183f1e4cca1ff3f910e9616c95d00dfa7c9327210b9071ce59d1a7.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:29:22 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:29:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/meteorite.self-5fde4d440054f490f377f403dacc29c3560a44d330cd43ad13f21571503dcf78.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:29:41 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:30:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-53a103ee98084fd638fc6311bbb83e50daeab1b4c1ffcfd9d92b9df8c9313770.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:30:05 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:30:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-356209233ce6d31bd978a3348d621eb5ab70807ded7a34da95d5919e11f10238.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:30:09 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:30:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 137ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/meteorite.self-419efd03f270ba9016058aac428154b2445222b1f98c3eaab00fc08bcd5414fc.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:30:23 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:30:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/meteorite.self-207c9706e3135c0ca8e023677ff02cd2f190c306600a35ad7f06410763cd8ae0.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:30:56 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:31:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-752a3d1033125a6cb2ce2097357aa0fbbd94ae5cfbb00c1292fbbc180b6656e0.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:31:44 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:32:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-be21804b8da0ccf989a08cdc438cdd601285b158d8e692958311b199d3a6a899.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:32:44 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:32:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/meteorite.self-5086c13b9b8ad9cad7aeb6ab936e74d22cc15699282e458fd39696cf6723adf5.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:32:59 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:33:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 158ms (Views: 157.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/meteorite.self-a6a5dfe44602b1d217e50d8b8f2526d2ce5e727644e2ddf635c85d4ddb7fb29f.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:33:06 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:33:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/meteorite.self-b2c9ec884c17093a460a5cda90383208998523d545a665f0f9ee6c8ae3ba90e0.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:34:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/meteorite.self-bb169f574a548bd7daf6741104277e17b3474de9c4b12fe27276f84401e6ba54.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:34:00 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:34:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 146ms (Views: 145.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/meteorite.self-edb5fea278284449f882b0fe0b9ff078d9f7e12b88f0f18032b136756211cfa1.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:34:48 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:35:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/meteorite.self-8fa2870cc4990a8514f3a3f435f9edc5b8f8278ec1bc7d41fc396f43131c98e1.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:35:14 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:35:25 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/meteorite.self-edb5fea278284449f882b0fe0b9ff078d9f7e12b88f0f18032b136756211cfa1.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:35:25 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:36:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/meteorite.self-6ebf4426276c97891dbe55ad8ba1cb807a00be8e3141eea01881f667eb3af554.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:36:21 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:37:25 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 153ms (Views: 152.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/meteorite.self-609a633a18ea33d55641e67f7eb47a28cb106958da41bc41d903b708fe520df6.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:37:25 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:37:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-9cdd43e77412cdd8bd919f8a0a81ce6044e1de66f54449f33ce3f1b7ff2d58f5.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:37:50 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:37:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/meteorite.self-609a633a18ea33d55641e67f7eb47a28cb106958da41bc41d903b708fe520df6.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:37:58 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:39:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-f1ecac7ff7c9eac291ea0d4204ee81255acb3b1d05861b705c1ba54a13c64503.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:39:40 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:39:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 150ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/meteorite.self-e34134bceebf20b62d574e6c8d296e5e29ff79d614dd4bae66894a8356934b99.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:39:58 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:40:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/meteorite.self-bab369e7188dcde359eb8b6df48740c8f188173a9658e8c46c00c2cff663d93f.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/tester.self-4f777680a052bfbd30e29b736378b031019827c589e6f220b0656779d0fd3d3b.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:40:14 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:41:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/meteorite.self-41b0182d7bf7cb4ddbd9a085c5850d81d69009d19a902d15c449ec13e79fa22e.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/assets/tester.self-0bcc00cb5068cae51d0c21f6d73dabdd9bf7fb81d9130d485655a79c7bc4769d.js?body=1" for ::1 at 2016-06-24 17:41:31 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:42:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/meteorite.self-3eafab4525494a114b0599860c44a855c25a236ce390c4fd59417fff1aaf6e05.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/tester.self-0bcc00cb5068cae51d0c21f6d73dabdd9bf7fb81d9130d485655a79c7bc4769d.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:42:53 -0500
+
+
+Started GET "/" for ::1 at 2016-06-24 17:43:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/game.self-2b683d41c8d8e53fb3b1665c98c75ef2fe0f6b0bc2daec78a7ce2c2b3e8be460.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/meteorite.self-6bc00dff13a7e6c3b4256bf6d3c8d2c591378dfb34c7a8a243b2972a80f1dcec.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/tester.self-0bcc00cb5068cae51d0c21f6d73dabdd9bf7fb81d9130d485655a79c7bc4769d.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 17:43:38 -0500

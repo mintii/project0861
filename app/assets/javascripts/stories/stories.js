@@ -4,9 +4,7 @@ Meteorite.prototype.generateTree = function(grammar) {
 };
 
 Meteorite.prototype.setNextMeteorite = function() {
-  Game.findMeteorite(this);
-
-  this.nextMeteorite = //something
+  this.nextMeteorite = Game.findMeteorite(this);
 };
 
 Meteorite.prototype.renderStory = function() {

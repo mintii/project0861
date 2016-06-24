@@ -1,8 +1,11 @@
 $(document).on("ready", function() {
-  var n = new Meteorite("Nogata");
-  n.generateTree(n.confusedGrammar());
+  // var game = new Game;
 
-  $("body").append(`<p>${n.renderStory()}</p>`);
+  // var n = new Meteorite("Nogata");
+  // n.generateTree(n.confusedGrammar());
+
+  // $("body").append(`<p>${n.renderStory()}</p>`);
+  $("body").append(`<p>${getAPIData(1, "L6")}</p>`);
 });
 
 
