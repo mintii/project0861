@@ -3,6 +3,6 @@ node_js:
   - "0.10"
 
 script:
-  - bundle update
+  - gem install bundler -v '= 1.5.1'
   - bundle install
   - bundle exec rake spec:javascript
