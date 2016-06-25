@@ -11,9 +11,7 @@ Meteorite.prototype.tellStory = function() {
 //works off of if found
 }
 
-Meteorite.prototype.setNextMeteorite = function() {
-  this.nextMeteorite = Game.getNextMeteorite(this);
-};
+
 
 
 
