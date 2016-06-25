@@ -3,9 +3,5 @@ language: ruby
 rvm:
 - 2.0.0-p647
 
-before_deploy:
-  - gem install mime-types-data -v '3.2016.0521'
-
 script:
-  - bundle install
   - bundle exec rake spec:javascript
