@@ -8,41 +8,12 @@
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
 
+
+
 </head>
 <body onload="init()">
   <div id='cartodb-map'></div>
+  <%= yield %>
 </body>
-  <script>
-  var map;
-  function init(){
-    // initiate leaflet map
-    map = new L.Map('cartodb-map', {
-      center: [0,0],
-      zoom: 2
-    })
 
-    L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
-      attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
-    }).addTo(map);
-
-    // var mapsql = "SELECT * FROM rows WHERE (year >= ('1945-12-24T14:26:40-06:00') AND year <= ('1950-12-24T14:26:40-06:00'))";
-    var yearFrom = "'1600-12-24T14:26:40-06:00'"
-    var yearTo = "'1700-12-24T14:26:40-06:00'"
-
-    mapsql = "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))";
-
-    var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
-    var subLayerOptions = {
-      sql: mapsql
-    }
-
-    cartodb.createLayer(map, layerUrl)
-      .addTo(map)
-      .on('done', function(layer) {
-        layer.getSubLayer(0).set(subLayerOptions);
-      }).on('error', function() {
-        //log the error
-      });
-  }
-  </script>
 </html>

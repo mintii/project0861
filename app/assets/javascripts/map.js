@@ -1,38 +1,47 @@
+var map;
+function init(){
+  // initiate leaflet map
+  map = new L.Map('cartodb-map', {
+    center: [0,0],
+    zoom: 2
+  })
 
-// $(document).ready(function($) {
-//   // $("body").on("click", function() {
+  L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
+    attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
+  }).addTo(map);
 
-//   $("body").load(init());
+  var yearFrom = "'2000-12-24T14:26:40-06:00'"
+  var yearTo = "'2010-12-24T14:26:40-06:00'"
 
-//   // });
+  date_range_sql = "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))";
 
-// });
+  var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
 
-// var map;
-// function init(){
-//   // initiate leaflet map
-//   map = new L.Map('#cartodb-map', {
-//     center: [0,0],
-//     zoom: 2
-//   })
+  var subLayerOptions = {
+    sql: date_range_sql
+  }
 
-//   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
-//     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
-//   }).addTo(map);
+  cartodb.createLayer(map, layerUrl)
+    .addTo(map)
 
-//   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
-//   // var subLayerOptions = {
-//   //   sql: "SELECT * FROM example_cartodbjs_1 where adm0_a3 = 'USA'"
-//   // }
+    .on('done', function(layer) {
 
-//   cartodb.createLayer(map, layerUrl)
-//     .addTo(map)
-//     .on('done', function(layer) {
-//       // layer.getSubLayer(0).set(subLayerOptions);
-//     }).on('error', function() {
-//       //log the error
-//     });
-// }
+      var sublayer = layer.getSubLayer(0);
+      sublayer.set(subLayerOptions);
+      sublayer.infowindow.set({
+          template: $('#infowindow_template').html(),
+          sanitizeTemplate: false
+
+        });
+
+    // sublayer.on('featureClick', function(e, latlng, pos, data) {
+    //     alert("Hey! You clicked " + data.cartodb_id);
+    // });
+
+    }).on('error', function() {
+      console.log("some error occurred");
+  });
 
 
-//  var $banana = $("#cartodb-map")
+
+}
