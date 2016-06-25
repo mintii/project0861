@@ -25,7 +25,7 @@ return features;
 Game.prototype.buildMeteorites = function(number, recclass) {
   var featureData = this.getAPIData(number, recclass);
   for(var i=0; i<featureData.length; i++) {
-    this.meteorites.push(new Meteorite(featureData));
+    this.meteorites.push(new Meteorite(featureData[i]['properties']));
   }
 }
 
