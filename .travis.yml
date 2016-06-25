@@ -4,4 +4,10 @@ rvm:
 - 2.0.0-p647
 
 script:
+  - bundle exec rake db:create
+  - bundle exec rake db:migrate
+  - bundle exec rake db:seed
   - bundle exec rake spec:javascript
+cache: bundler
+services:
+ - postgresql

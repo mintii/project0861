@@ -21,7 +21,7 @@ describe("a Meteorite", function() {
   });
 
   it("has a location", function() {
-     expect(meteorite.location).toEqual("Rivolta de Bassi");
+     expect(meteorite.location).toEqual([12.73333, 50.18333]);
   });
 
   it("has a nasa ID", function() {

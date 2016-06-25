@@ -15464,3 +15464,69 @@ Started GET "/assets/MeteoriteSpec.self-7a064d85725872b62b23f214da30b66e84d50437
 
 
 Started GET "/assets/jasmine.self-a501c5b777f1a92c4cc0fa1b53cdd914ce00c1cc5e8e5aef7c2599ef4850d33e.js?body=1" for ::1 at 2016-06-25 13:49:03 -0500
+
+
+Started GET "/specs" for ::1 at 2016-06-25 14:32:19 -0500
+Processing by JasmineRails::SpecRunnerController#index as HTML
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/jasmine-rails-0.10.7/app/views/jasmine_rails/spec_runner/index.html.erb within layouts/jasmine_rails/spec_runner (0.0ms)
+Completed 200 OK in 167ms (Views: 166.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/MeteoriteSpec.self-32cfdb060d6817177308de2491b9631b376d91554ef8b5f03a69c0a197ef18ba.js?body=1" for ::1 at 2016-06-25 14:32:19 -0500
+
+
+Started GET "/specs" for ::1 at 2016-06-25 14:32:35 -0500
+Processing by JasmineRails::SpecRunnerController#index as HTML
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/jasmine-rails-0.10.7/app/views/jasmine_rails/spec_runner/index.html.erb within layouts/jasmine_rails/spec_runner (0.1ms)
+Completed 200 OK in 152ms (Views: 151.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jasmine-specs.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.css?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/jasmine.self-2efc37357050a5ecb78730bba0857e3eda0221fd654560da70df3194521f7704.css?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/jasmine.self-a501c5b777f1a92c4cc0fa1b53cdd914ce00c1cc5e8e5aef7c2599ef4850d33e.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/jasmine-html.self-1db53872d5a79408616665c6d42b7a9e0f9f14115cb6fa4e07cfcc9eaa1c2113.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/json2.self-925947d3d711c4441a9db20f51215fbf5c119d2a3b51cadb2c9031907d8014b5.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/game.self-ee494f1618343b3c26bcb39392ab0e3266f233b6c285e250e5e690ac144acc36.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/boot.self-fe5ee8b76bd5d2a5a1091a998a66077a457946c63c7c5bf326c97ebc3ad9dc3f.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/meteorite.self-1920a8d95a5d7f04206ff48299aa40caf1af20019baa0013cecd9e23247f779a.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/stories/stories.self-f1ed04f74bd148ead48c3c693ecaad7d8a98474d2843e0d493ca22ff66e8735e.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/tester.self-c1c64d236f6568618ed28f6e3b30ba97614153b1b76dd30dfb29507dac0ed3cb.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/MeteoriteSpec.self-4b246026dfb87a7db3d71f931211dbcbc098198e1c629201ef0559ec315fa76f.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
+
+
+Started GET "/assets/jasmine-specs.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2016-06-25 14:32:36 -0500
