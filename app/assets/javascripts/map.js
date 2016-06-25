@@ -1,4 +1,5 @@
 var map;
+
 function init(){
   // initiate leaflet map
   map = new L.Map('cartodb-map', {
@@ -27,6 +28,7 @@ function init(){
     .on('done', function(layer) {
 
       var sublayer = layer.getSubLayer(0);
+      
       sublayer.set(subLayerOptions);
       sublayer.infowindow.set({
           template: $('#infowindow_template').html(),
@@ -41,7 +43,5 @@ function init(){
     }).on('error', function() {
       console.log("some error occurred");
   });
-
-
 
 }
