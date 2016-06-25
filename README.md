@@ -1,2 +1,5 @@
 # project0861
-# Asteroids have feelings! 
+
+[![Build Status](https://travis-ci.org/mintii/project0861.svg?branch=master)](https://travis-ci.org/mintii/project0861)
+
+# Asteroids have feelings!
