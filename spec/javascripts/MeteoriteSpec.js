@@ -7,7 +7,6 @@ describe("a Meteorite", function() {
   });
 
 
-
   it("has a name", function() {
      expect(meteorite.name).toEqual("Rivolta de Bassi");
   });
@@ -26,6 +25,11 @@ describe("a Meteorite", function() {
 
   it("has a nasa ID", function() {
      expect(meteorite.nasaId).toEqual("22614");
+  });
+
+  it("can set the next meteorite", function() {
+
+    expect(meteorite.setNextMeteorite()).toEqual("22614");
   });
 
 
