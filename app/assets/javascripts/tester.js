@@ -1,11 +1,8 @@
 $(document).on("ready", function() {
   var game = new Game();
-  console.log(game.getAPIData("1",'L6'));
-  game.addMeteorites();
+  game.buildMeteorites("10",'L6');
 
   console.log(game.meteorites)
-
-
 
 
 

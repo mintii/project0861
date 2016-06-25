@@ -12804,3 +12804,580 @@ Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71
 
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-24 20:08:57 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 08:46:13 -0500
+
+ActiveRecord::NoDatabaseError (FATAL:  database "project0861_development" does not exist
+):
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:661:in `rescue in connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.3ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2016-06-25 08:46:14 -0500
+
+ActiveRecord::NoDatabaseError (FATAL:  database "project0861_development" does not exist
+):
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:661:in `rescue in connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.3ms)
+  [1m[36m (69.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-06-25 08:47:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 663ms (Views: 662.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/meteorite.self-10a65fb366095ad77a05221814b3fc0a37826fff65508409ce8cbc2face24d2e.js?body=1" for ::1 at 2016-06-25 08:47:06 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 08:47:06 -0500
+
+
+Started GET "/assets/tester.self-755347c8f7c85d3c657254527e1701741c19769eb76fbe0bf883c15c6f3233bd.js?body=1" for ::1 at 2016-06-25 08:47:06 -0500
+
+
+Started GET "/assets/game.self-8beed525467c5c8b20b399461212a4a553f195efcd692340d4194a229dc77cea.js?body=1" for ::1 at 2016-06-25 08:47:06 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 08:47:06 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 08:47:06 -0500
+
+
+Started GET "/favicon.ico" for ::1 at 2016-06-25 08:47:07 -0500
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (49.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (46.8ms)
+
+
+Started GET "/" for ::1 at 2016-06-25 08:49:46 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 08:49:46 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 08:49:46 -0500
+
+
+Started GET "/assets/game.self-c4751c8814422d97afc6f2811cd92f826316b535f05594cc8e58ab9b52cba75a.js?body=1" for ::1 at 2016-06-25 08:49:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 08:49:46 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 08:49:47 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 08:49:47 -0500
+
+
+Started GET "/assets/tester.self-755347c8f7c85d3c657254527e1701741c19769eb76fbe0bf883c15c6f3233bd.js?body=1" for ::1 at 2016-06-25 08:49:47 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 08:49:47 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 08:49:47 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 08:49:47 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 08:49:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/tester.self-755347c8f7c85d3c657254527e1701741c19769eb76fbe0bf883c15c6f3233bd.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/game.self-294427209a4e2236f86e2f98de44a9f2fa681091d33510dd6b4c2d52ca9a15fe.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 08:49:55 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 08:50:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tester.self-9c5e778b35128a32397b051dfd7bfa6539a2cb9b0cd92daac3c94fab83d662d5.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/game.self-294427209a4e2236f86e2f98de44a9f2fa681091d33510dd6b4c2d52ca9a15fe.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 08:50:33 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 08:50:46 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/game.self-88960e8f1b08eded45d87f2b31e0c7160101dc798dd2efd3eccd4f89d439d341.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/tester.self-9c5e778b35128a32397b051dfd7bfa6539a2cb9b0cd92daac3c94fab83d662d5.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 08:50:46 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 09:09:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 179ms (Views: 178.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/game.self-b1557b9ca6a9d62dd9d9d37a8a22a601315b74bdaac7a05bd86e6384bb2defc7.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/tester.self-cef5f9677da4d0a8b54498214f583e12fbae804cd1ddbbeaa502a61968e0fb91.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 09:09:13 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 09:09:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/game.self-b1557b9ca6a9d62dd9d9d37a8a22a601315b74bdaac7a05bd86e6384bb2defc7.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/tester.self-fccc0dff4ca26944aa0ed89db48c6eba555aa9834649465f7dcb5d3a8691e0b9.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 09:09:22 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 09:12:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 141ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/game.self-0f7c55182fa6fe9c3cc4ba7a74751e2949ea23f5067a651299aa70f32c2e1c73.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/assets/tester.self-59859f0d12fd531978d9b12ba0adbd1989446ca532737627d56858483672ecd5.js?body=1" for ::1 at 2016-06-25 09:12:04 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 09:12:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 130ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/game.self-371bf3f470edcad7d37718a46fdff4fafc9faca716132776c8ea113865303552.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/tester.self-59859f0d12fd531978d9b12ba0adbd1989446ca532737627d56858483672ecd5.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 09:12:17 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 09:12:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/game.self-371bf3f470edcad7d37718a46fdff4fafc9faca716132776c8ea113865303552.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/tester.self-59859f0d12fd531978d9b12ba0adbd1989446ca532737627d56858483672ecd5.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 09:12:43 -0500
+
+
+Started GET "/" for ::1 at 2016-06-25 09:12:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 141ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tester.self-5755b021743125b5ba46e3f2d6f34d7a4f2483a96487b73bdbe46570525c49ee.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/meteorite.self-b7b0758bf54493c45aaff7381d64097f2d2bacd328c0244fa50a804770e60a82.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/game.self-371bf3f470edcad7d37718a46fdff4fafc9faca716132776c8ea113865303552.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/stories/stories.self-ae428bcd8e5e3318e4637a3b745b952335563364f1aeac2ef0052487361bf2f1.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/tracery.self-c658fba9c27c2ac0b666d9d08306edc5d88dfb67a4d241d3f9b0b167d7a0b6d4.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/tracery.min.self-ddbafda556632884da8e75378414b3e92547672f71dc1330f9e55b50ca7b4771.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-25 09:12:48 -0500
