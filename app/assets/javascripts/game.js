@@ -22,7 +22,6 @@ Game.prototype.getAPIDataForFirst = function() {
   this.meteorites.push(new Meteorite(features[0]));
 }
 
-//find next meteorite based on year > current && recclass ===
 Game.prototype.getNextMeteorite = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
   var features = null;

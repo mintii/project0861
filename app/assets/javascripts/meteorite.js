@@ -12,7 +12,7 @@ Meteorite.prototype.tellStory = function() {
 }
 
 Meteorite.prototype.setNextMeteorite = function() {
-  this.nextMeteorite = Game.findMeteorite(this);
+  this.nextMeteorite = Game.getNextMeteorite(this);
 };
 
 
