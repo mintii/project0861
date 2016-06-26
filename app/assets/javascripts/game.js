@@ -82,5 +82,3 @@ Game.prototype.defeat = function(meteorite) {
   //update meteorite.story
   //update this.revealedMeteorites based on findNextMeteorite(meteorite)
 }
-
-
