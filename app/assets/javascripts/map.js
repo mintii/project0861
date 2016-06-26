@@ -1,34 +1,24 @@
 var map;
 
 function init(){
+  console.log(this);
   map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 2
   })
-
-  var game = new Game();
-  var nogata = game.meteorites[0];
-  console.log(nogata);
-  // nogata.defeated = true;
-  // game.extendMeteoritesAPI(nogata);
-
+  map.game = new Game();
 
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
   }).addTo(map);
 
   var yearFrom = "'0860-12-24T14:26:40-06:00'"
-  var lastMeteorite = game.meteorites[game.meteorites.length -1];
+  var lastMeteorite = map.game.meteorites[map.game.meteorites.length -1];
   var yearTo = `'${lastMeteorite.year}'`;
-  var test_query = "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))";
-  // var name = "'Nogata'"
-  //
-  // test_query = "SELECT * FROM rows WHERE name = " + name ;
-
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
 
   var subLayerOptions = {
-    sql: test_query
+    sql: "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))"
   }
 
   cartodb.createLayer(map, layerUrl)
@@ -50,12 +40,8 @@ function init(){
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
-        renderInfo(nasaId, game.meteorites);
+        renderInfo(nasaId, map.game.meteorites);
       });
-
-      //var nasaId: look up based on data["cartodb_id"] to get nasaId
-      //look up nasaId in game.meteorites based
-        // alert("Hey! You clicked " + data.name);
     });
 
     }).on('error', function() {
