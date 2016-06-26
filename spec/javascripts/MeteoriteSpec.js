@@ -27,10 +27,18 @@ describe("a Meteorite", function() {
      expect(meteorite.nasaId).toEqual("22614");
   });
 
-  it("can set the next meteorite", function() {
+  describe("Meteorite tells story.", function() {
+    xit("will tell a confused story before defeat", function() {
+      expect(meteorite.tellStory()).toEqual("22614");
+    });
 
-    expect(meteorite.setNextMeteorite()).toEqual("22614");
+    xit("will tell a coherent story after defeat", function() {
+      meteorite.defeated = true;
+      expect(meteorite.tellStory()).toEqual("22614");
+    });
+
   });
+
 
 
 

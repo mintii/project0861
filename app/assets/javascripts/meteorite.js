@@ -8,11 +8,26 @@ var Meteorite = function(args) {
 }
 // =========
 Meteorite.prototype.tellStory = function() {
-//works off of if found
+  var story = new Story(this);
+  if (!this.defeated) {
+    story.generateTree(story.confusedGrammar());
+  } else {
+    story.generateTree(story.coherentGrammar());
+  }
+  return story.renderStory();
 }
 
+Meteorite.prototype.getYear = function() {
+  return this.year.slice(0, 4)
+}
 
+Meteorite.prototype.getLat = function() {
+  return this.location["coordinates"][1];
+}
 
+Meteorite.prototype.getLong = function() {
+  return this.location["coordinates"][0];
+}
 
 
 
