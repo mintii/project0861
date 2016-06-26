@@ -40,6 +40,7 @@ Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
 
 Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
   var nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
+  this.setNextMeteorite(currentMeteorite);
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + nextMeteorite.year + '%27)';
   var features = null;
   $.ajax({
@@ -65,7 +66,6 @@ var includeCheck = function(meteorite, meteorites) {
 
   for (var j=0; j<meteorites.length; j++) {
     if (meteorites[j].nasaId === meteorite.nasaId) {
-      console.log("match found");
       returnValue = true;
     }
   }
