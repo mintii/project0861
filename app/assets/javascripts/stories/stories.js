@@ -28,9 +28,10 @@ Story.prototype.coherentGrammar = function() { return {
   "timeframe": ["year", "day", "century", "light-year", "parsec"],
   "spaceThing": ["the hubble telescope", "andromeda", "the kuiper belt", "Reno, NV"],
   "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE", `There are other ${this.recclass} meteorites just like me who survived... I am sure of it.`],
-  "relative": ["cousin", "brother", "sister"],
-  "clue": ["Please find my #relative#!  Look #hint#."],
-  "origin": []
+  "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
+  "hint": [`along ${this.meteorite.nextMeteorite.getLat()} latitude`, `along ${this.meteorite.nextMeteorite.getLong()} longitude`, `in ${this.meteorite.nextMeteorite.getYear()} AD`],
+  "clue": ["Please find #relative#!  Look #hint#."],
+  "origin": ["#thanks# #expandedOrigin# #clue#"]
   }
 
 // var warStory = {
