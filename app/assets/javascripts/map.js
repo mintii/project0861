@@ -9,8 +9,8 @@ function init(){
   var game = new Game();
   var nogata = game.meteorites[0];
   console.log(nogata);
-  nogata.defeated = true;
-  game.extendMeteoritesAPI(nogata);
+  // nogata.defeated = true;
+  // game.extendMeteoritesAPI(nogata);
 
 
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
@@ -45,13 +45,12 @@ function init(){
       });
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
-      console.log(data["cartodb_id"]);
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = `https://tlantz.cartodb.com/api/v2/sql?q=${id_query}`;
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
-        renderStory(nasaId, game.meteorites);
+        renderInfo(nasaId, game.meteorites);
       });
 
       //var nasaId: look up based on data["cartodb_id"] to get nasaId
@@ -65,9 +64,10 @@ function init(){
 
 }
 
-var renderStory = function(nasaId, meteorites) {
+var renderInfo = function(nasaId, meteorites) {
   for (var i = 0; i < meteorites.length; i++) {
     if (meteorites[i].nasaId == nasaId) {
+      $("#name").text(meteorites[i].name);
       $("#story").text(meteorites[i].tellStory());
       break;
     }
