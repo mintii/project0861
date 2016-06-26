@@ -26,7 +26,7 @@ function init(){
     sql: test_query
   }
 
-  cartodb.createLayer(map, layerUrl)
+  cartodb.createLayer(map, meteorites)
     .addTo(map)
 
     .on('done', function(layer) {
