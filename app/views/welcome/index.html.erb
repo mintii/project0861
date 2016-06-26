@@ -2,8 +2,9 @@
   <div class="popup">
        <a href="#close" class="popup-close-button close">x</a>
     <div class="popup-content-wrapper">
-      <div class="popup-content">
-        <%= render 'meteorite_data' %>
+      <div id="popup-content">
+        <h1 id="the-number">{{content.data.nasaid}}</h1>
+        <p id="story"></p>
       </div>
     </div>
   </div>
