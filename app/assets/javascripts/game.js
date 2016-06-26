@@ -78,7 +78,6 @@ Game.prototype.setNextMeteorite = function(currentMeteorite) {
 }
 
 Game.prototype.defeat = function(meteorite) {
-  //set meteorite.defeated to true
-  //update meteorite.story
-  //update this.revealedMeteorites based on findNextMeteorite(meteorite)
+  meteorite.defeated = true;
+  this.extendMeteoritesAPI(meteorite);
 }
