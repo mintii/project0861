@@ -11,15 +11,19 @@ function init(){
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
   }).addTo(map);
 
-  var yearFrom = "'2000-12-24T14:26:40-06:00'"
-  var yearTo = "'2010-12-24T14:26:40-06:00'"
+  // var yearFrom = "'2000-12-24T14:26:40-06:00'"
+  // var yearTo = "'2010-12-24T14:26:40-06:00'"
+  // test_query = "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))";
 
-  date_range_sql = "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))";
+  var name = "'Nogata'"
+
+  test_query = "SELECT * FROM rows WHERE name = " + name ;
 
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
 
+
   var subLayerOptions = {
-    sql: date_range_sql
+    sql: test_query
   }
 
   cartodb.createLayer(map, layerUrl)
@@ -28,7 +32,7 @@ function init(){
     .on('done', function(layer) {
 
       var sublayer = layer.getSubLayer(0);
-      
+
       sublayer.set(subLayerOptions);
       sublayer.infowindow.set({
           template: $('#infowindow_template').html(),
