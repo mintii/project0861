@@ -28,13 +28,15 @@ describe("a Meteorite", function() {
   });
 
   describe("Meteorite tells story.", function() {
-    xit("will tell a confused story before defeat", function() {
-      expect(meteorite.tellStory()).toEqual("22614");
+    it("will tell a confused story before defeat", function() {
+      expect(meteorite.tellStory()).toMatch(/.*\M\y\ /);
     });
 
     xit("will tell a coherent story after defeat", function() {
+      console.log(meteorite.location);
       meteorite.defeated = true;
-      expect(meteorite.tellStory()).toEqual("22614");
+      // console.log(meteorite.getLat());
+      expect(meteorite.tellStory()).toMatch(/.*\d/);
     });
 
   });
