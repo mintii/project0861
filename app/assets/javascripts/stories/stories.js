@@ -28,7 +28,8 @@ Story.prototype.coherentGrammar = function() { return {
   "timeframe": ["year", "day", "century", "light-year", "parsec"],
   "spaceThing": ["the hubble telescope", "andromeda", "the kuiper belt", "Reno, NV"],
   "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE", `There are other ${this.recclass} meteorites just like me who survived... I am sure of it.`],
-  "clue": [],
+  "relative": ["cousin", "brother", "sister"],
+  "clue": ["Please find my #relative#!  Look #hint#."],
   "origin": []
   }
 
