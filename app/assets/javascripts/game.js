@@ -1,14 +1,15 @@
 var Game = function() {
   this.meteorites = [];
+  this.initializeMeteoritesAPI();
 }
 
 Game.prototype.findMeteorite = function(currentMeteorite) {
-  this.meteorites.find(function(meteorite) {
+  return this.meteorites.find(function(meteorite) {
     return meteorite.recclass == meteorite.year >= currentMeteorite.year && currentMeteorite.recclass && !Game.meteorites.includes(meteorite);
   });
 };
 
-Game.prototype.getAPIDataForFirst = function() {
+Game.prototype.initializeMeteoritesAPI = function() {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year';
   var features = null;
   $.ajax({
@@ -22,7 +23,7 @@ Game.prototype.getAPIDataForFirst = function() {
   this.meteorites.push(new Meteorite(features[0]));
 }
 
-Game.prototype.getNextMeteorite = function(currentMeteorite) {
+Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
   var features = null;
   $.ajax({
@@ -37,10 +38,8 @@ Game.prototype.getNextMeteorite = function(currentMeteorite) {
   return new Meteorite(features[0]);
 }
 
-Game.prototype.getAPIDataForRange = function(currentMeteorite) {
-  var nextMeteorite = this.getNextMeteorite(currentMeteorite);
-  console.log(nextMeteorite.year);
-  console.log(currentMeteorite.year);
+Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
+  var nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + nextMeteorite.year + '%27)';
   var features = null;
   $.ajax({
@@ -51,32 +50,31 @@ Game.prototype.getAPIDataForRange = function(currentMeteorite) {
       features = output.features;
     }
   });
-  console.log(features);
-  return features;
+
+  for(var i=0; i<features.length; i++) {
+    var meteorite = new Meteorite(features[i]);
+
+    if (!includeCheck(meteorite, this.meteorites)) {
+      this.meteorites.push(meteorite);
+    }
+  }
+}
+
+var includeCheck = function(meteorite, meteorites) {
+  returnValue = false;
+
+  for (var j=0; j<meteorites.length; j++) {
+    if (meteorites[j].nasaId === meteorite.nasaId) {
+      console.log("match found");
+      returnValue = true;
+    }
+  }
+  return returnValue;
 }
 
 
-// find all meteorites between those two and add to revealed
-
-// Game.prototype.getAPIData = function(number, recclass) {
-//   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=' + number + '&$order=year&$where=(recclass=%27' + recclass + '%27)';
-//   var features = null;
-//   $.ajax({
-//     url: path,
-//     async: false,
-//     type: 'get',
-//     success: function(output) {
-//       features = output.features;
-//     }
-//   });
-//   return features;
-// }
-
-Game.prototype.buildMeteorites = function(number, recclass) {
-  var featureData = this.getAPIData(number, recclass);
-  for(var i=0; i<featureData.length; i++) {
-    this.meteorites.push(new Meteorite(featureData[i]));
-  }
+Game.prototype.setNextMeteorite = function(currentMeteorite) {
+  currentMeteorite.nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
 }
 
 Game.prototype.defeat = function(meteorite) {
@@ -84,4 +82,5 @@ Game.prototype.defeat = function(meteorite) {
   //update meteorite.story
   //update this.revealedMeteorites based on findNextMeteorite(meteorite)
 }
+
 
