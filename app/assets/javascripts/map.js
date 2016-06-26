@@ -51,6 +51,7 @@ function init(){
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
+        renderStory(nasaId, game.meteorites);
       });
 
       //var nasaId: look up based on data["cartodb_id"] to get nasaId
@@ -62,4 +63,13 @@ function init(){
       console.log("some error occurred");
   });
 
+}
+
+var renderStory = function(nasaId, meteorites) {
+  for (var i = 0; i < meteorites.length; i++) {
+    if (meteorites[i].nasaId == nasaId) {
+      $("#story").text(meteorites[i].tellStory());
+      break;
+    }
+  }
 }
