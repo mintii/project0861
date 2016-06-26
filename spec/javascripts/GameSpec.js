@@ -50,6 +50,39 @@ describe("a Game", function() {
     });
   });
 
+  describe("has families", function(){
+    beforeEach(function() {
+      game.lfamily.push("L");
+      game.hfamily.push("H");
+      game.ifamily.push("I");
+      game.ufamily.push("U");
+    });
+    it("returns a family array", function() {
+      expect(game.findFamily(meteorite)[0]).toEqual("L");
+    });
+
+    it("adds a meteorite to a family array", function() {
+      game.addToFamily(meteorite);
+      expect(game.lfamily.length).toEqual(2);
+    });
+
+    it("will not add a meteorite to a family if it is already there", function() {
+      game.addToFamily(meteorite);
+      game.addToFamily(meteorite);
+      expect(game.lfamily.length).toEqual(2);
+    });
+
+    it("checks if a family has been reunited", function() {
+      game.lfamily.push("L");
+      game.lfamily.push("L");
+      game.lfamily.push("L");
+      game.lfamily.push("L");
+      game.addToFamily(meteorite);
+      expect(game.checkFamilyVictory(meteorite)).toEqual(true);
+      expect(game.lfamily.length).toEqual(0);
+    });
+  });
+
 
 
 });
