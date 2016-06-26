@@ -9,6 +9,7 @@ var Meteorite = function(args) {
 // =========
 Meteorite.prototype.tellStory = function() {
   var story = new Story(this);
+
   if (!this.defeated) {
     story.generateTree(story.confusedGrammar());
   } else {

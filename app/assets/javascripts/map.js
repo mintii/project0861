@@ -1,7 +1,6 @@
 var map;
 
 function init(){
-  console.log(this);
   map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 2
@@ -12,13 +11,11 @@ function init(){
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
   }).addTo(map);
 
-  var yearFrom = "'0860-12-24T14:26:40-06:00'"
-  var lastMeteorite = map.game.meteorites[map.game.meteorites.length -1];
-  var yearTo = `'${lastMeteorite.year}'`;
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
 
+  console.log(newQuery(map.game));
   var subLayerOptions = {
-    sql: "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))"
+    sql: newQuery(map.game)
   }
 
   cartodb.createLayer(map, layerUrl)
@@ -40,14 +37,16 @@ function init(){
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
-        renderInfo(findCurrentMeteorite(nasaId, map.game.meteorites));
-
+        var currentMeteorite = findCurrentMeteorite(nasaId, map.game.meteorites);
+        renderInfo(currentMeteorite);
         $('#win-button').on('click', function() {
-          map.game.defeat(findCurrentMeteorite(nasaId, map.game.meteorites));
+          map.game.defeat(currentMeteorite);
+          renderInfo(currentMeteorite);
+          console.log(map.game.meteorites);
+          console.log(newQuery(map.game));
+          sublayer.setSQL(newQuery(map.game));
         });
-      
       });
-
     });
 
     }).on('error', function() {
@@ -67,4 +66,11 @@ var findCurrentMeteorite = function(nasaId, meteorites) {
 var renderInfo = function(meteorite) {
   $("#name").text(meteorite.name);
   $("#story").text(meteorite.tellStory());
+}
+
+var newQuery = function(game) {
+  var yearFrom = "'0860-12-24T14:26:40-06:00'"
+  var lastMeteorite = map.game.meteorites[map.game.meteorites.length -1];
+  var yearTo = `'${lastMeteorite.year}'`;
+  return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))"
 }
