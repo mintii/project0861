@@ -27,12 +27,29 @@ Story.prototype.coherentGrammar = function() { return {
   "thanks": ["THANKS", "Wowzers, you're great!", "Domo Arigato.", "Thank you, but our princess is in another castle."],
   "timeframe": ["year", "day", "century", "light-year", "parsec"],
   "spaceThing": ["the Hubble Telescope", "Andromeda", "the Kuiper Belt", "Reno, NV"],
-  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", `There are other ${this.recclass} meteorites just like me who survived... I am sure of it.`],
+  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", `There are other ${this.meteorite.recclass} meteorites just like me who survived... I am sure of it.`],
   "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
   "hint": [`along ${this.meteorite.nextMeteorite.getLat()} latitude`, `along ${this.meteorite.nextMeteorite.getLong()} longitude`, `in ${this.meteorite.nextMeteorite.getYear()} AD`],
+  "tropical": ["OMG A LION, GET IN THE CAR", "¿Qué Paso?", "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"],
+  "ice:(": ["Which one has penguins and which one has polar bears?  I always forget.", "Are you Santa?", "Brrrrrr!"],
+  "temperate": ["What a rainy day.", "Yay seasons!", "DID BIGFOOT JUST WALK BY!"],
   "clue": ["Please find #relative#!  Look #hint#."],
-  "origin": ["#thanks# #expandedOrigin# #clue#"]
+  "origin": [`#thanks# #expandedOrigin# #${this.whereaboutsLat(this.meteorite.getLat())}# #clue#`]
   }
+}
+
+Story.prototype.whereaboutsLat = function(latitude) {
+  if (latitude > 60 || latitude < -60) {
+    return "ice:("
+  }
+  else if (latitude <= 20 && latitude >= -20) {
+    return "tropical"
+  } else {
+    return "temperate"
+  }
+
+}
+
 
 // var warStory = {
 //   "timeunit": ["year", "day", "century", "light-year", "parsec"],
@@ -44,7 +61,6 @@ Story.prototype.coherentGrammar = function() { return {
 //   }
 
 
-}
 
 
 
