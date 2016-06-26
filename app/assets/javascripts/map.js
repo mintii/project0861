@@ -40,8 +40,14 @@ function init(){
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
-        renderInfo(nasaId, map.game.meteorites);
+        renderInfo(findCurrentMeteorite(nasaId, map.game.meteorites));
+
+        $('#win-button').on('click', function() {
+          map.game.defeat(findCurrentMeteorite(nasaId, map.game.meteorites));
+        });
+      
       });
+
     });
 
     }).on('error', function() {
@@ -50,12 +56,15 @@ function init(){
 
 }
 
-var renderInfo = function(nasaId, meteorites) {
+var findCurrentMeteorite = function(nasaId, meteorites) {
   for (var i = 0; i < meteorites.length; i++) {
     if (meteorites[i].nasaId == nasaId) {
-      $("#name").text(meteorites[i].name);
-      $("#story").text(meteorites[i].tellStory());
-      break;
+      return meteorites[i];
     }
   }
+}
+
+var renderInfo = function(meteorite) {
+  $("#name").text(meteorite.name);
+  $("#story").text(meteorite.tellStory());
 }
