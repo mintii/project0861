@@ -43,7 +43,6 @@ function init(){
           map.game.defeat(currentMeteorite);
           renderInfo(currentMeteorite);
           console.log(map.game.meteorites);
-          console.log(newQuery(map.game));
           sublayer.setSQL(newQuery(map.game));
         });
       });
