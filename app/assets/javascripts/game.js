@@ -1,10 +1,11 @@
 var Game = function() {
   this.meteorites = [];
   this.map = new Gamemap(this);
+  var game = this;
   var initialMeteorites = this.initializeMeteoritesAPI();
 
   initialMeteorites.done(function(nasaData) {
-    // this.map.renderMap();
+    game.map.renderMap(game.map.map);
   });
 
   this.lfamily = [];

@@ -9,16 +9,15 @@ var Gamemap = function(game) {
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
   }).addTo(this.map);
 
-  var subLayerOptions = {
-    sql: newQuery()
-  }
 
-  renderMap(this.map);
+  // renderMap(this.map);
 };
 
-
-var renderMap = function(map) {
+Gamemap.prototype.renderMap = function(map) {
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
+  var subLayerOptions = {
+    sql: this.newQuery()
+  }
 
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
@@ -44,7 +43,7 @@ var renderMap = function(map) {
         $('#win-button').on('click', function() {
           this.game.defeat(currentMeteorite);
           renderInfo(currentMeteorite);
-          sublayer.setSQL(newQuery());
+          sublayer.setSQL(this.newQuery());
         });
       });
     });
@@ -71,7 +70,7 @@ var renderInfo = function(meteorite) {
   $('#story').text(meteorite.tellStory());
 }
 
-var newQuery = function() {
+Gamemap.prototype.newQuery = function() {
   var yearFrom = "'0860-12-24T14:26:40-06:00'"
   var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
   var yearTo = `'${lastMeteorite.year}'`;
