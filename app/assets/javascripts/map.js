@@ -35,7 +35,7 @@ Gamemap.prototype.renderMap = function(map) {
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
-      var nasaidGetUrl = `https://tlantz.cartodb.com/api/v2/sql?q=${id_query}`;
+      var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
@@ -73,7 +73,9 @@ var renderInfo = function(meteorite) {
 
 Gamemap.prototype.newQuery = function() {
   var yearFrom = "'0860-12-24T14:26:40-06:00'"
+
   var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
-  var yearTo = `'${lastMeteorite.year}'`;
-  return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))"
+  // var yearTo = `'${lastMeteorite.year}'`;
+
+  return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= ('" + lastMeteorite.year + "'))"
 }
