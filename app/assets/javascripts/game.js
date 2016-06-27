@@ -129,7 +129,7 @@ Game.prototype.defeat = function(meteorite) {
     meteorite.defeated = true;
     var game = this;
     var extendMeteorites = this.extendMeteoritesAPI(meteorite);
-    extendMeteorites.done(function(nasaData) {
+    return extendMeteorites.done(function(nasaData) {
       for(var i=0; i<nasaData['features'].length; i++) {
         var newMeteorite = new Meteorite(nasaData['features'][i]);
         if (!includeCheck(newMeteorite, game.meteorites)) {
@@ -138,5 +138,6 @@ Game.prototype.defeat = function(meteorite) {
       }
       meteorite.generateStory();
     });
+
   }
 }
