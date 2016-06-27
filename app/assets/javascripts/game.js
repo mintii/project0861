@@ -1,6 +1,12 @@
 var Game = function() {
   this.meteorites = [];
-  this.initializeMeteoritesAPI();
+  this.map = new Gamemap(this);
+  var initialMeteorites = this.initializeMeteoritesAPI();
+
+  initialMeteorites.done(function(nasaData) {
+    // this.map.renderMap();
+  });
+
   this.lfamily = [];
   this.hfamily = [];
   this.ifamily = [];
@@ -66,16 +72,16 @@ Game.prototype.findMeteorite = function(currentMeteorite) {
 
 Game.prototype.initializeMeteoritesAPI = function() {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year';
-  var features = null;
-  $.ajax({
-    url: path,
-    async: false,
-    type: 'get',
-    success: function(output) {
-      features = output.features;
-    }
-  });
-  this.meteorites.push(new Meteorite(features[0]));
+  // var features = null;
+  var game = this;
+
+  var request = $.get(path);
+  request.done(function(nasaData) {
+    game.meteorites.push(new Meteorite(nasaData.features[0]));
+    console.log("pushed some meteorites")
+  })
+
+  return request;
 }
 
 Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
