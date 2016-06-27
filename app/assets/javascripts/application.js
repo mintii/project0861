@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require cartodb
+//= require tracery
 //= require_tree .
