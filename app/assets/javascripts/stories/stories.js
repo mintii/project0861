@@ -16,7 +16,7 @@ Story.prototype.renderStory = function() {
 
 Story.prototype.confusedGrammar = function() {return {
     "hello": ["Hello!", "Whaddup whaddup!", "Salve!", "Konnichiwa!", "<stares at you>", "Bonjourno."],
-    "greeting": [`#hello# My name is ${this.meteorite.name}.`],
+    "greeting": ["#hello# My name is" + this.meteorite.name + "."],
     "introduction": ["I have fallen from the sky.", "I've never been so still.", "WHAT ARE YOU?"],
     "confusedStatement": ["Help me!", "I've lost my fam.", "Where am I?", "Huhwhahuh?!"],
     "origin": ["#greeting#  #introduction#  #confusedStatement#"]
@@ -27,9 +27,9 @@ Story.prototype.coherentGrammar = function() { return {
   "thanks": ["THANKS!", "Wowzers, you're great!", "Domo Arigato.", "Thank you, but our princess is in another castle."],
   "timeframe": ["year", "day", "century", "light-year", "parsec"],
   "spaceThing": ["the Hubble Telescope", "Andromeda", "the Kuiper Belt", "Reno, NV"],
-  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", `There are other ${this.meteorite.recclass} meteorites just like me who survived... I am sure of it.`],
+  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other" + this.meteorite.recclass + "meteorites just like me who survived... I am sure of it."],
   "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
-  "hint": [`along ${this.meteorite.nextMeteorite.getLat()} latitude`, `along ${this.meteorite.nextMeteorite.getLong()} longitude`, `in ${this.meteorite.nextMeteorite.getYear()} AD`],
+  "hint": ["along" + this.meteorite.nextMeteorite.getLat() + "latitude", "along" + this.meteorite.nextMeteorite.getLong() + "longitude", "in" + this.meteorite.nextMeteorite.getYear() + "AD"],
   // REGIONAL CLUES
   "africa": ["OMG A LION, GET IN THE CAR", "Pyramids!", "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"],
   "arctic": ["My compass is broken.", "Are you Santa?", "Where is everybody?"],
@@ -45,7 +45,7 @@ Story.prototype.coherentGrammar = function() { return {
   "H": ["Looks like I've hit rock bottom.", "You can call me Dwayne Johnson.", "Wanna play me paper scissors?"],
   "unclass": ["I still can't remember where we came from.", "I feel like I'm having an identity crisis.. Am I an asteroid, meteorite, meteor?"],
   "clue": ["Please find #relative#!  Look #hint#."],
-  "origin": [`#thanks# #expandedOrigin# #${this.classAbouts(this.meteorite)}# #${this.whereabouts(this.meteorite)}# #clue#`]
+  "origin": ["#thanks# #expandedOrigin# #" + this.classAbouts(this.meteorite) + "# #" + this.whereabouts(this.meteorite)} + "# #clue#"]
   }
 }
 

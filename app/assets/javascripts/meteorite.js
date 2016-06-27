@@ -29,7 +29,3 @@ Meteorite.prototype.getLat = function() {
 Meteorite.prototype.getLong = function() {
   return this.location["coordinates"][0];
 }
-
-
-
-// "Lucé"
