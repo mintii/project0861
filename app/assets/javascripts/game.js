@@ -99,13 +99,14 @@ Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
   var game = this;
   var firstRequest = game.getNextMeteoriteAPI(currentMeteorite).done(function (nasaData) {
     currentMeteorite.nextMeteorite = new Meteorite(nasaData["features"][nasaData["features"].length-1]);
-    var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
-    var request = $.get(path);
-
-    return request;
   });
 
-  return firstRequest;
+  var secondRequest = firstRequest.then(function() {
+    var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
+    return $.get(path);
+  })
+
+  return secondRequest;
 }
 
 // Game.prototype.setNextMeteorite = function(currentMeteorite) {
@@ -128,12 +129,11 @@ var includeCheck = function(meteorite, meteorites) {
 Game.prototype.defeat = function(meteorite) {
   if (!meteorite.defeated) {
     meteorite.defeated = true;
+    var game = this;
     var extendMeteorites = this.extendMeteoritesAPI(meteorite);
-
     extendMeteorites.done(function(nasaData) {
-      console.log("pushed all of the meteorites")
-      for(var i=0; i<nasaData.length; i++) {
-        var meteorite = new Meteorite(nasaData[i]);
+      for(var i=0; i<nasaData['features'].length; i++) {
+        var meteorite = new Meteorite(nasaData['features'][i]);
         if (!includeCheck(meteorite, game.meteorites)) {
           game.meteorites.push(meteorite);
         }
