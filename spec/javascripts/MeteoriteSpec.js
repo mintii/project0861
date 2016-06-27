@@ -1,8 +1,8 @@
 describe("a Meteorite", function() {
-  var meteorite
+  var meteorite;
 
   beforeEach(function() {
-    meteorite = new Meteorite({properties: {name: "Rivolta de Bassi", year: "1491-01-01T00:00:00.000", recclass: "Stone-uncl", id: "22614"}, geometry: [12.73333, 50.18333]
+    meteorite = new Meteorite({properties: {name: "Rivolta de Bassi", year: "1491-01-01T00:00:00.000", recclass: "Stone-uncl", id: "22614"}, geometry: [12.73333, 50.18333];
     });
   });
 
@@ -29,19 +29,13 @@ describe("a Meteorite", function() {
 
   describe("Meteorite tells story.", function() {
     it("will tell a confused story before defeat", function() {
-      expect(meteorite.tellStory()).toMatch(/.*\M\y\ /);
+      expect(meteorite.tellStory()).toMatch(/My name is/);
     });
 
-    xit("will tell a coherent story after defeat", function() {
-      console.log(meteorite.location);
+    it("will tell a coherent story after defeat", function() {
       meteorite.defeated = true;
-      // console.log(meteorite.getLat());
-      expect(meteorite.tellStory()).toMatch(/.*\d/);
+      meteorite.generateStory();
+      expect(meteorite.tellStory()).toMatch(/Please find/);
     });
-
   });
-
-
-
-
 });
