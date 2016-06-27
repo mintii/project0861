@@ -90,7 +90,7 @@ Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var game = this;
   var request = $.get(path);
   request.done(function(nasaData) {
-    game.meteorites.push(new Meteorite(nasaData.features[0]));
+    // game.meteorites.push(new Meteorite(nasaData.features[0]));
   })
   return request;
 }
@@ -102,8 +102,17 @@ Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
   });
 
   var secondRequest = firstRequest.then(function() {
-    var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
-    return $.get(path);
+    console.log(currentMeteorite.nextMeteorite);
+    console.log(game.meteorites);
+    console.log(includeCheck(currentMeteorite.nextMeteorite, game.meteorites));
+    if (!includeCheck(currentMeteorite.nextMeteorite, game.meteorites)) {
+      var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
+      return $.get(path);
+    } else {
+      console.log(game.meteorites.length);
+      var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=' + game.meteorites.length + '&$order=year' ;
+      return $.get(path);
+    }
   })
 
   return secondRequest;
