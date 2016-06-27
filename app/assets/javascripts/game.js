@@ -1,6 +1,61 @@
 var Game = function() {
   this.meteorites = [];
   this.initializeMeteoritesAPI();
+  this.lfamily = [];
+  this.hfamily = [];
+  this.ifamily = [];
+  this.ufamily = [];
+}
+
+Game.prototype.findFamily = function(meteorite) {
+  // console.log(meteorite.recclass[0]);
+  var recclass = meteorite.recclass[0];
+  if (recclass == "L") {
+    return this.lfamily;
+  } else if (recclass == "I") {
+    return this.ifamily;
+  } else if (recclass == "H") {
+    return this.hfamily;
+  } else {
+    return this.ufamily;
+  }
+}
+
+Game.prototype.checkFamilyInclude = function(meteorite) {
+  var family = this.findFamily(meteorite);
+  return family.includes(meteorite.nasaId);
+  // false for not included. true for it is included
+}
+
+Game.prototype.resetFamily = function(meteorite) {
+  var recclass = meteorite.recclass[0];
+  if (recclass == "L") {
+    this.lfamily = [];
+  } else if (recclass == "I") {
+    this.ifamily = [];
+  } else if (recclass == "H") {
+    this.hfamily = [];
+  } else {
+    this.ufamily = [];
+  };
+  // Alert player they have helped a family return to space. Encourage them to find more meteorites.
+}
+
+Game.prototype.checkFamilyVictory = function(meteorite) {
+  var family = this.findFamily(meteorite);
+  if(family.length >= 5) {
+    this.resetFamily(meteorite);
+    return true;
+  } else {
+    return false;
+  }
+}
+
+Game.prototype.addToFamily = function(meteorite) {
+  var family = this.findFamily(meteorite);
+  if(this.checkFamilyInclude(meteorite) === false) {
+    family.push(meteorite.nasaId);
+  }
 }
 
 Game.prototype.findMeteorite = function(currentMeteorite) {
