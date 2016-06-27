@@ -125,18 +125,16 @@ var includeCheck = function(meteorite, meteorites) {
 }
 
 Game.prototype.defeat = function(meteorite) {
-  if (!meteorite.defeated) {
-    meteorite.defeated = true;
-    var game = this;
-    var extendMeteorites = this.extendMeteoritesAPI(meteorite);
-    return extendMeteorites.done(function(nasaData) {
-      for(var i=0; i<nasaData['features'].length; i++) {
-        var newMeteorite = new Meteorite(nasaData['features'][i]);
-        if (!includeCheck(newMeteorite, game.meteorites)) {
-          game.meteorites.push(newMeteorite);
-        }
+  meteorite.defeated = true;
+  var game = this;
+  var extendMeteorites = this.extendMeteoritesAPI(meteorite);
+  return extendMeteorites.done(function(nasaData) {
+    for(var i=0; i<nasaData['features'].length; i++) {
+      var newMeteorite = new Meteorite(nasaData['features'][i]);
+      if (!includeCheck(newMeteorite, game.meteorites)) {
+        game.meteorites.push(newMeteorite);
       }
-      meteorite.generateStory();
-    });
-  }
+    }
+    meteorite.generateStory();
+  });
 }

@@ -39,12 +39,13 @@ Gamemap.prototype.renderMap = function() {
         var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
         renderInfo(currentMeteorite);
         $('#win-button').on('click', function() {
-          var request = gamemap.game.defeat(currentMeteorite);
-          request.done(function() {
-            renderInfo(currentMeteorite);
-            sublayer.setSQL(gamemap.newQuery());
-          });
-
+          if (!currentMeteorite.defeated) {
+            var request = gamemap.game.defeat(currentMeteorite);
+            request.done(function() {
+              renderInfo(currentMeteorite);
+              sublayer.setSQL(gamemap.newQuery());
+            });
+          }
         });
       });
     });
