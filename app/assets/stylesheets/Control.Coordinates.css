@@ -1,0 +1,33 @@
+.leaflet-left {
+		margin-bottom: 25px;
+}
+
+.leaflet-control-coordinates {
+	background-color: black;
+}
+
+.leaflet-control-coordinates,
+.leaflet-control-coordinates .uiElement input {
+
+}
+
+.leaflet-control-coordinates .uiElement {
+	margin:4px;
+}
+
+.leaflet-control-coordinates .uiElement .labelFirst {
+	margin-right:4px;
+}
+
+.leaflet-control-coordinates .uiHidden{
+	display:none;
+}
+
+.leaflet-control-coordinates .uiElement.label {
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: inherit;
+	font-size: 20px;
+	padding: 0;
+	display: inherit;
+}
