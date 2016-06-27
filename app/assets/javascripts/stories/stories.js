@@ -43,9 +43,9 @@ Story.prototype.coherentGrammar = function() {
     "the Kuiper Belt",
     "Reno, NV"
   ],
-  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other" + this.meteorite.recclass + "meteorites just like me who survived... I am sure of it."],
+  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other " + this.meteorite.recclass + " meteorites just like me who survived... I am sure of it."],
   "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
-  "hint": ["along" + this.meteorite.nextMeteorite.getLat() + "latitude", "along" + this.meteorite.nextMeteorite.getLong() + "longitude", "in" + this.meteorite.nextMeteorite.getYear() + "AD"],
+  "hint": ["along " + this.meteorite.nextMeteorite.getLat() + "latitude ", "along " + this.meteorite.nextMeteorite.getLong() + " longitude", "in " + this.meteorite.nextMeteorite.getYear() + " AD"],
   // REGIONAL CLUES
   "africa": ["OMG A LION, GET IN THE CAR", "Pyramids!", "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"],
   "arctic": ["My compass is broken.", "Are you Santa?", "Where is everybody?"],
