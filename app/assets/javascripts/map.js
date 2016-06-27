@@ -1,22 +1,24 @@
-var map;
-
-function init(){
-  map = new L.Map('cartodb-map', {
+var Gamemap = function(game) {
+  this.map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 2
   })
-  map.game = new Game();
+  this.game = game;
 
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
-  }).addTo(map);
+  }).addTo(this.map);
 
+
+  // renderMap(this.map);
+};
+
+Gamemap.prototype.renderMap = function(map) {
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
-
-  console.log(newQuery(map.game));
   var subLayerOptions = {
-    sql: newQuery(map.game)
+    sql: this.newQuery()
   }
+  var gamemap = this;
 
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
@@ -37,12 +39,15 @@ function init(){
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
-        var currentMeteorite = findCurrentMeteorite(nasaId, map.game.meteorites);
+        var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
         renderInfo(currentMeteorite);
         $('#win-button').on('click', function() {
-          map.game.defeat(currentMeteorite);
-          renderInfo(currentMeteorite);
-          sublayer.setSQL(newQuery(map.game));
+          var request = gamemap.game.defeat(currentMeteorite);
+          request.done(function() {
+            renderInfo(currentMeteorite);
+            sublayer.setSQL(gamemap.newQuery());
+          });
+
         });
       });
     });
@@ -50,7 +55,6 @@ function init(){
     }).on('error', function() {
       console.log("some error occurred");
   });
-
 }
 
 var findCurrentMeteorite = function(nasaId, meteorites) {
@@ -70,8 +74,8 @@ var renderInfo = function(meteorite) {
   $('#story').text(meteorite.tellStory());
 }
 
-var newQuery = function(game) {
+Gamemap.prototype.newQuery = function() {
   var yearFrom = "'0860-12-24T14:26:40-06:00'"
-  var lastMeteorite = map.game.meteorites[map.game.meteorites.length -1];
+  var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
   return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= ('" + lastMeteorite.year + "'))"
 }

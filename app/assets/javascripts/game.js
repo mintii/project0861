@@ -1,6 +1,13 @@
 var Game = function() {
   this.meteorites = [];
-  this.initializeMeteoritesAPI();
+  this.map = new Gamemap(this);
+  var game = this;
+  var initialMeteorites = this.initializeMeteoritesAPI();
+
+  initialMeteorites.done(function(nasaData) {
+    game.map.renderMap(game.map.map);
+  });
+
   this.lfamily = [];
   this.hfamily = [];
   this.ifamily = [];
@@ -66,55 +73,45 @@ Game.prototype.findMeteorite = function(currentMeteorite) {
 
 Game.prototype.initializeMeteoritesAPI = function() {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year';
-  var features = null;
-  $.ajax({
-    url: path,
-    async: false,
-    type: 'get',
-    success: function(output) {
-      features = output.features;
-    }
-  });
-  this.meteorites.push(new Meteorite(features[0]));
+  // var features = null;
+  var game = this;
+
+  var request = $.get(path);
+  request.done(function(nasaData) {
+    game.meteorites.push(new Meteorite(nasaData.features[0]));
+    console.log("pushed some meteorites")
+  })
+
+  return request;
 }
 
 Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
-  var features = null;
-  $.ajax({
-    url: path,
-    async: false,
-    type: 'get',
-    success: function(output) {
-      features = output.features;
-    }
-  });
-
-  return new Meteorite(features[0]);
+  var game = this;
+  var request = $.get(path);
+  request.done(function(nasaData) {
+    game.meteorites.push(new Meteorite(nasaData.features[0]));
+  })
+  return request;
 }
 
 Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
-  var nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
-  this.setNextMeteorite(currentMeteorite);
-  var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + nextMeteorite.year + '%27)';
-  var features = null;
-  $.ajax({
-    url: path,
-    async: false,
-    type: 'get',
-    success: function(output) {
-      features = output.features;
-    }
+  var game = this;
+  var firstRequest = game.getNextMeteoriteAPI(currentMeteorite).done(function (nasaData) {
+    currentMeteorite.nextMeteorite = new Meteorite(nasaData["features"][nasaData["features"].length-1]);
   });
 
-  for(var i=0; i<features.length; i++) {
-    var meteorite = new Meteorite(features[i]);
+  var secondRequest = firstRequest.then(function() {
+    var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
+    return $.get(path);
+  })
 
-    if (!includeCheck(meteorite, this.meteorites)) {
-      this.meteorites.push(meteorite);
-    }
-  }
+  return secondRequest;
 }
+
+// Game.prototype.setNextMeteorite = function(currentMeteorite) {
+//   currentMeteorite.nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
+// }
 
 var includeCheck = function(meteorite, meteorites) {
   returnValue = false;
@@ -127,15 +124,20 @@ var includeCheck = function(meteorite, meteorites) {
   return returnValue;
 }
 
-
-Game.prototype.setNextMeteorite = function(currentMeteorite) {
-  currentMeteorite.nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
-}
-
 Game.prototype.defeat = function(meteorite) {
   if (!meteorite.defeated) {
     meteorite.defeated = true;
-    this.extendMeteoritesAPI(meteorite);
-    meteorite.generateStory();
+    var game = this;
+    var extendMeteorites = this.extendMeteoritesAPI(meteorite);
+    return extendMeteorites.done(function(nasaData) {
+      for(var i=0; i<nasaData['features'].length; i++) {
+        var newMeteorite = new Meteorite(nasaData['features'][i]);
+        if (!includeCheck(newMeteorite, game.meteorites)) {
+          game.meteorites.push(newMeteorite);
+        }
+      }
+      meteorite.generateStory();
+    });
+
   }
 }

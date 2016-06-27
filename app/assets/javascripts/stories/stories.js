@@ -14,14 +14,16 @@ Story.prototype.renderStory = function() {
 
 Story.prototype.confusedGrammar = function() {return {
     "hello": ["Hello!", "Whaddup whaddup!", "Salve!", "Konnichiwa!", "<stares at you>", "Bonjourno."],
-    "greeting": ["#hello# My name is" + this.meteorite.name + "."],
+    "greeting": ["#hello# My name is " + this.meteorite.name + "."],
     "introduction": ["I have fallen from the sky.", "I've never been so still.", "WHAT ARE YOU?"],
     "confusedStatement": ["Help me!", "I've lost my fam.", "Where am I?", "Huhwhahuh?!"],
     "origin": ["#greeting#  #introduction#  #confusedStatement#"]
   };
 }
 
-Story.prototype.coherentGrammar = function() { return {
+Story.prototype.coherentGrammar = function() {
+  console.log(this);
+  return {
   "thanks": [
     "THANKS!",
     "Wowzers, you're great!",
@@ -41,9 +43,9 @@ Story.prototype.coherentGrammar = function() { return {
     "the Kuiper Belt",
     "Reno, NV"
   ],
-  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other" + this.meteorite.recclass + "meteorites just like me who survived... I am sure of it."],
+  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other " + this.meteorite.recclass + " meteorites just like me who survived... I am sure of it."],
   "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
-  "hint": ["along" + this.meteorite.nextMeteorite.getLat() + "latitude", "along" + this.meteorite.nextMeteorite.getLong() + "longitude", "in" + this.meteorite.nextMeteorite.getYear() + "AD"],
+  "hint": ["along " + this.meteorite.nextMeteorite.getLat() + "latitude ", "along " + this.meteorite.nextMeteorite.getLong() + " longitude", "in " + this.meteorite.nextMeteorite.getYear() + " AD"],
   // REGIONAL CLUES
   "africa": ["OMG A LION, GET IN THE CAR", "Pyramids!", "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"],
   "arctic": ["My compass is broken.", "Are you Santa?", "Where is everybody?"],
