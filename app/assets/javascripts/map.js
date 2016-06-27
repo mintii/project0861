@@ -42,7 +42,6 @@ function init(){
         $('#win-button').on('click', function() {
           map.game.defeat(currentMeteorite);
           renderInfo(currentMeteorite);
-          console.log(map.game.meteorites);
           sublayer.setSQL(newQuery(map.game));
         });
       });
@@ -65,7 +64,7 @@ var findCurrentMeteorite = function(nasaId, meteorites) {
 var renderInfo = function(meteorite) {
   $('#name').text(meteorite.name);
   $('#year').text('year: ' + meteorite.getYear() + ' AD');
-  $('#recclass').text('recclass: ' + meteorite.recclass);
+  $('#recclass').text('family: ' + meteorite.recclass);
   $('#latitude').text('latitude: ' + meteorite.getLat());
   $('#longitude').text('longitude: ' + meteorite.getLong());
   $('#story').text(meteorite.tellStory());

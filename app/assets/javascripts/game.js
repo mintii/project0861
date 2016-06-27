@@ -133,6 +133,9 @@ Game.prototype.setNextMeteorite = function(currentMeteorite) {
 }
 
 Game.prototype.defeat = function(meteorite) {
-  meteorite.defeated = true;
-  this.extendMeteoritesAPI(meteorite);
+  if (!meteorite.defeated) {
+    meteorite.defeated = true;
+    this.extendMeteoritesAPI(meteorite);
+    meteorite.generateStory();
+  }
 }
