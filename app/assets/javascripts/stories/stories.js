@@ -22,6 +22,7 @@ Story.prototype.confusedGrammar = function() {return {
 }
 
 Story.prototype.coherentGrammar = function() {
+  console.log(this);
   return {
   "thanks": [
     "THANKS!",
