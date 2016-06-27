@@ -74,6 +74,5 @@ var renderInfo = function(meteorite) {
 var newQuery = function(game) {
   var yearFrom = "'0860-12-24T14:26:40-06:00'"
   var lastMeteorite = map.game.meteorites[map.game.meteorites.length -1];
-  var yearTo = `'${lastMeteorite.year}'`;
   return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= (" + yearTo + "))"
 }
