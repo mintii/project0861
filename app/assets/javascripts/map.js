@@ -63,8 +63,12 @@ var findCurrentMeteorite = function(nasaId, meteorites) {
 }
 
 var renderInfo = function(meteorite) {
-  $("#name").text(meteorite.name);
-  $("#story").text(meteorite.tellStory());
+  $('#name').text(meteorite.name);
+  $('#year').text('year: ' + meteorite.getYear() + ' AD');
+  $('#recclass').text('recclass: ' + meteorite.recclass);
+  $('#latitude').text('latitude: ' + meteorite.getLat());
+  $('#longitude').text('longitude: ' + meteorite.getLong());
+  $('#story').text(meteorite.tellStory());
 }
 
 var newQuery = function(game) {
