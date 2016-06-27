@@ -5,7 +5,7 @@ var Game = function() {
   var initialMeteorites = this.initializeMeteoritesAPI();
 
   initialMeteorites.done(function(nasaData) {
-    game.map.renderMap(game.map.map);
+    game.map.renderMap();
   });
 
   this.lfamily = [];
@@ -138,6 +138,5 @@ Game.prototype.defeat = function(meteorite) {
       }
       meteorite.generateStory();
     });
-
   }
 }
