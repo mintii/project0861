@@ -5,17 +5,20 @@ var Meteorite = function(args) {
   this.recclass = args['properties']['recclass'];
   this.nasaId = args['properties']['id'];
   this.defeated = false;
+  this.story = new Story(this);
+  this.generateStory();
 }
-// =========
-Meteorite.prototype.tellStory = function() {
-  var story = new Story(this);
 
+Meteorite.prototype.generateStory = function() {
   if (!this.defeated) {
-    story.generateTree(story.confusedGrammar());
+    this.story.generateTree(this.story.confusedGrammar());
   } else {
-    story.generateTree(story.coherentGrammar());
+    this.story.generateTree(this.story.coherentGrammar());
   }
-  return story.renderStory();
+}
+
+Meteorite.prototype.tellStory = function() {
+  return this.story.renderStory();
 }
 
 Meteorite.prototype.getYear = function() {
@@ -29,7 +32,3 @@ Meteorite.prototype.getLat = function() {
 Meteorite.prototype.getLong = function() {
   return this.location["coordinates"][0];
 }
-
-
-
-// "Lucé"

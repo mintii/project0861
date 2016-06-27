@@ -7,8 +7,6 @@ Story.prototype.generateTree = function(grammar) {
   this.storyTree = trace.expand("#origin#");
 };
 
-
-
 Story.prototype.renderStory = function() {
   // add case logic
   return this.storyTree.finalText;
