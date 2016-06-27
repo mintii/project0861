@@ -4,6 +4,7 @@ class CreateMeteorites < ActiveRecord::Migration
       t.string :name
       t.string :story
       t.string :type
+      t.integer :family_id
 
       t.timestamps null: false
     end
