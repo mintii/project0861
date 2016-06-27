@@ -8,18 +8,15 @@ var Gamemap = function(game) {
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
   }).addTo(this.map);
-
-
-  // renderMap(this.map);
 };
 
-Gamemap.prototype.renderMap = function(map) {
+Gamemap.prototype.renderMap = function() {
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
   var subLayerOptions = {
     sql: this.newQuery()
   }
   var gamemap = this;
-
+  var map = this.map;
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
 
