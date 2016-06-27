@@ -14,14 +14,15 @@ Story.prototype.renderStory = function() {
 
 Story.prototype.confusedGrammar = function() {return {
     "hello": ["Hello!", "Whaddup whaddup!", "Salve!", "Konnichiwa!", "<stares at you>", "Bonjourno."],
-    "greeting": ["#hello# My name is" + this.meteorite.name + "."],
+    "greeting": ["#hello# My name is " + this.meteorite.name + "."],
     "introduction": ["I have fallen from the sky.", "I've never been so still.", "WHAT ARE YOU?"],
     "confusedStatement": ["Help me!", "I've lost my fam.", "Where am I?", "Huhwhahuh?!"],
     "origin": ["#greeting#  #introduction#  #confusedStatement#"]
   };
 }
 
-Story.prototype.coherentGrammar = function() { return {
+Story.prototype.coherentGrammar = function() {
+  return {
   "thanks": [
     "THANKS!",
     "Wowzers, you're great!",
