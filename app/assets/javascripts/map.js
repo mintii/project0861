@@ -18,6 +18,7 @@ Gamemap.prototype.renderMap = function(map) {
   var subLayerOptions = {
     sql: this.newQuery()
   }
+  var gamemap = this;
 
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
@@ -38,12 +39,12 @@ Gamemap.prototype.renderMap = function(map) {
 
       $.getJSON(nasaidGetUrl, function(data) {
         var nasaId = data["rows"][0]["nasaid"];
-        var currentMeteorite = findCurrentMeteorite(nasaId, this.game.meteorites);
+        var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
         renderInfo(currentMeteorite);
         $('#win-button').on('click', function() {
-          this.game.defeat(currentMeteorite);
+          gamemap.game.defeat(currentMeteorite);
           renderInfo(currentMeteorite);
-          sublayer.setSQL(this.newQuery());
+          sublayer.setSQL(gamemap.newQuery());
         });
       });
     });
