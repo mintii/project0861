@@ -54,7 +54,7 @@ Story.prototype.coherentGrammar = function() { return {
   "australia": ["G'day Mate.", "Blimey!", "What's the deal with the platypus, I mean, really?"],
   "asia": ["I can see that wall from home!", "Oh no, Mongol hordes!", "Fireworks!"],
   // CLASS INFO
-  "L6": ["A swarm of steel beings attacked my family as we were takign a stroll around Sirius.", "We were attacked by a steel swarm. Some of us were able to escape to Earth.", "I fear most of my family has been reduced to space dust.", "Why do you keep saying Nogata?"],
+  "L6": ["A swarm of steel beings attacked my family as we were taking a stroll around Sirius.", "We were attacked by a steel swarm. Some of us were able to escape to Earth.", "I fear most of my family has been reduced to space dust.", "Why do you keep saying Nogata?"],
   "iron": ["This planet is quite nice. It seems like an old relative of mine.", "Please don't melt me down into one of those ships I saw on my way here.", ""],
   "H": ["Looks like I've hit rock bottom.", "You can call me Dwayne Johnson.", "Wanna play me paper scissors?"],
   "unclass": ["I still can't remember where we came from.", "I feel like I'm having an identity crisis.. Am I an asteroid, meteorite, meteor?"],

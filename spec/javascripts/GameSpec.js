@@ -1,11 +1,19 @@
 describe("a Game", function() {
+
+  var mapDiv;
   var game, meteorite
 
   beforeEach(function() {
+    mapDiv = $("<div id='cartodb-map'></div>")
+    mapDiv.appendTo('body')
     game = new Game();
     meteorite = new Meteorite({properties: {name: "Nogata", year: "861-01-01T00:00:00.000", recclass: "L6", id: "22614"}, geometry: [12.73333, 50.18333]
     });
   });
+
+  afterEach(function() {
+    mapDiv.remove();
+  })
 
   describe("initiazation", function(){
     it("initializes with Nogata", function() {

@@ -1,6 +1,13 @@
 var Game = function() {
-  this.meteorites = [];
-  this.initializeMeteoritesAPI();
+  this.meteorites = []
+  this.map = new Gamemap(this);
+  var game = this;
+  var initialMeteorites = this.initializeMeteoritesAPI();
+
+  initialMeteorites.done(function(nasaData) {
+    game.map.renderMap();
+  });
+
   this.lfamily = [];
   this.hfamily = [];
   this.ifamily = [];
@@ -80,17 +87,13 @@ Game.prototype.initializeMeteoritesAPI = function() {
 
 Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
-  var features = null;
-  $.ajax({
-    url: path,
-    async: false,
-    type: 'get',
-    success: function(output) {
-      features = output.features;
-    }
-  });
 
-  return new Meteorite(features[0]);
+  var game = this;
+  var request = $.get(path);
+  request.done(function(nasaData) {
+    // game.meteorites.push(new Meteorite(nasaData.features[0]));
+  })
+  return request;
 }
 
 Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
@@ -107,8 +110,21 @@ Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
     }
   });
 
-  for(var i=0; i<features.length; i++) {
-    var meteorite = new Meteorite(features[i]);
+
+  var secondRequest = firstRequest.then(function() {
+    console.log(currentMeteorite.nextMeteorite);
+    console.log(game.meteorites);
+    console.log(includeCheck(currentMeteorite.nextMeteorite, game.meteorites));
+    if (!includeCheck(currentMeteorite.nextMeteorite, game.meteorites)) {
+      var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
+      return $.get(path);
+    } else {
+      console.log(game.meteorites.length);
+      var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=' + game.meteorites.length + '&$order=year' ;
+      return $.get(path);
+    }
+  })
+
 
     if (!includeCheck(meteorite, this.meteorites)) {
       this.meteorites.push(meteorite);
@@ -133,9 +149,17 @@ Game.prototype.setNextMeteorite = function(currentMeteorite) {
 }
 
 Game.prototype.defeat = function(meteorite) {
-  if (!meteorite.defeated) {
-    meteorite.defeated = true;
-    this.extendMeteoritesAPI(meteorite);
+
+  meteorite.defeated = true;
+  var game = this;
+  var extendMeteorites = this.extendMeteoritesAPI(meteorite);
+  return extendMeteorites.done(function(nasaData) {
+    for(var i=0; i<nasaData['features'].length; i++) {
+      var newMeteorite = new Meteorite(nasaData['features'][i]);
+      if (!includeCheck(newMeteorite, game.meteorites)) {
+        game.meteorites.push(newMeteorite);
+      }
+    }
     meteorite.generateStory();
-  }
+  });
 }

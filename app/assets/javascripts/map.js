@@ -1,18 +1,14 @@
-var map;
-
-function init(){
-  map = new L.Map('cartodb-map', {
+var Gamemap =  function(game) {
+  this.map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 2
   })
-  map.game = new Game();
+
+  this.game = game;
 
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
-  }).addTo(map);
-
-
-    var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
+  }).addTo(this.map);
 
   //show mouse coordiantes onscreen
   L.control.coordinates({
@@ -26,14 +22,16 @@ function init(){
     useLatLngOrder: true, //ordering of labels, default false-> lng-lat
     markerType: L.marker, //optional default L.marker
     markerProps: {}, //optional default {},
-    // labelFormatterLng : function(lng){return lng+" lng"}, //optional default none,
-    // labelFormatterLat : function(lat){return lat+" lat"}, //optional default none
-    // customLabelFcn: function(latLonObj, opts) { "Geohash: " + encodeGeoHash(latLonObj.lat, latLonObj.lng)} //optional default none
-  }).addTo(map);
+  }).addTo(this.map);
+};
 
+Gamemap.prototype.renderMap = function() {
+  var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
   var subLayerOptions = {
-    sql: newQuery(map.game)
+    sql: this.newQuery()
   }
+  var gamemap = this;
+  var map = this.map;
 
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
@@ -52,14 +50,19 @@ function init(){
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
-      $.getJSON(nasaidGetUrl, function(data) {
+      var request = $.getJSON(nasaidGetUrl);
+      request.done(function(data) {
         var nasaId = data["rows"][0]["nasaid"];
         var currentMeteorite = findCurrentMeteorite(nasaId, map.game.meteorites);
         renderInfo(currentMeteorite);
         $('#win-button').on('click', function() {
-          map.game.defeat(currentMeteorite);
-          renderInfo(currentMeteorite);
-          sublayer.setSQL(newQuery(map.game));
+          if (!currentMeteorite.defeated) {
+            var secondRequest = gamemap.game.defeat(currentMeteorite);
+            secondRequest.done(function() {
+              renderInfo(currentMeteorite);
+              sublayer.setSQL(gamemap.newQuery());
+            });
+          }
         });
       });
     });
@@ -88,8 +91,8 @@ var renderInfo = function(meteorite) {
   $('#story').text(meteorite.tellStory());
 }
 
-var newQuery = function(game) {
+Gamemap.prototype.newQuery = function() {
   var yearFrom = "'0860-12-24T14:26:40-06:00'"
-  var lastMeteorite = map.game.meteorites[map.game.meteorites.length -1];
+  var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
   return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= ('" + lastMeteorite.year + "'))"
 }
