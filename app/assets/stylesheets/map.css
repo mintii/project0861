@@ -1,0 +1,43 @@
+html, body {width:100%; height:100%; padding: 0; margin: 0;}
+#cartodb-map { width: 100%; height:100%; background: black;}
+
+
+
+.popup {
+  height: 400px;
+  width: 400px;
+  padding:0;
+  margin:0 0 14px 0;
+  background:none;
+  -moz-box-shadow: 0 0 0 4px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0 0 0 4px rgba(0,0,0,0.15);
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.15);
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  background:white;
+}
+
+.popup .popup-content-wrapper {
+  height: 330px;
+  width: 330px;
+  max-width: none;
+  padding:12px;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  background:none;
+  margin: auto;
+}
+
+.popup .popup-content {
+  height: 330px;
+  width: 330px;
+  max-width:none;
+  display:block;
+  background:none;
+}
+
+#story {
+  font-size: 14px;
+}
