@@ -1,6 +1,5 @@
 $(document).on("ready", function() {
-  var game = new Game();
-  // console.log(game.meteorites);
+   var game = new Game();
   // var nogata = game.meteorites[0];
   // console.log(game.meteorites);
   // console.log(nogata.tellStory());

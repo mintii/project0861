@@ -21,9 +21,7 @@ Story.prototype.confusedGrammar = function() {return {
   };
 }
 
-Story.prototype.coherentGrammar = function() {
-  console.log(this);
-  return {
+Story.prototype.coherentGrammar = function() { return {
   "thanks": [
     "THANKS!",
     "Wowzers, you're great!",
@@ -45,7 +43,7 @@ Story.prototype.coherentGrammar = function() {
   ],
   "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other " + this.meteorite.recclass + " meteorites just like me who survived... I am sure of it."],
   "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
-  "hint": ["along " + this.meteorite.nextMeteorite.getLat() + "latitude ", "along " + this.meteorite.nextMeteorite.getLong() + " longitude", "in " + this.meteorite.nextMeteorite.getYear() + " AD"],
+  "hint": ["along " + this.meteorite.nextMeteorite.getLat() + " latitude", "along " + this.meteorite.nextMeteorite.getLong() + " longitude", "in " + this.meteorite.nextMeteorite.getYear() + " AD"],
   // REGIONAL CLUES
   "africa": ["OMG A LION, GET IN THE CAR", "Pyramids!", "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"],
   "arctic": ["My compass is broken.", "Are you Santa?", "Where is everybody?"],
@@ -61,7 +59,7 @@ Story.prototype.coherentGrammar = function() {
   "H": ["Looks like I've hit rock bottom.", "You can call me Dwayne Johnson.", "Wanna play me paper scissors?"],
   "unclass": ["I still can't remember where we came from.", "I feel like I'm having an identity crisis.. Am I an asteroid, meteorite, meteor?"],
   "clue": ["Please find #relative#!  Look #hint#."],
-  "origin": ["#thanks# #expandedOrigin# #" + this.classAbouts(this.meteorite) + "# #" + this.whereabouts(this.meteorite) + "# #clue#"]
+  "origin": ["#thanks# #expandedOrigin#  #" + this.classAbouts(this.meteorite) + "#  #" + this.whereabouts(this.meteorite) + "#  #clue#"]
   }
 }
 
@@ -108,8 +106,3 @@ Story.prototype.classAbouts = function(meteorite) {
 //   "pointOfConflict": ["The <em>steel</em> swarm tore most of us into spacedust.", "One of the <em>steel</em> beings "],
 //   "origin": []
 //   }
-
-
-
-
-

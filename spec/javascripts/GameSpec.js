@@ -1,4 +1,5 @@
 describe("a Game", function() {
+
   var mapDiv;
   var game, meteorite
 
