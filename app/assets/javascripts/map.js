@@ -31,7 +31,7 @@ var Gamemap =  function(game) {
 };
 
 Gamemap.prototype.renderMap = function() {
-  var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/9bd62f5e-3a38-11e6-ac85-0e98b61680bf/viz.json';
+  var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/8cdeef5c-3d78-11e6-b546-0e31c9be1b51/viz.json';
   var subLayerOptions = {
     sql: this.newQuery()
   }
@@ -122,7 +122,7 @@ var renderInfo = function(meteorite) {
     $(".minigame-buttons").show();
   } else {
     $(".minigame-buttons").hide();
-  }  
+  }
 }
 
 Gamemap.prototype.newQuery = function() {
