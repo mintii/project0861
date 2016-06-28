@@ -2,13 +2,14 @@
 <html>
 <head>
   <title>Project0861</title>
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
 
 </head>
-<body >
+<body>
   <div id='cartodb-map'></div>
   <%= yield %>
 </body>

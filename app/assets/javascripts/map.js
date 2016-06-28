@@ -1,12 +1,27 @@
-var Gamemap = function(game) {
+var Gamemap =  function(game) {
   this.map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 2
-  })
+  });
+
   this.game = game;
 
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
     attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
+  }).addTo(this.map);
+
+  //show mouse coordiantes onscreen
+  L.control.coordinates({
+    position:"bottomleft", //optional default "bootomright"
+    decimals:2, //optional default 4
+    decimalSeperator:".", //optional default "."
+    labelTemplateLat:"Latitude: {y}", //optional default "Lat: {y}"
+    labelTemplateLng:"Longitude: {x}", //optional default "Lng: {x}"
+    enableUserInput:true, //optional default true
+    useDMS:false, //optional default false
+    useLatLngOrder: true, //ordering of labels, default false-> lng-lat
+    markerType: L.marker, //optional default L.marker
+    markerProps: {}, //optional default {},
   }).addTo(this.map);
 };
 
@@ -17,13 +32,12 @@ Gamemap.prototype.renderMap = function() {
   }
   var gamemap = this;
   var map = this.map;
+
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
 
     .on('done', function(layer) {
-
       var sublayer = layer.getSubLayer(0);
-
       sublayer.set(subLayerOptions);
       sublayer.infowindow.set({
         template: $('#infowindow_template').html(),
@@ -71,6 +85,7 @@ Gamemap.prototype.renderMap = function() {
     }).on('error', function() {
       console.log("some error occurred");
   });
+
 }
 
 var findCurrentMeteorite = function(nasaId, meteorites) {
@@ -87,6 +102,7 @@ var renderInfo = function(meteorite) {
   $('#recclass').text('family: ' + meteorite.recclass);
   $('#latitude').text('latitude: ' + meteorite.getLat());
   $('#longitude').text('longitude: ' + meteorite.getLong());
+  // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
 }
 
