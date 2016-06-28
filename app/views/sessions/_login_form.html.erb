@@ -1,4 +1,9 @@
 <%= form_for :sessions, url: sessions_path do |f| %>
+
+<% if flash[:alert] %>
+  <div class="notice"><%= flash[:alert] %></div>
+<% end %>
+
 <p>
   <%= f.label :username %><br />
   <%= f.text_field :username %>
@@ -8,4 +13,5 @@
   <%= f.password_field :password %>
 </p>
 <p class="button"><%= f.submit "Log in" %></p>
+
 <% end %>
