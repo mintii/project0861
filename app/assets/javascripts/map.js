@@ -34,17 +34,19 @@ Gamemap.prototype.renderMap = function() {
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
-      $.getJSON(nasaidGetUrl, function(data) {
+      var request = $.getJSON(nasaidGetUrl);
+      request.done(function(data) {
         var nasaId = data["rows"][0]["nasaid"];
         var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
         renderInfo(currentMeteorite);
         $('#win-button').on('click', function() {
-          var request = gamemap.game.defeat(currentMeteorite);
-          request.done(function() {
-            renderInfo(currentMeteorite);
-            sublayer.setSQL(gamemap.newQuery());
-          });
-
+          if (!currentMeteorite.defeated) {
+            var secondRequest = gamemap.game.defeat(currentMeteorite);
+            secondRequest.done(function() {
+              renderInfo(currentMeteorite);
+              sublayer.setSQL(gamemap.newQuery());
+            });
+          }
         });
       });
     });
