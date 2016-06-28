@@ -1,4 +1,5 @@
 var Minigame2048 = function (winValue) {
+  this.win = false;
   this.winValue = winValue;
   this.arrayBoard = '0000000000000000'.split("").map(function(stringNum) {
     return parseInt(stringNum);
@@ -100,9 +101,6 @@ Minigame2048.prototype.move = function(direction) {
 }
 
 Minigame2048.prototype.checkForWin = function() {
-  console.log(this.arrayBoard);
-  console.log(this.winValue);
-  console.log(this.arrayBoard.includes(this.winValue));
   return this.arrayBoard.includes(this.winValue);
 }
 
@@ -129,8 +127,9 @@ Minigame2048.prototype.play = function() {
     }
     if (minigame.checkForWin()) {
       minigame.renderExponents();
-      return true;
     } else {
+      return true;
+
       minigame.spawn();
       minigame.renderExponents();
     }
