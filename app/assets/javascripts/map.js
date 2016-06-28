@@ -1,14 +1,20 @@
 var Gamemap =  function(game) {
-  this.map = new L.Map('cartodb-map', {
-    center: [0,0],
-    zoom: 2
-  });
+  // this.map = new L.Map('cartodb-map', {
+  //   center: [0,0],
+  //   zoom: 2
+  // });
 
   this.game = game;
+  //
+  // L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
+  //   attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
+  // }).addTo(this.map);
 
-  L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
-    attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
-  }).addTo(this.map);
+  this.map = L.mapbox.map('cartodb-map', 'colemanm.blue-marble-8bit', {
+   accessToken: 'pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56'
+ });
+
+  // L.mapbox.tileLayer('pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56').addTo(this.map);
 
   //show mouse coordiantes onscreen
   L.control.coordinates({
