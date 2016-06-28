@@ -1,0 +1,8 @@
+<% if @user.errors.any? %>
+  <span><%= pluralize(@user.errors.count, "error") %></span>
+  <% @user.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+      <% end %>
+<% end %>
+
+<%= render "form" %>
