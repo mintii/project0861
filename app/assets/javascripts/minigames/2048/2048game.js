@@ -94,34 +94,42 @@ Minigame2048.prototype.move = function(direction) {
 }
 
 Minigame2048.prototype.checkForWin = function() {
+  console.log(this.arrayBoard);
+  console.log(this.winValue);
+  console.log(this.arrayBoard.includes(this.winValue));
   return this.arrayBoard.includes(this.winValue);
 }
 
 Minigame2048.prototype.play = function() {
+  var minigame = this;
   for (var i=0; i<=15; i++) {
     $("#" + i).html(this.exponentify()[i]);
   }
   $(document).on("keydown", function(event) {
     switch(event.keyCode) {
       case 37:
-        this.move("left");
+        minigame.move("left");
         break;
 
       case 38:
-        this.move("up");
+        minigame.move("up");
         break;
 
       case 39:
-        this.move("right");
+        minigame.move("right");
         break;
 
       case 40:
-        this.move("down");
+        minigame.move("down");
         break;
     }
-    this.spawn();
+    if (minigame.checkForWin()) {
+      return true;
+    } else {
+      minigame.spawn();
+    }
     for (var i=0; i<=15; i++) {
-      $("#" + i).html(this.exponentify()[i]);
+      $("#" + i).html(minigame.exponentify()[i]);
     }
   });
 }
