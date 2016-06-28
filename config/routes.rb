@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   get 'logout' => 'sessions#destroy'
 
   resources :users, only: [:new, :create, :show, :index]
-  resources :meteorites, only: [:new, :create]
   resources :sessions, only: [:create]
 
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
