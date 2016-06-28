@@ -5,6 +5,19 @@ def new
   render :layout => false
 end
 
+def show
+  if session[:user_id]
+    render 'users/map.html.erb'
+  else
+    redirect_to 'users#index'
+  end
+end
+
+def index
+  @user = User.new
+  render 'users/index'
+end
+
 def create
   @user = User.new(user_params)
   if @user.save
