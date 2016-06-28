@@ -108,6 +108,7 @@ Minigame2048.prototype.play = function() {
   var minigame = this;
   this.renderExponents();
   return $(document).on("keydown", function(event) {
+    event.preventDefault();
     switch(event.keyCode) {
       case 37:
         minigame.move("left");
