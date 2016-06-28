@@ -18,7 +18,7 @@ var Game = function() {
 Game.prototype.saveFamilies = function() {
   rocktypes = ["L", "H", "I", "U"];
   for (var i=0; i<rocktypes.length; i++) {
-    $.ajax({method: "post", url: "/families", data: rocktypes[i]});
+    $.ajax({method: "post", url: "/families", data: {rock_type: rocktypes[i]}});
   }
 }
 
