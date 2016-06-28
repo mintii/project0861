@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+
+  resources :users
+  # get 'users/new'
+  # get 'users/create'
+  # post 'users'
+
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
