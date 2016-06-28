@@ -12,6 +12,14 @@ var Game = function() {
   this.hfamily = [];
   this.ifamily = [];
   this.ufamily = [];
+  this.saveFamilies();
+}
+
+Game.prototype.saveFamilies = function() {
+  rocktypes = ["L", "H", "I", "U"];
+  for (var i=0; i<rocktypes.length; i++) {
+    $.ajax(method: "post", url: "/families", data: rocktypes[i]);
+  }
 }
 
 Game.prototype.findFamily = function(meteorite) {
@@ -48,7 +56,7 @@ Game.prototype.resetFamily = function(meteorite) {
   } else {
     this.ufamily = [];
   };
-  // Alert player they have helped a family return to space. Encourage them to find more meteorites.
+  this.saveFamilies();
 }
 
 Game.prototype.checkFamilyVictory = function(meteorite) {
@@ -64,6 +72,7 @@ Game.prototype.addToFamily = function(meteorite) {
   var family = this.findFamily(meteorite);
   if(this.checkFamilyInclude(meteorite) === false) {
     family.push(meteorite);
+    //add meteorite to a family
   }
 }
 
@@ -75,7 +84,6 @@ Game.prototype.findMeteorite = function(currentMeteorite) {
 
 Game.prototype.initializeMeteoritesAPI = function() {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year';
-  // var features = null;
   var game = this;
 
   var request = $.get(path);
@@ -114,10 +122,6 @@ Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
 
   return secondRequest;
 }
-
-// Game.prototype.setNextMeteorite = function(currentMeteorite) {
-//   currentMeteorite.nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
-// }
 
 var includeCheck = function(meteorite, meteorites) {
   returnValue = false;
