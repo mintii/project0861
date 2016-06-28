@@ -39,6 +39,23 @@ Gamemap.prototype.renderMap = function() {
         var nasaId = data["rows"][0]["nasaid"];
         var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
         renderInfo(currentMeteorite);
+
+        $("#minigame-button").on("click", function() {
+          if (!currentMeteorite.defeated) {
+            var minigame = new Minigame2048();
+            $("#minigame-board").append(grid)
+            minigame.spawn();
+            while (minigame.checkForWin()) {
+              minigame.play();
+            }
+            var secondRequest = gamemap.game.defeat(currentMeteorite);
+            secondRequest.done(function() {
+              renderInfo(currentMeteorite);
+              sublayer.setSQL(gamemap.newQuery());
+            });
+          }
+        });
+
         $('#win-button').on('click', function() {
           if (!currentMeteorite.defeated) {
             var secondRequest = gamemap.game.defeat(currentMeteorite);
@@ -78,3 +95,5 @@ Gamemap.prototype.newQuery = function() {
   var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
   return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= ('" + lastMeteorite.year + "'))"
 }
+
+var grid = '<div class="grid-container"><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>';
