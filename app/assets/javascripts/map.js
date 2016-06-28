@@ -7,7 +7,7 @@ var Gamemap =  function(game) {
   this.game = game;
 
   L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
-    attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
+    attribution: ''
   }).addTo(this.map);
 
   //show mouse coordiantes onscreen
