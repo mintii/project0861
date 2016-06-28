@@ -21,7 +21,10 @@ Story.prototype.confusedGrammar = function() {return {
   };
 }
 
-Story.prototype.coherentGrammar = function() { return {
+Story.prototype.coherentGrammar = function() {
+  console.log(this.meteorite);
+  console.log(this.meteorite.family.length);
+  return {
   "thanks": [
     "THANKS!",
     "Wowzers, you're great!",
@@ -57,9 +60,18 @@ Story.prototype.coherentGrammar = function() { return {
   "L6": ["A swarm of steel beings attacked my family as we were taking a stroll around Sirius.", "We were attacked by a steel swarm. Some of us were able to escape to Earth.", "I fear most of my family has been reduced to space dust.", "Why do you keep saying Nogata?"],
   "iron": ["This planet is quite nice. It seems like an old relative of mine.", "Please don't melt me down into one of those ships I saw on my way here.", ""],
   "H": ["Looks like I've hit rock bottom.", "You can call me Dwayne Johnson.", "Wanna play me paper scissors?"],
-  "unclass": ["I still can't remember where we came from.", "I feel like I'm having an identity crisis.. Am I an asteroid, meteorite, meteor?"],
+  "unclass": ["I still can't remember where we came from.", "I feel like I'm having an identity crisis... Am I an asteroid, meteorite, meteor?"],
+
   "clue": ["Please find #relative#!  Look #hint#."],
-  "origin": ["#thanks# #expandedOrigin#  #" + this.classAbouts(this.meteorite) + "#  #" + this.whereabouts(this.meteorite) + "#  #clue#"]
+  "pun": ["rock solid!", "heading back to space!", "going to make a happy life here on Earth."],
+  "conclusion": ["Please help another family of meteorites!  I heard somerock at #hint# who you could help."],
+  "familyFound": ["You found " + this.meteorite.family.reduce(function(previous, current) {
+    return previous + current.name + ", ";
+  }, "") + "and we are now reunited!  This " + this.meteorite.recclass + " family is #pun# #conclusion#"],
+  "familyNotFound": ["#expandedOrigin# #" + this.classAbouts(this.meteorite) + "#  #" + this.whereabouts(this.meteorite) + "# #clue#"],
+  "origin": ["#thanks# " + (this.meteorite.family.length < 5 ? "#familyNotFound#" : "#familyFound#")]
+
+  // "origin": ["#thanks# #expandedOrigin#  #" + this.classAbouts(this.meteorite) + "#  #" + this.whereabouts(this.meteorite) + "#  #conclusion#"]
   }
 }
 

@@ -17,19 +17,23 @@ var Game = function() {
 Game.prototype.findFamily = function(meteorite) {
   var recclass = meteorite.recclass[0];
   if (recclass == "L") {
+    meteorite.family = this.lfamily;
     return this.lfamily;
   } else if (recclass == "I") {
+    meteorite.family = this.ifamily;
     return this.ifamily;
   } else if (recclass == "H") {
+    meteorite.family = this.hfamily;
     return this.hfamily;
   } else {
+    meteorite.family = this.ufamily;
     return this.ufamily;
   }
 }
 
 Game.prototype.checkFamilyInclude = function(meteorite) {
   var family = this.findFamily(meteorite);
-  return family.includes(meteorite.nasaId);
+  return includeCheck(meteorite, family);
   // false for not included. true for it is included
 }
 
@@ -48,8 +52,9 @@ Game.prototype.resetFamily = function(meteorite) {
 }
 
 Game.prototype.checkFamilyVictory = function(meteorite) {
-  var family = this.findFamily(meteorite);
-  if(family.length >= 5) {
+  // var family = this.findFamily(meteorite);
+  console.log(this);
+  if(meteorite.family.length >= 5) {
     this.resetFamily(meteorite);
     return true;
   } else {
@@ -60,7 +65,7 @@ Game.prototype.checkFamilyVictory = function(meteorite) {
 Game.prototype.addToFamily = function(meteorite) {
   var family = this.findFamily(meteorite);
   if(this.checkFamilyInclude(meteorite) === false) {
-    family.push(meteorite.nasaId);
+    family.push(meteorite);
   }
 }
 
@@ -140,5 +145,6 @@ Game.prototype.defeat = function(meteorite) {
       }
     }
     meteorite.generateStory();
+    game.checkFamilyVictory(meteorite);
   });
 }

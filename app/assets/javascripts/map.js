@@ -122,7 +122,7 @@ var renderInfo = function(meteorite) {
     $(".minigame-buttons").show();
   } else {
     $(".minigame-buttons").hide();
-  }
+  }  
 }
 
 Gamemap.prototype.newQuery = function() {
