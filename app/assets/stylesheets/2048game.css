@@ -1,0 +1,40 @@
+.grid-cell {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border: solid green 2px;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+.grid-row {
+  width: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.grid-container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#minigame-board {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}

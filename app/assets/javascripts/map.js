@@ -57,6 +57,7 @@ Gamemap.prototype.renderMap = function() {
       });
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
+
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
@@ -65,6 +66,34 @@ Gamemap.prototype.renderMap = function() {
         var nasaId = data["rows"][0]["nasaid"];
         var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
         renderInfo(currentMeteorite);
+
+        var winHandler = function() {
+          console.log(gamemap);
+          console.log(currentMeteorite);
+          $(".grid-container").remove();
+          $("#goal").remove();
+          $("#popup-content").show();
+          var request = gamemap.game.defeat(currentMeteorite);
+          request.done(function() {
+            renderInfo(currentMeteorite);
+            sublayer.setSQL(gamemap.newQuery());
+          });
+        }
+
+        $("#minigame-button").on("click", function() {
+          if (!currentMeteorite.defeated) {
+            var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
+            var minigame = new Minigame2048(difficulty, winHandler);
+
+            $("#popup-content").hide();
+            $(".popup-content-wrapper").append('<div class="grid-container"><div class="goal"><p>Target:'+ Math.pow(2, difficulty) +'</p></div><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
+
+            minigame.spawn();
+            minigame.spawn();
+            minigame.play(gamemap, currentMeteorite);
+          }
+        });
+
         $('#win-button').on('click', function() {
           if (!currentMeteorite.defeated) {
             var secondRequest = gamemap.game.defeat(currentMeteorite);
@@ -76,11 +105,9 @@ Gamemap.prototype.renderMap = function() {
         });
       });
     });
-
     }).on('error', function() {
       console.log("some error occurred");
   });
-
 }
 
 var findCurrentMeteorite = function(nasaId, meteorites) {
@@ -99,6 +126,11 @@ var renderInfo = function(meteorite) {
   $('#longitude').text('longitude: ' + meteorite.getLong());
   // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
+  if (!meteorite.defeated) {
+    $(".minigame-buttons").show();
+  } else {
+    $(".minigame-buttons").hide();
+  }
 }
 
 Gamemap.prototype.newQuery = function() {
