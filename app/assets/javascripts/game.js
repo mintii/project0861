@@ -131,6 +131,7 @@ var includeCheck = function(meteorite, meteorites) {
 
 Game.prototype.defeat = function(meteorite) {
   meteorite.defeated = true;
+  this.addToFamily(meteorite);
   var game = this;
   var extendMeteorites = this.extendMeteoritesAPI(meteorite);
   return extendMeteorites.done(function(nasaData) {
