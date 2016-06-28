@@ -1,9 +1,10 @@
-var Minigame2048 = function (winValue) {
+var Minigame2048 = function (winValue, onDone) {
   this.win = false;
   this.winValue = winValue;
   this.arrayBoard = '0000000000000000'.split("").map(function(stringNum) {
     return parseInt(stringNum);
   })
+  this.onDone = onDone;
 }
 
 Array.prototype.sample = function() {
@@ -104,10 +105,10 @@ Minigame2048.prototype.checkForWin = function() {
   return this.arrayBoard.includes(this.winValue);
 }
 
-Minigame2048.prototype.play = function() {
+Minigame2048.prototype.play = function(gamemap, meteorite) {
   var minigame = this;
   this.renderExponents();
-  return $(document).on("keydown", function(event) {
+  $(document).on("keydown", function(event) {
     event.preventDefault();
     switch(event.keyCode) {
       case 37:
@@ -129,6 +130,7 @@ Minigame2048.prototype.play = function() {
     if (minigame.checkForWin()) {
       minigame.renderExponents();
       minigame.win = true;
+      minigame.onDone(gamemap, meteorite);
     } else {
       minigame.spawn();
       minigame.renderExponents();
