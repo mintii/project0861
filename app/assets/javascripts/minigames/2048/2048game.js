@@ -131,6 +131,7 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
       minigame.renderExponents();
       minigame.win = true;
       minigame.onDone(gamemap, meteorite);
+      $(document).off("keydown");
     } else {
       minigame.spawn();
       minigame.renderExponents();
