@@ -191,10 +191,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-=======
   bcrypt (~> 3.1.7)
->>>>>>> 2bd48afc1adcd2a2bf4dcc69b38da20aff21db26
   byebug
   coffee-rails (~> 4.1.0)
   jasmine-rails
@@ -211,11 +208,5 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
 
-<<<<<<< HEAD
-=======
-RUBY VERSION
-   ruby 2.0.0p647
-
->>>>>>> 2bd48afc1adcd2a2bf4dcc69b38da20aff21db26
 BUNDLED WITH
-   1.12.5
+   1.10.6
