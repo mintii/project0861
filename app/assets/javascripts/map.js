@@ -60,8 +60,6 @@ Gamemap.prototype.renderMap = function() {
         renderInfo(currentMeteorite);
 
         var winHandler = function() {
-          console.log(gamemap);
-          console.log(currentMeteorite);
           $(".grid-container").remove();
           $("#goal").remove();
           $("#popup-content").show();

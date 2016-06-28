@@ -15,7 +15,6 @@ var Game = function() {
 }
 
 Game.prototype.findFamily = function(meteorite) {
-  // console.log(meteorite.recclass[0]);
   var recclass = meteorite.recclass[0];
   if (recclass == "L") {
     return this.lfamily;
@@ -105,7 +104,6 @@ Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
       var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$order=year&$where=(year%20between%20%27'+ currentMeteorite.year + '%27%20and%20%27' + currentMeteorite.nextMeteorite.year + '%27)';
       return $.get(path);
     } else {
-      console.log(game.meteorites.length);
       var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=' + game.meteorites.length + '&$order=year' ;
       return $.get(path);
     }
