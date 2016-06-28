@@ -55,11 +55,13 @@ Gamemap.prototype.renderMap = function() {
         renderInfo(currentMeteorite);
         $("#minigame-button").on("click", function() {
           if (!currentMeteorite.defeated) {
-            var minigame = new Minigame2048(2);
+            var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
+            var minigame = new Minigame2048(difficulty);
             $("#popup-content").hide();
             $(".popup-content-wrapper").append('<div class="grid-container"><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
             minigame.spawn();
-            minigame.play().done(function () { //this doesn't work
+            //this doesn't work- ask a teacher for help.
+            minigame.play().done(function () {
               if (minigame.play()) {
                 $(".grid-container").remove();
                 $("#popup-content").show();

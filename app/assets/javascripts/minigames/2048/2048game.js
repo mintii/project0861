@@ -107,7 +107,7 @@ Minigame2048.prototype.checkForWin = function() {
 Minigame2048.prototype.play = function() {
   var minigame = this;
   this.renderExponents();
-  $(document).on("keydown", function(event) {
+  return $(document).on("keydown", function(event) {
     switch(event.keyCode) {
       case 37:
         minigame.move("left");
@@ -127,9 +127,8 @@ Minigame2048.prototype.play = function() {
     }
     if (minigame.checkForWin()) {
       minigame.renderExponents();
+      minigame.win = true;
     } else {
-      return true;
-
       minigame.spawn();
       minigame.renderExponents();
     }
