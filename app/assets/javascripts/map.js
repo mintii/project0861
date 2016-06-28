@@ -1,20 +1,25 @@
 var Gamemap =  function(game) {
-  // this.map = new L.Map('cartodb-map', {
-  //   center: [0,0],
-  //   zoom: 2
-  // });
-
   this.game = game;
-  //
+
+  this.map = new L.Map('cartodb-map', {
+    center: [0,0],
+    zoom: 2
+  });
+  
+  L.tileLayer('https://a.tiles.mapbox.com/v4/colemanm.blue-marble-8bit/{z}/{x}/{y}.png?access_token={token}', {
+    attribution: 'cartodb-map',
+    token: 'pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56'
+  }).addTo(this.map);
+
   // L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
   //   attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
   // }).addTo(this.map);
 
-  this.map = L.mapbox.map('cartodb-map', 'colemanm.blue-marble-8bit', {
-   accessToken: 'pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56'
- });
-
-  // L.mapbox.tileLayer('pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56').addTo(this.map);
+  //
+  // L.mapbox.accessToken = 'pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56'
+  // this.map = L.mapbox.map('cartodb-map', 'colemanm.blue-marble-8bit', {
+  //   center: [0,0]
+  // });
 
   //show mouse coordiantes onscreen
   L.control.coordinates({
@@ -38,6 +43,7 @@ Gamemap.prototype.renderMap = function() {
   }
   var gamemap = this;
   var map = this.map;
+
 
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
