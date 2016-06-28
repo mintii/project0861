@@ -52,8 +52,6 @@ Game.prototype.resetFamily = function(meteorite) {
 }
 
 Game.prototype.checkFamilyVictory = function(meteorite) {
-  // var family = this.findFamily(meteorite);
-  console.log(this);
   if(meteorite.family.length >= 5) {
     this.resetFamily(meteorite);
     return true;
