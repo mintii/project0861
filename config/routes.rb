@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'login' => 'sessions#new'
+  get 'logout' => 'sessions#destroy'
 
   resources :users, only: [:new, :create]
-  # get 'users/new'
-  # get 'users/create'
-  # post 'users'
 
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
   # The priority is based upon order of creation: first created -> highest priority.
