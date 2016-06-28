@@ -45,6 +45,7 @@ Gamemap.prototype.renderMap = function() {
       });
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
+
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
@@ -109,6 +110,8 @@ var renderInfo = function(meteorite) {
   $('#longitude').text('longitude: ' + meteorite.getLong());
   // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
+  $(".popup-content-wrapper").append('<button id="minigame-button">Play Minigame!</button>');
+  $(".popup-content-wrapper").append('<button id="win-button">Win Button!</button>');
 }
 
 Gamemap.prototype.newQuery = function() {
