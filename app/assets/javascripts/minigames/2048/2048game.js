@@ -19,6 +19,12 @@ Minigame2048.prototype.exponentify = function() {
   });
 }
 
+Minigame2048.prototype.renderExponents = function() {
+  for (var i=0; i<=15; i++) {
+    $("#" + i).html(this.exponentify()[i]);
+  }
+}
+
 Minigame2048.prototype.moveTile = function (index, direction) {
   if (this.arrayBoard[index] == 0) {
     //don't move- empty
@@ -102,9 +108,7 @@ Minigame2048.prototype.checkForWin = function() {
 
 Minigame2048.prototype.play = function() {
   var minigame = this;
-  for (var i=0; i<=15; i++) {
-    $("#" + i).html(this.exponentify()[i]);
-  }
+  this.renderExponents();
   $(document).on("keydown", function(event) {
     switch(event.keyCode) {
       case 37:
@@ -124,12 +128,11 @@ Minigame2048.prototype.play = function() {
         break;
     }
     if (minigame.checkForWin()) {
+      minigame.renderExponents();
       return true;
     } else {
       minigame.spawn();
-    }
-    for (var i=0; i<=15; i++) {
-      $("#" + i).html(minigame.exponentify()[i]);
+      minigame.renderExponents();
     }
   });
 }

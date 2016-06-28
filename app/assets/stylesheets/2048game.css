@@ -1,0 +1,26 @@
+.grid-cell {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border: solid white 2px;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+.grid-row {
+  width: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
