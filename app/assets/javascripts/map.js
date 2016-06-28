@@ -1,11 +1,17 @@
 var Gamemap =  function(game) {
-  this.game = game;
+  this.game = game
+
+  var southWest = L.latLng(-64, -166),
+    northEast = L.latLng(82, 180),
+    bounds = L.latLngBounds(southWest, northEast);
+
 
   this.map = new L.Map('cartodb-map', {
     center: [0,0],
-    zoom: 2,
-    minZoom: 2,
-    maxZoom: 5
+    zoom: 3,
+    minZoom: 3,
+    maxZoom: 5,
+    maxBounds: bounds
   });
 
   L.tileLayer('https://a.tiles.mapbox.com/v4/colemanm.blue-marble-8bit/{z}/{x}/{y}.png?access_token={token}', {
