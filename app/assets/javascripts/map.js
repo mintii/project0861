@@ -3,7 +3,9 @@ var Gamemap =  function(game) {
 
   this.map = new L.Map('cartodb-map', {
     center: [0,0],
-    zoom: 2
+    zoom: 2,
+    minZoom: 2,
+    maxZoom: 5
   });
 
   L.tileLayer('https://a.tiles.mapbox.com/v4/colemanm.blue-marble-8bit/{z}/{x}/{y}.png?access_token={token}', {
