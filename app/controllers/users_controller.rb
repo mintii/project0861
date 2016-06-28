@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  # before_action :find_user, only: [:new, :create]
 def new
   @user = User.new
   render :layout => false
@@ -7,13 +6,13 @@ end
 
 def show
   if session[:user_id]
-    render 'users/map.html.erb'
+    render "users/map.html.erb"
   else
     redirect_to 'users#index'
   end
 end
 
-def index
+def index #SPLASH PAGE!!
   @user = User.new
   render 'users/index'
 end

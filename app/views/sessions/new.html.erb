@@ -1,4 +1,9 @@
 <div class="login">
+  <% if flash[:alert] %>
+    <div class="notice"><%= flash[:alert] %></div>
+  <% end %>
+
   <h1>Log in</h1>
   <%= render partial: "sessions/login_form" %>
+
 </div>
