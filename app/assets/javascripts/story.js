@@ -64,7 +64,7 @@ Story.prototype.coherentGrammar = function() {
 
   "clue": ["Please find #relative#!  Look #hint#."],
   "pun": ["rock solid!", "heading back to space!", "going to make a happy life here on Earth."],
-  "conclusion": ["Please help another family of meteorites!  I heard that there's somerock #hint# who you could help."],
+  "conclusion": ["Please help another family of meteorites!  I heard somerock at #hint# who you could help."],
   "familyFound": ["You found " + this.meteorite.family.reduce(function(previous, current) {
     return previous + current.name + ", ";
   }, "") + "and we are now reunited!  This " + this.meteorite.recclass + " family is #pun# #conclusion#"],
