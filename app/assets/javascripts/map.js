@@ -110,8 +110,11 @@ var renderInfo = function(meteorite) {
   $('#longitude').text('longitude: ' + meteorite.getLong());
   // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
-  $(".popup-content-wrapper").append('<button id="minigame-button">Play Minigame!</button>');
-  $(".popup-content-wrapper").append('<button id="win-button">Win Button!</button>');
+  if (!meteorite.defeated) {
+    $(".minigame-buttons").show();
+  } else {
+    $(".minigame-buttons").hide();
+  }
 }
 
 Gamemap.prototype.newQuery = function() {
