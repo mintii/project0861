@@ -67,12 +67,14 @@ Gamemap.prototype.renderMap = function() {
       request.done(function(data) {
         var nasaId = data["rows"][0]["nasaid"];
         var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
-        renderInfo(currentMeteorite);
+        setTimeout(function() {
+          renderInfo(currentMeteorite);
+        }, 900);
 
         var winHandler = function() {
           $(".grid-container").remove();
           $("#goal").remove();
-          $("#popup-content").show();
+          $(".popup-content-wrapper").html("<div id='popup-content'><div id='m-info'><h1 id='name' style='font-size: 2em; padding-bottom: 10px'>PC7OX9DjPFgvml</h1><h3 id='year'>year: urMrN6oTncyr1A</h3><h3 id='recclass'>family: 2EkMu0iOn<h3><h3 id='latitude'>latitude: W3AXIE5GMHAOva</h3><h3 id='longitude'>longitude: wkIVtuOHKUX7cr</h3><br></div><div id='m-image'><%= image_tag 'p-green.png' %></div><p id='story'>UY16D8TfIAEKp2 zSK0sMyOHrQ0eV l8nqvLawMuJ2WD aCQhiMz0VlAPAQ 5kntlYoBCvx5kq JhFcbYHWg0Uy2Y 4j2DuHayM24rCI</p><h3 id='minigame-buttons'></h3><br></div>");
           var request = gamemap.game.defeat(currentMeteorite);
           request.done(function() {
             renderInfo(currentMeteorite);
@@ -82,13 +84,27 @@ Gamemap.prototype.renderMap = function() {
           });
         }
 
-        $("#minigame-button").on("click", function() {
+        $(".cartodb-infowindow").on("click", "#reset-button", function() {
           if (!currentMeteorite.defeated) {
             var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
             var minigame = new Minigame2048(difficulty, winHandler);
 
-            $("#popup-content").hide();
-            $(".popup-content-wrapper").append('<div class="grid-container"><div class="goal"><p>Target:'+ Math.pow(2, difficulty) +'</p></div><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
+            // $("#popup-content").hide();
+            $(".popup-content-wrapper").html('<div class="grid-container"><div class="goal"><p>Target:'+ Math.pow(2, difficulty) +'</p><button class="minigame-buttons" id="reset-button">RESET</button></div><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
+
+            minigame.spawn();
+            minigame.spawn();
+            minigame.play(gamemap, currentMeteorite);
+          }
+        });
+
+        $(".cartodb-infowindow").on("click", "#minigame-button", function() {
+          if (!currentMeteorite.defeated) {
+            var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
+            var minigame = new Minigame2048(difficulty, winHandler);
+
+            // $("#popup-content").hide();
+            $(".popup-content-wrapper").html('<div class="grid-container"><div class="goal"><p>Target:'+ Math.pow(2, difficulty) +'</p><button class="minigame-buttons" id="reset-button">RESET</button></div><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
 
             minigame.spawn();
             minigame.spawn();
@@ -146,10 +162,8 @@ var renderInfo = function(meteorite) {
   // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
   if (!meteorite.defeated) {
-    $(".minigame-buttons").show();
-  } else {
-    $(".minigame-buttons").hide();
-  }
+  $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
+  } else {$('#minigame-buttons').html(""); };
 }
 
 Gamemap.prototype.newQuery = function() {
