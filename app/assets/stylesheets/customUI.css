@@ -1,0 +1,56 @@
+#header {
+  z-index: 1000;
+  position: fixed;
+  height: 100px;
+}
+
+#title-box {
+  margin: 25px 0px 0px 50px;
+  font-size: 24px;
+  padding-right: 5px;
+}
+
+#title-box p:first-child {
+  margin-top: -10px;
+}
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  height: 350px;
+  width: 150px;
+  margin: 0px 10px 20px 0px;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  opacity: 0.9;
+}
+
+#sidebar #fam-list-header {
+  text-align: center;
+}
+
+#fam-list ul {
+  list-style-type: none;
+}
+
+#fam-list ul li {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@-webkit-keyframes flash {
+    0%   {color: white;}
+    100% {color: #ffff00;}
+  }
+
+#fam-rescue-display {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
