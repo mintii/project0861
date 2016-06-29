@@ -110,6 +110,7 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
   this.renderExponents();
   $(document).on("keydown", function(event) {
     event.preventDefault();
+    var beforeBoard = minigame.arrayBoard;
     switch(event.keyCode) {
       case 37:
         minigame.move("left");
@@ -127,7 +128,11 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
         minigame.move("down");
         break;
     }
-    if (true || minigame.checkForWin()) {
+    if(minigame.arrayBoard != beforeBoard) {
+      var soundEffect = new Audio('audio/move_tile.wav');
+      soundEffect.play();
+    };
+    if (minigame.checkForWin()) {
       minigame.renderExponents();
       minigame.win = true;
       minigame.onDone();
