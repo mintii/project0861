@@ -127,7 +127,7 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
         minigame.move("down");
         break;
     }
-    if (minigame.checkForWin()) {
+    if (true || minigame.checkForWin()) {
       minigame.renderExponents();
       minigame.win = true;
       minigame.onDone();

@@ -1,5 +1,5 @@
 var Gamemap =  function(game) {
-  this.game = game
+  this.game = game;
 
   var southWest = L.latLng(-64, -166),
     northEast = L.latLng(82, 180),
@@ -57,6 +57,7 @@ Gamemap.prototype.renderMap = function() {
         sanitizeTemplate: false
       });
 
+
     sublayer.on('featureClick', function(e, latlng, pos, data) {
 
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
@@ -74,7 +75,9 @@ Gamemap.prototype.renderMap = function() {
           $("#popup-content").show();
           var request = gamemap.game.defeat(currentMeteorite);
           request.done(function() {
+            console.log(gamemap.game)
             renderInfo(currentMeteorite);
+            renderFamilies(gamemap.game);
             sublayer.setSQL(gamemap.newQuery());
           });
         }
@@ -116,6 +119,15 @@ var findCurrentMeteorite = function(nasaId, meteorites) {
     }
   }
 }
+
+var renderFamilies = function(game) {
+  $('#L-display').text('L: ' + game.lfamily.length);
+  $('#H-display').text('H: ' + game.hfamily.length);
+  $('#I-display').text('I: ' + game.ifamily.length);
+  $('#U-display').text('U: ' + game.ufamily.length);
+}
+
+
 
 var renderInfo = function(meteorite) {
   $('#name').text(meteorite.name);
