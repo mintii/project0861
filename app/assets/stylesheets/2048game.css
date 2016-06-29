@@ -5,18 +5,19 @@
           align-items: center;
   -webkit-justify-content: center;
           justify-content: center;
-  height: 75px;
-  width: 75px;
-  margin: 5px;
+  height: 95px;
+  width: 95px;
+  margin: 7px;
   border: solid green 3px;
   padding: 15px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: 'Press Start 2P', cursive;
 }
 
 .grid-row {
-  width: 350px;
+  height: 110px;
+  width: 440px;
   display: -webkit-flex;
   display:         flex;
   -webkit-align-items: center;
@@ -26,7 +27,8 @@
 }
 
 .grid-container {
-  margin-left: 33%;
+  margin-top: -15px;
+  margin-left: 28%;
   margin-right: 25%;
 }
 

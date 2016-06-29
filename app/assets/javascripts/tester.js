@@ -1,6 +1,7 @@
 $(document).on("ready", function() {
   $('.leaflet-control-zoom-in').remove();
    var game = new Game();
+   renderFamilies(game);
   // var nogata = game.meteorites[0];
   // console.log(game.meteorites);
   // console.log(nogata.tellStory());
