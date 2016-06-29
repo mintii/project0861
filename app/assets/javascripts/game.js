@@ -2,14 +2,12 @@ var Game = function() {
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
+
   if (false) {
     var initialMeteorites = this.initializeMeteoritesAPI();
   } else {
     var initialMeteorites = this.loadGameMeteoritesAPI();
   }
-
-
-
 
   initialMeteorites.done(function(nasaData) {
     game.map.renderMap();
