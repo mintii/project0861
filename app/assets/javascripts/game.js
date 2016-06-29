@@ -97,9 +97,7 @@ Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
   var game = this;
   var request = $.get(path);
-  request.done(function(nasaData) {
-    // game.meteorites.push(new Meteorite(nasaData.features[0]));
-  })
+
   return request;
 }
 
