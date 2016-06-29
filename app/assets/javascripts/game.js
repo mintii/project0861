@@ -10,7 +10,7 @@ var Game = function() {
   initialMeteorites.done(function(nasaData) {
     game.map.renderMap();
   });
-
+  this.score = 0;
   this.lfamily = [];
   this.hfamily = [];
   this.ifamily = [];
@@ -65,6 +65,7 @@ Game.prototype.resetFamily = function(meteorite) {
 Game.prototype.checkFamilyVictory = function(meteorite) {
   if(meteorite.family.length >= 5) {
     this.resetFamily(meteorite);
+    this.score++;
     return true;
   } else {
     return false;
