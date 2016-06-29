@@ -6,6 +6,7 @@ var Gamemap =  function(game) {
     bounds = L.latLngBounds(southWest, northEast);
 
 
+
   this.map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 3,
