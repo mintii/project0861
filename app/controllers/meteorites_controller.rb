@@ -13,12 +13,12 @@ class MeteoritesController < ApplicationController
   end
 
   def create
-    @meteorite = Meteorite.find_by() || Meteorite.create(nasa_id: params[:nasa_id], family_id: determine_fam(params), user_id: current_user, defeated: true)
-    if @meteorite.save
-      redirect_to root_path #start game
-    else
+    @meteorite = Meteorite.find_or_initialize_by(nasa_id: params[:nasa_id], family_id: determine_fam(params), user_id: current_user, defeated: true)
+    @meteorite.save
+      # redirect_to root_path #start game
+    # else
       #shit is fucked if this hits
-    end
+    # end
   end
 
   def new
