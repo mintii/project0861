@@ -23,7 +23,8 @@ end
 def create
   @user = User.new(user_params)
   if @user.save
-    redirect_to '/'
+    session[:user_id] = @user.id
+    render 'users/map.html.erb'
   else
     render "new"
   end
