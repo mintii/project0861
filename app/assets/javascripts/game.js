@@ -145,7 +145,20 @@ Game.prototype.defeat = function(meteorite) {
     }
     //ADD THIS METEORITE TO THE DB
     console.log(meteorite);
-    var request = $.post("/meteorites", meteorite);
+    var family_id = "U";
+    if(meteorite.recclass[0] == "L") {
+      family_id = "L";
+    } else if(meteorite.recclass[0] == "H") {
+      family_id = "H";
+    } else if(meteorite.recclass[0] == "I") {
+      family_id = "I";
+    };
+
+    $.ajax({
+      url: "/meteorites",
+      method: "post",
+      data: {nasa_id: meteorite.nasaId, family_id: family_id}
+    });
 
     meteorite.generateStory();
     game.checkFamilyVictory(meteorite);
