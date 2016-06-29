@@ -128,8 +128,8 @@ var renderInfo = function(meteorite) {
   // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
   if (!meteorite.defeated) {
-    $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
-  } else { $('#minigame-buttons').html(""); };
+  $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
+  } else {$('#minigame-buttons').html(""); };
 }
 
 Gamemap.prototype.newQuery = function() {
