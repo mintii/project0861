@@ -66,7 +66,9 @@ Gamemap.prototype.renderMap = function() {
       request.done(function(data) {
         var nasaId = data["rows"][0]["nasaid"];
         var currentMeteorite = findCurrentMeteorite(nasaId, gamemap.game.meteorites);
-        renderInfo(currentMeteorite);
+        setTimeout(function() {
+          renderInfo(currentMeteorite);
+        }, 900);
 
         var winHandler = function() {
           $(".grid-container").remove();
@@ -79,7 +81,7 @@ Gamemap.prototype.renderMap = function() {
           });
         }
 
-        $("#minigame-button").on("click", function() {
+        $("#popup-content").on("click", "#minigame-button", function() {
           if (!currentMeteorite.defeated) {
             var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
             var minigame = new Minigame2048(difficulty, winHandler);
@@ -126,10 +128,8 @@ var renderInfo = function(meteorite) {
   // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
   if (!meteorite.defeated) {
-    $(".minigame-buttons").show();
-  } else {
-    $(".minigame-buttons").hide();
-  }
+    $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
+  } else { $('#minigame-buttons').html(""); };
 }
 
 Gamemap.prototype.newQuery = function() {
