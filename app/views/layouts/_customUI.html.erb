@@ -1,13 +1,16 @@
-<div id="header" class="ui-box">
+<div id="header">
   <table>
     <div id="header-tr">
       <tr>
         <td>
-          <div id="title-box">
+          <div id="title-box" class="ui-box">
           </div>
         </td>
         <td>
-          <div id="user-info-box">
+          <div id="user-info-box" class="ui-box">
+            <% if logged_in? %>
+              <p>Welcome <%= current_user.username %>!</p>
+            <% end %>
           </div>
       </tr>
     </div>
