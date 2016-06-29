@@ -5,13 +5,19 @@ var Game = function() {
 
   if (false) {
     var initialMeteorites = this.initializeMeteoritesAPI();
+    initialMeteorites.done(function() {
+      game.map.renderMap();
+    });
   } else {
     var initialMeteorites = this.loadGameMeteoritesAPI();
+    initialMeteorites.done(function() {
+      for(var i=0; i<game.meteorites.length; i++) {
+        game.defeat(game.meteorites[i]);
+      }
+      game.map.renderMap();
+    })
   }
 
-  initialMeteorites.done(function(nasaData) {
-    game.map.renderMap();
-  });
 
   this.lfamily = [];
   this.hfamily = [];
@@ -110,8 +116,6 @@ Game.prototype.loadGameMeteoritesAPI = function() {
   });
 
   var secondRequest = firstRequest.then(function() {
-    // https://data.nasa.gov/resource/y77d-th95.geojson?$where=(id=%27 16988 %27 %20 OR %20 id= %27 1 %27)
-
     var whereClause = nasaIds.map(function(id) {
                         return "id=%27" + id + "%27";
                       }).join("%20OR%20");
@@ -124,7 +128,7 @@ Game.prototype.loadGameMeteoritesAPI = function() {
     for(var i = 0; i < nasaData.features.length; i++){
       game.meteorites.push(new Meteorite(nasaData.features[i]));
     }
-
+    console.log(game.meteorites);
   });
   return secondRequest;
 }
