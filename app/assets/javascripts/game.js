@@ -8,6 +8,9 @@ var Game = function() {
     var initialMeteorites = this.loadGameMeteoritesAPI();
   }
 
+
+
+
   initialMeteorites.done(function(nasaData) {
     game.map.renderMap();
   });
