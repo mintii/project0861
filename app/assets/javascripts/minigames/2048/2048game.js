@@ -106,9 +106,11 @@ Minigame2048.prototype.checkForWin = function() {
 }
 
 Minigame2048.prototype.play = function(gamemap, meteorite) {
+  var soundEffect = new Audio('../audio/move_tile.wav');
   var minigame = this;
   this.renderExponents();
   $(document).on("keydown", function(event) {
+    var beforeBoard = minigame.arrayBoard.join(",");
     event.preventDefault();
     switch(event.keyCode) {
       case 37:
@@ -127,9 +129,16 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
         minigame.move("down");
         break;
     }
-    if (true || minigame.checkForWin()) {
+    console.log(beforeBoard);
+    console.log(minigame.arrayBoard.join(","));
+    if(minigame.arrayBoard.join(",") != beforeBoard) {
+      console.log(soundEffect);
+      soundEffect.play();
+    };
+    if (minigame.checkForWin()) {
       minigame.renderExponents();
       minigame.win = true;
+      // WIN SOUNDS
       minigame.onDone();
       $(document).off("keydown");
     } else {
