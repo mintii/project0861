@@ -10,20 +10,20 @@ var Game = function() {
     });
   } else {
     var initialMeteorites = this.loadGameMeteoritesAPI();
-    initialMeteorites.done(function() {
-      var request = function() {
-        for(var i=0; i<game.meteorites.length; i++) {
-          game.defeat(game.meteorites[i]);
-        }
+    var request = initialMeteorites.then(function() {
+      for(var i=0; i<game.meteorites.length; i++) {
+        game.defeat(game.meteorites[i]);
       }
-      request();
-      console.log(request);
-      request.done(function() {
-        console.log(game.meteorites);
-        game.map.renderMap();
-      });
     });
+
+    var secondRequest = request.then(function() {
+      console.log(game.meteorites);
+      game.map.renderMap();
+    });
+
+    // secondRequest();
   }
+
 
   this.lfamily = [];
   this.hfamily = [];
