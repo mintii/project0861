@@ -144,7 +144,8 @@ Game.prototype.defeat = function(meteorite) {
       }
     }
     //ADD THIS METEORITE TO THE DB
-    var request = $.post("/meteorites", function(meteorite){  });
+    console.log(meteorite);
+    var request = $.post("/meteorites", meteorite);
 
     meteorite.generateStory();
     game.checkFamilyVictory(meteorite);
