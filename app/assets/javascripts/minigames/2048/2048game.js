@@ -107,6 +107,7 @@ Minigame2048.prototype.checkForWin = function() {
 
 Minigame2048.prototype.play = function(gamemap, meteorite) {
   var soundEffect = new Audio('../audio/move_tile.wav');
+  var victorySound = new Audio('../audio/victory.wav');
   var minigame = this;
   this.renderExponents();
   $(document).on("keydown", function(event) {
@@ -129,16 +130,15 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
         minigame.move("down");
         break;
     }
-    console.log(beforeBoard);
-    console.log(minigame.arrayBoard.join(","));
+
     if(minigame.arrayBoard.join(",") != beforeBoard) {
-      console.log(soundEffect);
       soundEffect.play();
-    };
+    }
+
     if (minigame.checkForWin()) {
       minigame.renderExponents();
       minigame.win = true;
-      // WIN SOUNDS
+      victorySound.play();
       minigame.onDone();
       $(document).off("keydown");
     } else {
