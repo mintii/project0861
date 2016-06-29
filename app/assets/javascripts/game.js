@@ -11,13 +11,19 @@ var Game = function() {
   } else {
     var initialMeteorites = this.loadGameMeteoritesAPI();
     initialMeteorites.done(function() {
-      for(var i=0; i<game.meteorites.length; i++) {
-        game.defeat(game.meteorites[i]);
+      var request = function() {
+        for(var i=0; i<game.meteorites.length; i++) {
+          game.defeat(game.meteorites[i]);
+        }
       }
-      game.map.renderMap();
-    })
+      request();
+      console.log(request);
+      request.done(function() {
+        console.log(game.meteorites);
+        game.map.renderMap();
+      });
+    });
   }
-
 
   this.lfamily = [];
   this.hfamily = [];
@@ -105,7 +111,7 @@ Game.prototype.initializeMeteoritesAPI = function() {
 }
 
 Game.prototype.loadGameMeteoritesAPI = function() {
-  var path = "/meteorites";  //fill this in
+  var path = "/meteorites";
   var game = this;
   var nasaIds = [];
   var firstRequest = $.get(path);
@@ -128,7 +134,6 @@ Game.prototype.loadGameMeteoritesAPI = function() {
     for(var i = 0; i < nasaData.features.length; i++){
       game.meteorites.push(new Meteorite(nasaData.features[i]));
     }
-    console.log(game.meteorites);
   });
   return secondRequest;
 }
