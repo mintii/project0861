@@ -123,12 +123,10 @@ Game.prototype.loadGameMeteoritesAPI = function() {
     return $.get(path);
   });
   secondRequest.done(function(nasaData){
-    console.log(nasaData);
-    for(var i = 0; i < nasaData.length; i++){
-      console.log("HI!");
+    for(var i = 0; i < nasaData.features.length; i++){
       game.meteorites.push(new Meteorite(nasaData.features[i]));
     }
-    console.log(game.meteorites);
+
   });
   return secondRequest;
 }
