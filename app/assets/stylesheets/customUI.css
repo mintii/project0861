@@ -17,13 +17,13 @@
 #sidebar {
   z-index: 1000;
   position: fixed;
-  height: 400px;
+  height: 350px;
   width: 150px;
-  margin: 0px 10px 10px 0px;
+  margin: 0px 10px 20px 0px;
   padding: 10px;
   bottom: 0;
   right: 0;
-  opacity: 1.0;
+  opacity: 0.9;
 }
 
 #sidebar #fam-list-header {
@@ -47,9 +47,10 @@
 
 #fam-rescue-display {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 1.2em;
   -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
