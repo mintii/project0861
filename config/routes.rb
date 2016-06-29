@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   resources :users, only: [:new, :create, :show, :index]
   resources :meteorites, only: [:new, :create, :index]
+  get '/meteorites', to: 'meteorites#index', defaults: {format: 'json'}
+
   resources :sessions, only: [:create]
   resources :families, only: [:new, :create]
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)

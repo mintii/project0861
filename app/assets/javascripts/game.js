@@ -2,7 +2,7 @@ var Game = function() {
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
-  if () {
+  if (false) {
     var initialMeteorites = this.initializeMeteoritesAPI();
   } else {
     var initialMeteorites = this.loadGameMeteoritesAPI();
@@ -98,14 +98,36 @@ Game.prototype.initializeMeteoritesAPI = function() {
 }
 
 Game.prototype.loadGameMeteoritesAPI = function() {
-
-
   var path = "/meteorites";  //fill this in
   var game = this;
-  var request = $.get(path);
-  request.done(function(userMeteorites) { //fill this in later
-  };
-  return request;
+  var nasaIds = [];
+  var firstRequest = $.get(path);
+  firstRequest.done(function(userMeteoritesData) {
+    for (var i=0; i<userMeteoritesData.length; i++) {
+      nasaIds.push(userMeteoritesData[i]["nasa_id"]);
+    }
+  });
+
+  var secondRequest = firstRequest.then(function() {
+    // https://data.nasa.gov/resource/y77d-th95.geojson?$where=(id=%27 16988 %27 %20 OR %20 id= %27 1 %27)
+
+    var whereClause = nasaIds.map(function(id) {
+                        return "id=%27" + id + "%27";
+                      }).join("%20OR%20");
+
+    var path = "https://data.nasa.gov/resource/y77d-th95.geojson?$where=(" + whereClause + ")";
+
+    return $.get(path);
+  });
+  secondRequest.done(function(nasaData){
+    console.log(nasaData);
+    for(var i = 0; i < nasaData.length; i++){
+      console.log("HI!");
+      game.meteorites.push(new Meteorite(nasaData.features[i]));
+    }
+    console.log(game.meteorites);
+  });
+  return secondRequest;
 }
 
 Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {

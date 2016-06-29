@@ -23,7 +23,7 @@ class MeteoritesController < ApplicationController
   # end
 
   def index
-    @meteorites = current_user.meteorites
-
+    @meteorites = current_user.meteorites.to_json
+    render json: @meteorites
   end
 end
