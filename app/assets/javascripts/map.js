@@ -75,9 +75,9 @@ Gamemap.prototype.renderMap = function() {
           $("#popup-content").show();
           var request = gamemap.game.defeat(currentMeteorite);
           request.done(function() {
-            console.log(gamemap.game)
             renderInfo(currentMeteorite);
             renderFamilies(gamemap.game);
+            renderVictoryDisplay(gamemap.game, currentMeteorite);
             sublayer.setSQL(gamemap.newQuery());
           });
         }
@@ -125,6 +125,14 @@ var renderFamilies = function(game) {
   $('#H-display').text('H: ' + game.hfamily.length);
   $('#I-display').text('I: ' + game.ifamily.length);
   $('#U-display').text('U: ' + game.ufamily.length);
+}
+
+var renderVictoryDisplay = function(game, meteorite) {
+  if (game.checkFamilyVictory(meteorite)) {
+      $('#fam-rescue-display').text('You reunited a family!').show();
+  } else {
+    $('#fam-rescue-display').hide();
+  }
 }
 
 
