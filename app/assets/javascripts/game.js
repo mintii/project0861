@@ -4,9 +4,6 @@ var Game = function() {
   var game = this;
   var initialMeteorites = this.initializeMeteoritesAPI();
 
-
-
-
   initialMeteorites.done(function(nasaData) {
     game.map.renderMap();
   });
@@ -66,6 +63,7 @@ Game.prototype.checkFamilyVictory = function(meteorite) {
   if(meteorite.family.length >= 5) {
     this.resetFamily(meteorite);
     this.score++;
+    $('#score').html(this.score);
     return true;
   } else {
     return false;
