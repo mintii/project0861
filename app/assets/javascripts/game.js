@@ -12,6 +12,14 @@ var Game = function() {
   this.hfamily = [];
   this.ifamily = [];
   this.ufamily = [];
+  this.saveFamilies();
+}
+
+Game.prototype.saveFamilies = function() {
+  rocktypes = ["L", "H", "I", "U"];
+  for (var i=0; i<rocktypes.length; i++) {
+    $.ajax({method: "post", url: "/families", data: {rock_type: rocktypes[i]}});
+  }
 }
 
 Game.prototype.findFamily = function(meteorite) {
@@ -48,12 +56,10 @@ Game.prototype.resetFamily = function(meteorite) {
   } else {
     this.ufamily = [];
   };
-  // Alert player they have helped a family return to space. Encourage them to find more meteorites.
+  this.saveFamilies();
 }
 
 Game.prototype.checkFamilyVictory = function(meteorite) {
-  // var family = this.findFamily(meteorite);
-  console.log(this);
   if(meteorite.family.length >= 5) {
     this.resetFamily(meteorite);
     return true;
@@ -77,7 +83,6 @@ Game.prototype.findMeteorite = function(currentMeteorite) {
 
 Game.prototype.initializeMeteoritesAPI = function() {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year';
-  // var features = null;
   var game = this;
 
   var request = $.get(path);
@@ -92,9 +97,7 @@ Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
   var game = this;
   var request = $.get(path);
-  request.done(function(nasaData) {
-    // game.meteorites.push(new Meteorite(nasaData.features[0]));
-  })
+
   return request;
 }
 
@@ -116,10 +119,6 @@ Game.prototype.extendMeteoritesAPI = function(currentMeteorite) {
 
   return secondRequest;
 }
-
-// Game.prototype.setNextMeteorite = function(currentMeteorite) {
-//   currentMeteorite.nextMeteorite = this.getNextMeteoriteAPI(currentMeteorite);
-// }
 
 var includeCheck = function(meteorite, meteorites) {
   returnValue = false;
@@ -144,6 +143,23 @@ Game.prototype.defeat = function(meteorite) {
         game.meteorites.push(newMeteorite);
       }
     }
+    //ADD THIS METEORITE TO THE DB
+    console.log(meteorite);
+    var family_id = "U";
+    if(meteorite.recclass[0] == "L") {
+      family_id = "L";
+    } else if(meteorite.recclass[0] == "H") {
+      family_id = "H";
+    } else if(meteorite.recclass[0] == "I") {
+      family_id = "I";
+    };
+
+    $.ajax({
+      url: "/meteorites",
+      method: "post",
+      data: {nasa_id: meteorite.nasaId, family_id: family_id}
+    });
+
     meteorite.generateStory();
     game.checkFamilyVictory(meteorite);
   });

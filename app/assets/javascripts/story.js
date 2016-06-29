@@ -8,7 +8,6 @@ Story.prototype.generateTree = function(grammar) {
 };
 
 Story.prototype.renderStory = function() {
-  // add case logic
   return this.storyTree.finalText;
 }
 
@@ -21,10 +20,7 @@ Story.prototype.confusedGrammar = function() {return {
   };
 }
 
-Story.prototype.coherentGrammar = function() {
-  console.log(this.meteorite);
-  console.log(this.meteorite.family.length);
-  return {
+Story.prototype.coherentGrammar = function() {return {
   "thanks": [
     "THANKS!",
     "Wowzers, you're great!",
@@ -70,8 +66,6 @@ Story.prototype.coherentGrammar = function() {
   }, "") + "and we are now reunited!  This " + this.meteorite.recclass + " family is #pun# #conclusion#"],
   "familyNotFound": ["#expandedOrigin# #" + this.classAbouts(this.meteorite) + "#  #" + this.whereabouts(this.meteorite) + "# #clue#"],
   "origin": ["#thanks# " + (this.meteorite.family.length < 5 ? "#familyNotFound#" : "#familyFound#")]
-
-  // "origin": ["#thanks# #expandedOrigin#  #" + this.classAbouts(this.meteorite) + "#  #" + this.whereabouts(this.meteorite) + "#  #conclusion#"]
   }
 }
 
