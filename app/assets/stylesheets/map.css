@@ -1,26 +1,26 @@
 html, body {width:100%; height:100%; padding: 0; margin: 0;}
 #cartodb-map { width: 100%; height:100%; background: black;}
 
+.ui-box {
+    background: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.9;
+}
+
 .popup {
   overflow: auto;
   position: fixed;
   top: 20%;
   left: 20%;
-  height: 500px;
+  height: 550px;
   width: 1000px;
 
   padding:20px;
-
-  background: #000;
-  filter:alpha(opacity=50);
-  -moz-opacity:0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.9;
-
   color: white;
   font-family: 'Press Start 2P', cursive;
   font-size: 16px;
-  border-radius: 1px;
 }
 
 .popup .popup-content-wrapper {
