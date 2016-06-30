@@ -60,8 +60,16 @@
   animation-direction: alternate;
 }
 
+#welcome-user-box {
+  float: left;
+  margin-right: 5px;
+}
+
+#logout-button-box {
+  float: right;
+}
+
 #logout-button {
   height: 18px;
   margin: -3px;
-
 }
