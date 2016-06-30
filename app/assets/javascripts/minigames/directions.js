@@ -3,8 +3,7 @@ $(document).ready(function() {
     $("#direction_template").hide();
   });
 
-  var hints = $('#direction_template');
-  hints.on('click', function(){
-    hints.toggle();
+ $('#hint_button').on('click', function(){
+    $("#direction_template").toggle();
   });
 });
