@@ -34,8 +34,6 @@ var Game = function(startNewGame = true) {
 
 }
 
-
-
 Game.prototype.saveFamilies = function() {
   rocktypes = ["L", "H", "I", "U"];
   for (var i=0; i<rocktypes.length; i++) {
@@ -74,7 +72,7 @@ Game.prototype.resetFamily = function(meteorite) {
     this.ifamily = [];
   } else if (recclass == "H") {
     this.hfamily = [];
-  } else {
+  } else { //U
     this.ufamily = [];
   };
   this.saveFamilies();
@@ -194,7 +192,7 @@ Game.prototype.defeat = function(meteorite) {
         game.meteorites.push(newMeteorite);
       }
     }
-    //ADD THIS METEORITE TO THE DB
+
     var family_id = "U";
     if(meteorite.recclass[0] == "L") {
       family_id = "L";
