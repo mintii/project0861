@@ -1,22 +1,44 @@
-var Game = function() {
+var Game = function(startNewGame = true) {
+  //user
+  //if user.meteorites.length > 1 start
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
-  var initialMeteorites = this.initializeMeteoritesAPI();
+
+  if (startNewGame) {
+    var initialMeteorites = this.initializeMeteoritesAPI();
+    initialMeteorites.done(function() {
+      game.map.renderMap();
+    });
+  } else {
+    var initialMeteorites = this.loadGameMeteoritesAPI();
+    var request = initialMeteorites.then(function() {
+      for(var i=0; i<game.meteorites.length; i++) {
+        game.defeat(game.meteorites[i]);
+      }
+    });
+
+    //LAZY SHIT -- ASK TEACHER
+    var secondRequest = request.done(function() {
+      setTimeout(function(){
+        game.map.renderMap();
+      }, 1000)
+    });
 
 
 
+  }
 
-  initialMeteorites.done(function(nasaData) {
-    game.map.renderMap();
-  });
 
   this.lfamily = [];
   this.hfamily = [];
   this.ifamily = [];
   this.ufamily = [];
   this.saveFamilies();
+
 }
+
+
 
 Game.prototype.saveFamilies = function() {
   rocktypes = ["L", "H", "I", "U"];
@@ -96,6 +118,36 @@ Game.prototype.initializeMeteoritesAPI = function() {
   return request;
 }
 
+Game.prototype.loadGameMeteoritesAPI = function() {
+  var path = "/meteorites";
+  var game = this;
+  var nasaIds = [];
+  var firstRequest = $.get(path);
+  firstRequest.done(function(userMeteoritesData) {
+    for (var i=0; i<userMeteoritesData.length; i++) {
+      nasaIds.push(userMeteoritesData[i]["nasa_id"]);
+    }
+  });
+
+  var secondRequest = firstRequest.then(function() {
+    var whereClause = nasaIds.map(function(id) {
+      return "id=%27" + id + "%27";
+    }).join("%20OR%20");
+    console.log(nasaIds);
+    console.log(whereClause);
+
+    var path = "https://data.nasa.gov/resource/y77d-th95.geojson?$where=(" + whereClause + ")";
+
+    return $.get(path);
+  });
+  secondRequest.done(function(nasaData){
+    for(var i = 0; i < nasaData.features.length; i++){
+      game.meteorites.push(new Meteorite(nasaData.features[i]));
+    }
+  });
+  return secondRequest;
+}
+
 Game.prototype.getNextMeteoriteAPI = function(currentMeteorite) {
   var path = 'https://data.nasa.gov/resource/y77d-th95.geojson?$limit=1&$order=year&$where=(recclass=%27' + currentMeteorite.recclass + '%27%20AND%20year%20>%27'+ currentMeteorite.year + '%27)';
   var game = this;
@@ -147,7 +199,6 @@ Game.prototype.defeat = function(meteorite) {
       }
     }
     //ADD THIS METEORITE TO THE DB
-    console.log(meteorite);
     var family_id = "U";
     if(meteorite.recclass[0] == "L") {
       family_id = "L";

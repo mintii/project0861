@@ -63,6 +63,7 @@ Gamemap.prototype.renderMap = function() {
       renderFamilies(gamemap.game);
 
 
+
     sublayer.on('featureClick', function(e, latlng, pos, data) {
 
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
