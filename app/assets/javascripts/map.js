@@ -2,10 +2,10 @@ var Gamemap =  function(game) {
   this.game = game;
 
   var southWest = L.latLng(-64, -166),
-    northEast = L.latLng(82, 180),
-    bounds = L.latLngBounds(southWest, northEast);
+      northEast = L.latLng(82, 180),
+      bounds = L.latLngBounds(southWest, northEast);
 
-
+  //instantiate new Leaflet map and set scrolling and zoom limits
   this.map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 3,
@@ -14,12 +14,11 @@ var Gamemap =  function(game) {
     maxBounds: bounds
   });
 
+  //set basemap
   L.tileLayer('https://a.tiles.mapbox.com/v4/colemanm.blue-marble-8bit/{z}/{x}/{y}.png?access_token={token}', {
     attribution: 'cartodb-map',
     token: 'pk.eyJ1IjoiY29sZW1hbm0iLCJhIjoieW8wN2lTNCJ9.j1zlDeYFSVAl8XWjaHY-5w#4/7.58/11.56'
   }).addTo(this.map);
-
-
 
   //show mouse coordiantes onscreen
   L.control.coordinates({
@@ -36,6 +35,7 @@ var Gamemap =  function(game) {
   }).addTo(this.map);
 };
 
+//renders game and map with meteorite overlay provided by CartoDB and NASA API
 Gamemap.prototype.renderMap = function() {
   var layerUrl = 'https://tlantz.cartodb.com/api/v2/viz/8cdeef5c-3d78-11e6-b546-0e31c9be1b51/viz.json';
   var subLayerOptions = {
@@ -75,7 +75,7 @@ Gamemap.prototype.renderMap = function() {
         var winHandler = function() {
           $(".grid-container").remove();
           $("#goal").remove();
-          $(".popup-content-wrapper").html("<div id='popup-content'><div id='m-info'><h1 id='name' style='font-size: 2em; padding-bottom: 10px'>PC7OX9DjPFgvml</h1><h3 id='year'>year: urMrN6oTncyr1A</h3><h3 id='recclass'>family: 2EkMu0iOn<h3><h3 id='latitude'>latitude: W3AXIE5GMHAOva</h3><h3 id='longitude'>longitude: wkIVtuOHKUX7cr</h3><br></div><div id='m-image'><img src='../assets/p-green.png' class='profile_pic'></div><p id='story'>UY16D8TfIAEKp2 zSK0sMyOHrQ0eV l8nqvLawMuJ2WD aCQhiMz0VlAPAQ 5kntlYoBCvx5kq JhFcbYHWg0Uy2Y 4j2DuHayM24rCI</p><h3 id='minigame-buttons'></h3><br></div>");
+          $(".popup-content-wrapper").html("<div id='popup-content'><div id='m-info'><h1 id='name' style='font-size: 2em; padding-bottom: 10px'>PC7OX9DjPFgvml</h1><h3 id='year'>year: urMrN6oTncyr1A</h3><h3 id='recclass'>family: 2EkMu0iOn<h3><h3 id='latitude'>latitude: W3AXIE5GMHAOva</h3><h3 id='longitude'>longitude: wkIVtuOHKUX7cr</h3><br></div><div id='m-image'></div><p id='story'>UY16D8TfIAEKp2 zSK0sMyOHrQ0eV l8nqvLawMuJ2WD aCQhiMz0VlAPAQ 5kntlYoBCvx5kq JhFcbYHWg0Uy2Y 4j2DuHayM24rCI</p><h3 id='minigame-buttons'></h3><br></div>");
           var request = gamemap.game.defeat(currentMeteorite);
           request.done(function() {
             renderInfo(currentMeteorite);
@@ -130,6 +130,12 @@ Gamemap.prototype.renderMap = function() {
   });
 }
 
+Gamemap.prototype.newQuery = function() {
+  var yearFrom = "'0860-12-24T14:26:40-06:00'"
+  var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
+  return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= ('" + lastMeteorite.year + "'))"
+}
+
 var findCurrentMeteorite = function(nasaId, meteorites) {
   for (var i = 0; i < meteorites.length; i++) {
     if (meteorites[i].nasaId == nasaId) {
@@ -153,23 +159,39 @@ var renderVictoryDisplay = function(game, meteorite) {
   }
 }
 
-
-
 var renderInfo = function(meteorite) {
   $('#name').text(meteorite.name);
   $('#year').text('year: ' + meteorite.getYear() + ' AD');
   $('#recclass').text('family: ' + meteorite.recclass);
   $('#latitude').text('latitude: ' + meteorite.getLat());
   $('#longitude').text('longitude: ' + meteorite.getLong());
-  // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
+
+  renderProfileImage(meteorite);
+
   if (!meteorite.defeated) {
   $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
   } else {$('#minigame-buttons').html(""); };
 }
 
-Gamemap.prototype.newQuery = function() {
-  var yearFrom = "'0860-12-24T14:26:40-06:00'"
-  var lastMeteorite = this.game.meteorites[this.game.meteorites.length -1];
-  return "SELECT * FROM rows WHERE (year >= (" + yearFrom + ") AND year <= ('" + lastMeteorite.year + "'))"
+var renderProfileImage = function(meteorite) {
+  switch(meteorite.recclass.charAt(0).toLowerCase()) {
+    case 'h':
+        $('#m-image').html('<img class="profile_pic" src="/assets/p-blue.png">');
+        break;
+    case 'c':
+        $('#m-image').html('<img class="profile_pic" src="/assets/p-blue.png">');
+        break;
+    case 'l':
+        $('#m-image').html('<img class="profile_pic" src="/assets/p-orange.png">');
+        break;
+    default:
+        $('#m-image').html('<img class="profile_pic" src="/assets/p-green.png">');
 }
+
+}
+
+
+
+
+
