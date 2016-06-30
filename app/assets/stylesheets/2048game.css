@@ -46,3 +46,7 @@
   margin: -30px 15px 0px 0px;
   font-family: 'Press Start 2P', cursive;
 }
+
+#minigame-button {
+  border-radius: 2px;
+}
