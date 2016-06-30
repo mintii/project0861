@@ -15,7 +15,10 @@
 
 <div class="high-score-container">
   <ul class="high-scores">
-    <%= %>
+    <h2 class="high-scores-head">High Scores</h2>
+    <% (0..4).each do |rank| %>
+      <li><%= "#{rank+1})  #{@highscores[rank]}  (#{@highscore_names[rank]})" %>
+    <% end %>
   </ul>
 </div>
 

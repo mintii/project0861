@@ -18,8 +18,22 @@ end
 
 def index
   @user = User.new
-  # @highscores = User.order("families").limit(5);
-  # p @highscores
+  highscore_data = User.all.sort { |a,b| a.families.length <=> b.families.length }[0..4]
+  p highscore_data
+  @highscores = []
+  @highscore_names = []
+  (0..4).each do |rank|
+    if highscore_data[rank]
+      @highscores[rank] = highscore_data[rank].families.length
+      @highscore_names[rank] = highscore_data[rank].username
+    else
+      @highscores[rank] = 0
+      @highscore_names[rank] = "Your Name Could Go Here!"
+    end
+  end
+  p @highscores
+  p @highscore_names
+
   if session[:user_id]
     redirect_to user_path(id: session[:user_id])
   end
