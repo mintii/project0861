@@ -55,7 +55,7 @@ def create
   if @user.save
     @start_new_game = true
     session[:user_id] = @user.id
-    render 'users/map.html.erb'
+    redirect_to user_path(id: @user.id)
   else
     render "new"
   end
