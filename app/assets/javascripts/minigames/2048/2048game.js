@@ -130,6 +130,13 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
       }
     };
 
+    //cheat mode for presentation
+    if (event.keyCode == 87) {
+      minigame.win = true;
+      minigame.onDone();
+      $(document).off("keydown");
+    }
+
     switch(event.keyCode) {
       case 37:
         minigame.move("left");
