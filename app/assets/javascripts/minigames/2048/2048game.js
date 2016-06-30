@@ -113,37 +113,44 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
   $(document).on("keydown", function(event) {
     var beforeBoard = minigame.arrayBoard.join(",");
     event.preventDefault();
+    var afterMove = function() {
+      if(minigame.arrayBoard.join(",") != beforeBoard) {
+        soundEffect.play();
+      }
+
+      if (minigame.checkForWin()) {
+        minigame.renderExponents();
+        minigame.win = true;
+        victorySound.play();
+        minigame.onDone();
+        $(document).off("keydown");
+      } else {
+        minigame.spawn();
+        minigame.renderExponents();
+      }
+    };
+
     switch(event.keyCode) {
       case 37:
         minigame.move("left");
+        afterMove();
         break;
 
       case 38:
         minigame.move("up");
+        afterMove();
         break;
 
       case 39:
         minigame.move("right");
+        afterMove();
         break;
 
       case 40:
         minigame.move("down");
+        afterMove();
         break;
     }
 
-    if(minigame.arrayBoard.join(",") != beforeBoard) {
-      soundEffect.play();
-    }
-
-    if (minigame.checkForWin()) {
-      minigame.renderExponents();
-      minigame.win = true;
-      victorySound.play();
-      minigame.onDone();
-      $(document).off("keydown");
-    } else {
-      minigame.spawn();
-      minigame.renderExponents();
-    }
   });
 }
