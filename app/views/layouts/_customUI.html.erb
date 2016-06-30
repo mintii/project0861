@@ -1,15 +1,16 @@
-<div id="header" class="ui-box">
+<div id="header">
   <table>
     <div id="header-tr">
       <tr>
         <td>
-          <div id="title-box">
-            <p>project</p>
-            <p><span style='font-size: 2em'> &nbsp &nbsp 0861</span></p>
+          <div id="title-box" class="ui-box">
           </div>
         </td>
         <td>
-          <div id="user-info-box">
+          <div id="user-info-box" class="ui-box">
+            <% if logged_in? %>
+              <p>Welcome <%= current_user.username %>!</p>
+            <% end %>
           </div>
       </tr>
     </div>
@@ -17,17 +18,5 @@
 </div>
 
 <div id="sidebar" class="ui-box">
-  <div id="fam-list-header">
-    <h5>Family Members Collected</h5>
-  </div>
-  <div id="fam-list">
-    <ul>
-      <li id="L-display"></li>
-      <li id="H-display"></li>
-      <li id="I-display"></li>
-      <li id="U-display"></li>
-    </ul>
-  </div>
-  <div id="fam-rescue-display">
-  </div>
+
 </div>

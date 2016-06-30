@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  helper SessionsHelper
   # before_action :find_user, only: [:new, :create]
 def new
   @user = User.new
@@ -6,6 +7,7 @@ def new
 end
 
 def show
+
   if session[:user_id]
     @user = current_user
     render 'users/map.html.erb'
@@ -22,7 +24,8 @@ end
 def create
   @user = User.new(user_params)
   if @user.save
-    redirect_to '/'
+    session[:user_id] = @user.id
+    render 'users/map.html.erb'
   else
     render "new"
   end

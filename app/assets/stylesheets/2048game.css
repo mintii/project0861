@@ -40,3 +40,10 @@
   -webkit-justify-content: center;
           justify-content: center;
 }
+
+
+#reset-button {
+  float: right;
+  margin: -30px 15px 0px 0px;
+  font-family: 'Press Start 2P', cursive;
+}
