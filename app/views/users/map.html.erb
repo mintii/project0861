@@ -3,7 +3,7 @@
     var game = new Game(<%= @start_new_game %>);
   });
 </script>
-<audio src="../audio/background.wav" autoplay loop>
+<audio id="bg_loop" src="../audio/background.wav" autoplay loop>
   Your browser does not support the <code>audio</code> element.
 </audio>
 <div id='cartodb-map'></div>
@@ -32,6 +32,7 @@ zSK0sMyOHrQ0eV l8nqvLawMuJ2WD aCQhiMz0VlAPAQ 5kntlYoBCvx5kq JhFcbYHWg0Uy2Y 4j2Du
     </div>
   </div>
 </script>
+<<<<<<< HEAD
 
 <div id="direction_template">
   <div class="directions-popup ui-box">
@@ -60,4 +61,12 @@ zSK0sMyOHrQ0eV l8nqvLawMuJ2WD aCQhiMz0VlAPAQ 5kntlYoBCvx5kq JhFcbYHWg0Uy2Y 4j2Du
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  var audio = document.getElementById('bg_loop');
+  $('#mute_button').on('click', function(e) {
+    e.preventDefault();
+    audio.muted = !audio.muted;
+  });
+</script>
 
