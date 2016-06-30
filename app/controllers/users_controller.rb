@@ -28,7 +28,7 @@ def index
       @highscore_names[rank] = highscore_data[rank].username
     else
       @highscores[rank] = 0
-      @highscore_names[rank] = "Your Name Could Go Here!"
+      @highscore_names[rank] = "(none)"
     end
   end
   p @highscores
