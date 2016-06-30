@@ -1,4 +1,4 @@
-var Game = function(startNewGame = true) {
+var Game = function(startNewGame) {
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
