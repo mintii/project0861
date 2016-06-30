@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  helper SessionsHelper
+  # helper SessionsHelper
   # before_action :find_user, only: [:new, :create]
 def new
   @user = User.new
@@ -8,7 +8,7 @@ end
 
 def show
   if session[:user_id]
-    @start_new_game = false
+    @start_new_game = User.find(session[:user_id]).meteorites.length == 0
     @user = User.find(session[:user_id])
     render 'users/map.html.erb'
   else
@@ -18,6 +18,8 @@ end
 
 def index
   @user = User.new
+  # @highscores = User.by_family.limit(5)
+  p @highscores
   if session[:user_id]
     render 'users/map'
   end
