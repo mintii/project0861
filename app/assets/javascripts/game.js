@@ -131,8 +131,10 @@ Game.prototype.loadGameMeteoritesAPI = function() {
 
   var secondRequest = firstRequest.then(function() {
     var whereClause = nasaIds.map(function(id) {
-                        return "id=%27" + id + "%27";
-                      }).join("%20OR%20");
+      return "id=%27" + id + "%27";
+    }).join("%20OR%20");
+    console.log(nasaIds);
+    console.log(whereClause);
 
     var path = "https://data.nasa.gov/resource/y77d-th95.geojson?$where=(" + whereClause + ")";
 
