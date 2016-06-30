@@ -16,12 +16,16 @@ var Game = function() {
       }
     });
 
-    var secondRequest = request.then(function() {
+    //LAZY SHIT -- ASK TEACHER
+    var secondRequest = request.done(function() {
+      setTimeout(function(){
       console.log(game.meteorites);
-      game.map.renderMap();
+        game.map.renderMap();
+      }, 2000)
     });
 
-    // secondRequest();
+
+
   }
 
 
@@ -30,7 +34,10 @@ var Game = function() {
   this.ifamily = [];
   this.ufamily = [];
   this.saveFamilies();
+
 }
+
+
 
 Game.prototype.saveFamilies = function() {
   rocktypes = ["L", "H", "I", "U"];
