@@ -29,6 +29,7 @@ var Game = function(startNewGame = true) {
 
   }
 
+  this.score = 0;
 
   this.lfamily = [];
   this.hfamily = [];
@@ -87,6 +88,8 @@ Game.prototype.resetFamily = function(meteorite) {
 Game.prototype.checkFamilyVictory = function(meteorite) {
   if(meteorite.family.length >= 5) {
     this.resetFamily(meteorite);
+    this.score++;
+    $('#score').html(this.score);
     return true;
   } else {
     return false;

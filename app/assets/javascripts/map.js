@@ -46,7 +46,6 @@ Gamemap.prototype.renderMap = function() {
   var gamemap = this;
   var map = this.map;
 
-
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
 
@@ -59,13 +58,12 @@ Gamemap.prototype.renderMap = function() {
       });
 
       $('#title-box').html("<p>project</p><p><span style='font-size: 2em'> &nbsp &nbsp 0861</span></p>");
-      $('#sidebar').html("<div id='fam-list-header'><h5>Family Members Collected</h5></div><div id='fam-list'><ul><li id='L-display'></li><li id='H-display'></li><li id='I-display'></li> <li id='U-display'></li></ul></div><div id='fam-rescue-display'></div>")
+      $('#sidebar').html("<div id='score-header'><h5>Score</h5><div id='score'>0</div><p>-----</p></div><div id='fam-list-header'><h5>Family Members Collected</h5></div><div id='fam-list'><ul><li id='L-display'></li><li id='H-display'></li><li id='I-display'></li> <li id='U-display'></li></ul></div><div id='fam-rescue-display'></div>")
       renderFamilies(gamemap.game);
 
 
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
-
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
@@ -127,6 +125,7 @@ Gamemap.prototype.renderMap = function() {
             });
           }
         });
+
       });
     });
     }).on('error', function() {

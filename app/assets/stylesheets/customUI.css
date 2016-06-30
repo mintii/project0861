@@ -59,3 +59,9 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+#logout-button {
+  height: 18px;
+  margin: -3px;
+
+}
