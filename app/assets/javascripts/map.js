@@ -6,8 +6,6 @@ var Gamemap =  function(game) {
     bounds = L.latLngBounds(southWest, northEast);
 
 
-
-
   this.map = new L.Map('cartodb-map', {
     center: [0,0],
     zoom: 3,
@@ -58,9 +56,8 @@ Gamemap.prototype.renderMap = function() {
       });
 
       $('#title-box').html("<p>project</p><p><span style='font-size: 2em'> &nbsp &nbsp 0861</span></p>");
-      $('#sidebar').html("<div id='score-header'><h5>Score</h5><div id='score'>0</div><p>-----</p></div><div id='fam-list-header'><h5>Family Members Collected</h5></div><div id='fam-list'><ul><li id='L-display'></li><li id='H-display'></li><li id='I-display'></li> <li id='U-display'></li></ul></div><div id='fam-rescue-display'></div>")
+      $('#sidebar').html("<div id='fam-list-header'><h5>Family Members Collected</h5></div><div id='fam-list'><ul><li id='L-display'></li><li id='H-display'></li><li id='I-display'></li> <li id='U-display'></li></ul></div><div id='score-header'><h5>Families Reunited</h5><div id='score'>0</div></div><div id='fam-rescue-display'></div>")
       renderFamilies(gamemap.game);
-
 
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
