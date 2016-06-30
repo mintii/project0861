@@ -7,7 +7,6 @@ def new
 end
 
 def show
-
   if session[:user_id]
     render 'users/map.html.erb'
   else
@@ -17,7 +16,11 @@ end
 
 def index
   @user = User.new
-  render 'users/index'
+  if session[:user_id]
+    render 'users/map.html.erb'
+  else
+    redirect_to 'users#index'
+  end
 end
 
 def create

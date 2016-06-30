@@ -40,10 +40,13 @@ html, body {width:100%; height:100%; padding: 0; margin: 0;}
   background:none;
 }
 
+#name-wrapper {
+  padding-bottom: 10px;
+}
+
 #name {
   font-size: 2.2em;
-  padding-bottom: 10px;
-  margin-left: -47px;
+  text-align: left;
 }
 
 #story {
@@ -59,6 +62,7 @@ html, body {width:100%; height:100%; padding: 0; margin: 0;}
 #m-image {
   display: inline-block;
   float:right;
+  margin-top: -20px;
   background-color: black;
   padding: 20px;
   border: 2px solid white;
@@ -74,5 +78,4 @@ html, body {width:100%; height:100%; padding: 0; margin: 0;}
 .profile_pic {
   height: 150px;
   width: 130px;
-
 }
