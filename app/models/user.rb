@@ -3,6 +3,8 @@ class User < ActiveRecord::Base
   has_many :meteorites
   has_many :families, through: :meteorites
 
+  validates :username, uniqueness: true
+
   # set win boolean automatically to false, and then set to true when the player finds a family.
 
 end
