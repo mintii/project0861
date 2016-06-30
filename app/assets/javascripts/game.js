@@ -1,6 +1,4 @@
 var Game = function(startNewGame = true) {
-  //user
-  //if user.meteorites.length > 1 start
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
@@ -24,9 +22,6 @@ var Game = function(startNewGame = true) {
         game.map.renderMap();
       }, 1000)
     });
-
-
-
   }
 
   this.score = 0;

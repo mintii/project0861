@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  helper SessionsHelper
+  # helper SessionsHelper
   # before_action :find_user, only: [:new, :create]
 def new
   @user = User.new
@@ -20,8 +20,6 @@ def index
   @user = User.new
   if session[:user_id]
     render 'users/map.html.erb'
-  else
-    redirect_to 'users#index'
   end
 end
 
