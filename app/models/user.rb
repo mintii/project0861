@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   has_secure_password
   has_many :meteorites
+  has_many :families, through: :meteorites
 
   validates :username, uniqueness: true
 
