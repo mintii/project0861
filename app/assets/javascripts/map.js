@@ -168,7 +168,7 @@ var renderInfo = function(meteorite) {
   renderProfileImage(meteorite);
 
   if (!meteorite.defeated) {
-  $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button' style='border-radius: 2px'>Unlock it's Memories!</button>");
+  $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Unlock it's Memories!</button>");
   } else {$('#minigame-buttons').html(""); };
 }
 
