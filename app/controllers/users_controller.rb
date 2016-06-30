@@ -18,10 +18,10 @@ end
 
 def index
   @user = User.new
-  @highscores = User.find(:all,
-  p @highscores
+  # @highscores = User.order("families").limit(5);
+  # p @highscores
   if session[:user_id]
-    render 'users/map.html.erb'
+    redirect_to user_path(id: session[:user_id])
   end
 end
 
