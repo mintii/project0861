@@ -207,6 +207,5 @@ Game.prototype.defeat = function(meteorite) {
       $('#score').html(game.score);
       game.resetFamily(meteorite);
     }
-    // game.checkFamilyVictory(meteorite);
   });
 }
