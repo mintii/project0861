@@ -46,6 +46,15 @@ Gamemap.prototype.renderMap = function() {
   var gamemap = this;
   var map = this.map;
 
+  // $('#logout-button').on('click', function() {
+  //   console.log("you're clicking me!");
+  //   var logout = $.ajax({
+  //     method: 'get',
+  //     url: '/logout'
+  //   });
+  //
+  // });
+
 
   cartodb.createLayer(map, layerUrl)
     .addTo(map)
@@ -64,7 +73,6 @@ Gamemap.prototype.renderMap = function() {
 
 
     sublayer.on('featureClick', function(e, latlng, pos, data) {
-
       var id_query = "SELECT nasaid FROM rows WHERE (cartodb_id = " + data["cartodb_id"] + ")";
       var nasaidGetUrl = 'https://tlantz.cartodb.com/api/v2/sql?q=' + id_query;
 
@@ -126,6 +134,7 @@ Gamemap.prototype.renderMap = function() {
             });
           }
         });
+
       });
     });
     }).on('error', function() {
