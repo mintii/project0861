@@ -1,3 +1,4 @@
+<form><input type="submit" id="mute_button" value="mute"></form>
 <img id="animatebg" src="images/animatebg.gif"/><BR />
 <!-- <img id="logofade" src="images/logofade.gif"/> -->
 <h1 class="title">Project 0861</h1>
@@ -18,6 +19,14 @@
   </ul>
 </div>
 
-<audio src="audio/intro_theme.wav" autoplay loop>
+<audio id="bg_music" src="audio/intro_theme.wav" autoplay loop>
   Your browser does not support the <code>audio</code> element.
 </audio>
+
+<script type="text/javascript">
+  var audio = document.getElementById('bg_music');
+  $('#mute_button').on('click', function(e) {
+    e.preventDefault();
+    audio.muted = !audio.muted;
+  });
+</script>
