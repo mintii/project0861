@@ -18,14 +18,25 @@ end
 
 def index
   @user = User.new
-  highscore_data = User.all.sort { |a,b| a.families.length <=> b.families.length }[0..4]
-  p highscore_data
+
+  scores = {}
+  User.all.each do |user|
+    score = 0
+    user.families.uniq.each do |family|
+      score += family.meteorites.where("user_id = ?", user.id).length / 5
+    end
+    scores[user.username] = score
+  end
+  p scores
+
+  highscorers = User.all.sort { |a,b| scores[b.username] <=> scores[a.username] }[0..4]
+  p highscorers
   @highscores = []
   @highscore_names = []
   (0..4).each do |rank|
-    if highscore_data[rank]
-      @highscores[rank] = highscore_data[rank].families.length
-      @highscore_names[rank] = highscore_data[rank].username
+    if highscorers[rank]
+      @highscores[rank] = scores[highscorers[rank].username]
+      @highscore_names[rank] = highscorers[rank].username
     else
       @highscores[rank] = 0
       @highscore_names[rank] = "(none)"
