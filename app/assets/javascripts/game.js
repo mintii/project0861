@@ -2,9 +2,6 @@ var Game = function(startNewGame = true) {
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
-  $("#direction_template").on("click", function(){
-    $(this).hide();
-  });
 
   if (startNewGame) {
     var initialMeteorites = this.initializeMeteoritesAPI();
