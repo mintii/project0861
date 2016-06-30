@@ -12,11 +12,34 @@ Story.prototype.renderStory = function() {
 }
 
 Story.prototype.confusedGrammar = function() {return {
-    "hello": ["Hello!", "Whaddup whaddup!", "Salve!", "Konnichiwa!", "<stares at you>", "Bonjourno."],
+    "hello": [
+      "Hello!",
+      "Whaddup whaddup!",
+      "Salve!",
+      "Konnichiwa!",
+      "<stares at you>",
+      "Bonjourno."
+    ],
+    "introduction": [
+      "I have fallen from the sky.",
+      "I've never been so still.",
+      "WHAT ARE YOU?"
+    ],
+    "confusedStatement": [
+      "Help me!",
+      "I've lost my fam.",
+      "Where am I?",
+      "Huhwhahuh?!"
+    ],
+    "nonsense": [
+      "Wubba lubba dub dub...",
+      "Aroo?",
+      "Zuuhh?",
+      "Oohrruu",
+      "<looks terrified>"
+    ],
     "greeting": ["#hello# My name is " + this.meteorite.name + "."],
-    "introduction": ["I have fallen from the sky.", "I've never been so still.", "WHAT ARE YOU?"],
-    "confusedStatement": ["Help me!", "I've lost my fam.", "Where am I?", "Huhwhahuh?!"],
-    "origin": ["#greeting#  #introduction#  #confusedStatement#"]
+    "origin": ["#greeting#  #introduction#  #nonsense#  #confusedStatement#"]
   };
 }
 
@@ -40,26 +63,98 @@ Story.prototype.coherentGrammar = function() {return {
     "the Kuiper Belt",
     "Reno, NV"
   ],
-  "expandedOrigin": ["It feels like just yester#timeframe# that I was flying past #spaceThing#.", "It wasn't an accident... it was SABOTAGE!", "There are other " + this.meteorite.recclass + " meteorites just like me who survived... I am sure of it."],
-  "relative": ["my cousin", "my brother", "my sister", "my neighbor", "my dear friend"],
-  "hint": ["along " + this.meteorite.nextMeteorite.getLat() + " latitude", "along " + this.meteorite.nextMeteorite.getLong() + " longitude", "in " + this.meteorite.nextMeteorite.getYear() + " AD"],
-  // REGIONAL CLUES
-  "africa": ["OMG A LION, GET IN THE CAR", "Pyramids!", "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"],
-  "arctic": ["My compass is broken.", "Are you Santa?", "Where is everybody?"],
-  "antarctica": ["Brrrrrr!", "Which one has penguins and which one has polar bears?  I always forget."],
-  "north-america": ["What a rainy day.", "Yay seasons!", "DID BIGFOOT JUST WALK BY!"],
-  "south-america": ["¿Qué Paso?", "I've a distant cousin who is a soccer ball!", "I could go for some Yerba Mate."],
-  "europe": ["I can't keep track of all these kings and queens.", "Pasta!", "These buildings look older than me!"],
-  "australia": ["G'day Mate.", "Blimey!", "What's the deal with the platypus, I mean, really?"],
-  "asia": ["I can see that wall from home!", "Oh no, Mongol hordes!", "Fireworks!"],
-  // CLASS INFO
-  "L6": ["A swarm of steel beings attacked my family as we were taking a stroll around Sirius.", "We were attacked by a steel swarm. Some of us were able to escape to Earth.", "I fear most of my family has been reduced to space dust.", "Why do you keep saying Nogata?"],
-  "iron": ["This planet is quite nice. It seems like an old relative of mine.", "Please don't melt me down into one of those ships I saw on my way here.", ""],
-  "H": ["Looks like I've hit rock bottom.", "You can call me Dwayne Johnson.", "Wanna play me paper scissors?"],
-  "unclass": ["I still can't remember where we came from.", "I feel like I'm having an identity crisis... Am I an asteroid, meteorite, meteor?"],
+  "relative": [
+    "my cousin",
+    "my brother",
+    "my sister",
+    "my neighbor",
+    "my dear friend"
+  ],
+  "expandedOrigin": [
+    "It feels like just yester#timeframe# that I was flying past #spaceThing#.",
+    "It wasn't an accident... it was SABOTAGE!",
+    "There are other " + this.meteorite.recclass +
+    " meteorites just like me who survived... I am sure of it.",
+    "We never know the attack was coming.",
+    "I got tired of orbiting Neptune.",
+    "While sitting around one day... I was bouldered off my asteroid."
+  ],
+  "hint": [
+    "along " + this.meteorite.nextMeteorite.getLat() + " latitude",
+    "along " + this.meteorite.nextMeteorite.getLong() + " longitude"
+    // "in " + this.meteorite.nextMeteorite.getYear() + " AD"
+  ],
 
+  // REGIONAL CLUES
+  "africa": [
+  "OMG A LION, GET IN THE CAR",
+  "Pyramids!",
+  "I was approaching Earth, aimed straight for the middle, and... BULLSEYE!"
+  ],
+  "arctic": [
+    "My compass is broken.",
+    "Are you Santa?",
+    "Where is everybody?"
+  ],
+  "antarctica": [
+    "Brrrrrr!",
+    "Which one has penguins and which one has polar bears?  I always forget."
+  ],
+  "north-america": [
+    "What a rainy day.",
+    "Yay seasons!",
+    "DID BIGFOOT JUST WALK BY!"
+  ],
+  "south-america": [
+    "¿Qué Paso?",
+    "I've a distant cousin who is a soccer ball!",
+    "I could go for some Yerba Mate."
+  ],
+  "europe": [
+    "I can't keep track of all these kings and queens.",
+    "Pasta!",
+    "These buildings look older than me!"
+  ],
+  "australia": [
+    "G'day Mate.",
+    "Blimey!",
+    "What's the deal with the platypus, I mean, really?"
+  ],
+  "asia": [
+    "I can see that wall from home!",
+    "Oh no, Mongol hordes!",
+    "Fireworks!"
+  ],
+  // CLASS INFO
+  "L6": [
+    "A swarm of steel beings attacked my family as we were taking a stroll around Sirius.",
+    "We were attacked by a steel swarm. Some of us were able to escape to Earth.",
+    "I fear most of my family has been reduced to space dust.",
+    "Why do you keep saying Nogata?"
+  ],
+  "iron": [
+    "This planet is quite nice. It seems like an old relative of mine.",
+    "Please don't melt me down into one of those ships I saw on my way here."
+  ],
+  "H": [
+    "Looks like I've hit rock bottom.",
+    "You can call me Dwayne Johnson.",
+    "Wanna play me-paper-scissors?"
+  ],
+  "unclass": [
+    "I still can't remember where we came from.",
+    "I feel like I'm having an identity crisis... Am I an asteroid, meteorite, meteor?"
+  ],
+  "pun": [
+    "rock solid!",
+    "going stone-cold crazy!",
+    "on the roll and gathering no stardust!",
+    "feeling much boulder!",
+    "together, for the crater good!",
+    "winning by a landslide!",
+    "starting over with a clean slate!"
+  ],
   "clue": ["Please find #relative#!  Look #hint#."],
-  "pun": ["rock solid!", "heading back to space!", "going to make a happy life here on Earth."],
   "conclusion": ["Please help another family of meteorites!  I heard that there's somerock #hint# who you could help."],
   "familyFound": ["You found " + this.meteorite.family.reduce(function(previous, current) {
     return previous + current.name + ", ";
@@ -105,10 +200,3 @@ Story.prototype.classAbouts = function(meteorite) {
     return "unclass";
   }
 }
-
-
-//   "activity": ["taking a high-orbit stroll around Sirius"],
-//   "initialSetting": ["About #timeframe# ago my family was #activity# when #pointOfConflict#." ],
-//   "pointOfConflict": ["The <em>steel</em> swarm tore most of us into spacedust.", "One of the <em>steel</em> beings "],
-//   "origin": []
-//   }

@@ -18,7 +18,6 @@ button, input {
   top: 0;
 }
 
-
 h1 {
   color: white;
   font-smooth: never;
@@ -40,8 +39,9 @@ h1 {
 
 .login-forms {
   text-align: center;
-  position: fixed;
+  position: block;
   width: 100%;
+
 }
 
 .form {
@@ -71,4 +71,23 @@ h1 {
   image-rendering: pixelated;
   image-rendering: optimize-contrast;
   -ms-interpolation-mode: nearest-neighbor;
+}
+
+.high-scores {
+  color: white;
+  position: block;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.high-scores-head {
+  position: block;
+  width: 100%;
+}
+
+.high-score-container li {
+  text-align: left;
+  margin-left: 40%;
+  width: 50%;
 }

@@ -1,4 +1,3 @@
-<form><input type="submit" id="mute_button" value="mute"></form>
 <img id="animatebg" src="images/animatebg.gif"/><BR />
 <!-- <img id="logofade" src="images/logofade.gif"/> -->
 <h1 class="title">Project 0861</h1>
@@ -15,7 +14,10 @@
 
 <div class="high-score-container">
   <ul class="high-scores">
-    <%= %>
+    <h2 class="high-scores-head">HIGH SCORES</h2>
+    <% (0..4).each do |rank| %>
+      <li><%= "#{rank+1})    #{@highscores[rank]}  -  #{@highscore_names[rank]}" %>
+    <% end %>
   </ul>
 </div>
 

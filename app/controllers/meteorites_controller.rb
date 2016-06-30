@@ -15,12 +15,8 @@ class MeteoritesController < ApplicationController
   def create
     @meteorite = Meteorite.find_or_initialize_by(nasa_id: params[:nasa_id], family_id: determine_fam(params), user_id: session[:user_id], defeated: true)
     @meteorite.save
-    redirect_to root_path #start game
+    redirect_to root_path
   end
-
-  # def new
-  #   @meteorite = Meteorite.new
-  # end
 
   def index
     @meteorites = User.find(session[:user_id]).meteorites.to_json
