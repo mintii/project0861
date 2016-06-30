@@ -5,7 +5,4 @@ class FamiliesController < ApplicationController
     redirect_to root_path #start game
   end
 
-  # def new
-  #   @family = Family.new
-  # end
 end
