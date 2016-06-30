@@ -13,7 +13,7 @@ class MeteoritesController < ApplicationController
   end
 
   def create
-    @meteorite = Meteorite.find_or_initialize_by(nasa_id: params[:nasa_id], family_id: determine_fam(params), user_id: current_user.id, defeated: true)
+    @meteorite = Meteorite.find_or_initialize_by(nasa_id: params[:nasa_id], family_id: determine_fam(params), user_id: session[:user_id], defeated: true)
     @meteorite.save
     redirect_to root_path #start game
   end

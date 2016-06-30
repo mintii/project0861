@@ -7,9 +7,9 @@ def new
 end
 
 def show
-
   if session[:user_id]
-    @user = current_user
+    @start_new_game = false
+    @user = User.find(session[:user_id])
     render 'users/map.html.erb'
   else
     redirect_to 'users#index'
@@ -24,6 +24,7 @@ end
 def create
   @user = User.new(user_params)
   if @user.save
+    @start_new_game = true
     session[:user_id] = @user.id
     render 'users/map.html.erb'
   else
