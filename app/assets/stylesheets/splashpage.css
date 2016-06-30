@@ -13,6 +13,11 @@ button, input {
   border: none;
 }
 
+#mute_button {
+  float: right;
+  top: 0;
+}
+
 
 h1 {
   color: white;
