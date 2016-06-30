@@ -46,14 +46,13 @@ Gamemap.prototype.renderMap = function() {
   var gamemap = this;
   var map = this.map;
 
-  // $('#logout-button').on('click', function() {
-  //   console.log("you're clicking me!");
-  //   var logout = $.ajax({
-  //     method: 'get',
-  //     url: '/logout'
-  //   });
-  //
-  // });
+  $('#logout-button').on('click', function() {
+    console.log("you're clicking me!");
+    var logout = $.ajax({
+      method: 'get',
+      url: '/logout'
+    });
+  });
 
 
   cartodb.createLayer(map, layerUrl)
