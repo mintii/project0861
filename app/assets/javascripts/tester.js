@@ -1,4 +1,13 @@
 $(document).on("ready", function() {
+  $("directions-close-button").on('click', function(event) {
+    event.preventDefault()
+    console.log("Hey there");
+    /* Act on the event */
+  });
+
+
+
+
   $('.leaflet-control-zoom-in').remove();
    // var game = new Game();
   // var nogata = game.meteorites[0];
