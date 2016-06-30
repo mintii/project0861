@@ -34,20 +34,25 @@ zSK0sMyOHrQ0eV l8nqvLawMuJ2WD aCQhiMz0VlAPAQ 5kntlYoBCvx5kq JhFcbYHWg0Uy2Y 4j2Du
 </script>
 
 <div id="direction_template">
-  <div class="popup ui-box">
+  <div class="directions-popup ui-box">
        <a href="#close" class="popup-close-button close">X</a>
     <div class="popup-content-wrapper">
-    <h4>
+    <h4 class="directions-text">
       The meteorites are very shaken up from their travels through the atmosphere. Help meteorites regain their memories! Click on meteorites located around the world to hear their stories and reunite their families by collecting 5 of a kind.
     </h4>
-    <%= image_tag 'p-green.png', :class => 'profile_pic' %>
-    <h4>
+    <%= image_tag 'meteorites_example.png', :class => 'directions-images' %>
+    <h4 class="directions-text">
       Track your progress with the families listed in the bar to the right.
     </h4>
-    <h4>
+    <%= image_tag 'family_members.png', :class => 'directions-images' %>
+    <h4 class="directions-text">
       Use your arrow keys to combine numbers together until the tile reaches the target amount.
       You will need to reset the game if you run out of possible moves on the board.
     </h4>
+
+    <div>
+      <%= image_tag 'family_members.png', :class => 'directions-images' %>
+    </div>
 
     </div>
   </div>
