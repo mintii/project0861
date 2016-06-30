@@ -153,15 +153,12 @@ var renderVictoryDisplay = function(game, meteorite) {
   }
 }
 
-
-
 var renderInfo = function(meteorite) {
   $('#name').text(meteorite.name);
   $('#year').text('year: ' + meteorite.getYear() + ' AD');
   $('#recclass').text('family: ' + meteorite.recclass);
   $('#latitude').text('latitude: ' + meteorite.getLat());
   $('#longitude').text('longitude: ' + meteorite.getLong());
-  // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
   if (!meteorite.defeated) {
   $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
