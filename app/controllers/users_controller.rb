@@ -7,6 +7,7 @@ end
 
 def show
   if session[:user_id]
+    @user = current_user
     render 'users/map.html.erb'
   else
     redirect_to 'users#index'

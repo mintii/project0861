@@ -1,9 +1,11 @@
-var Game = function() {
+var Game = function(startNewGame = true) {
+  //user
+  //if user.meteorites.length > 1 start
   this.meteorites = [];
   this.map = new Gamemap(this);
   var game = this;
 
-  if (false) {
+  if (startNewGame) {
     var initialMeteorites = this.initializeMeteoritesAPI();
     initialMeteorites.done(function() {
       game.map.renderMap();
@@ -19,9 +21,8 @@ var Game = function() {
     //LAZY SHIT -- ASK TEACHER
     var secondRequest = request.done(function() {
       setTimeout(function(){
-      console.log(game.meteorites);
         game.map.renderMap();
-      }, 2000)
+      }, 1000)
     });
 
 
