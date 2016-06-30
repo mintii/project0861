@@ -18,6 +18,8 @@ end
 
 def index
   @user = User.new
+  @highscores = User.by_family.limit(5)
+  p @highscores
   if session[:user_id]
     render 'users/map.html.erb'
   end
