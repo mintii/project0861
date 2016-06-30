@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  helper SessionsHelper
+
   def new
     render :layout => false
   end
@@ -15,7 +17,8 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    session[:user_id] = nil
-    redirect_to root_url, :notice => "Logged out!"
+
+      session[:user_id] = nil
+      redirect_to root_url, :notice => "Logged out!"
   end
 end
