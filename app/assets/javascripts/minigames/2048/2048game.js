@@ -118,7 +118,7 @@ Minigame2048.prototype.play = function(gamemap, meteorite) {
         soundEffect.play();
       }
 
-      if (minigame.checkForWin()) {
+      if (true || minigame.checkForWin()) {
         minigame.renderExponents();
         minigame.win = true;
         victorySound.play();

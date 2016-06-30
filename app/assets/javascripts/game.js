@@ -79,14 +79,7 @@ Game.prototype.resetFamily = function(meteorite) {
 }
 
 Game.prototype.checkFamilyVictory = function(meteorite) {
-  if(meteorite.family.length >= 5) {
-    this.resetFamily(meteorite);
-    this.score++;
-    $('#score').html(this.score);
-    return true;
-  } else {
-    return false;
-  }
+  return meteorite.family.length >= 5;
 }
 
 Game.prototype.addToFamily = function(meteorite) {
@@ -209,6 +202,11 @@ Game.prototype.defeat = function(meteorite) {
     });
 
     meteorite.generateStory();
-    game.checkFamilyVictory(meteorite);
+    if (game.checkFamilyVictory(meteorite)) {
+      game.score++;
+      $('#score').html(game.score);
+      game.resetFamily(meteorite);
+    }
+    // game.checkFamilyVictory(meteorite);
   });
 }
