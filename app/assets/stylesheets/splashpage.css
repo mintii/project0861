@@ -13,7 +13,7 @@ button, input {
   border: none;
 }
 
-#mute_button {
+#mute_button, #hint_button {
   float: right;
   top: 0;
 }
