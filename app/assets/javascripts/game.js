@@ -34,8 +34,6 @@ var Game = function(startNewGame = true) {
 
 }
 
-
-
 Game.prototype.saveFamilies = function() {
   rocktypes = ["L", "H", "I", "U"];
   for (var i=0; i<rocktypes.length; i++) {
@@ -74,21 +72,14 @@ Game.prototype.resetFamily = function(meteorite) {
     this.ifamily = [];
   } else if (recclass == "H") {
     this.hfamily = [];
-  } else {
+  } else { //U
     this.ufamily = [];
   };
   this.saveFamilies();
 }
 
 Game.prototype.checkFamilyVictory = function(meteorite) {
-  if(meteorite.family.length >= 5) {
-    this.resetFamily(meteorite);
-    this.score++;
-    $('#score').html(this.score);
-    return true;
-  } else {
-    return false;
-  }
+  return meteorite.family.length >= 5;
 }
 
 Game.prototype.addToFamily = function(meteorite) {
@@ -131,8 +122,6 @@ Game.prototype.loadGameMeteoritesAPI = function() {
     var whereClause = nasaIds.map(function(id) {
       return "id=%27" + id + "%27";
     }).join("%20OR%20");
-    console.log(nasaIds);
-    console.log(whereClause);
 
     var path = "https://data.nasa.gov/resource/y77d-th95.geojson?$where=(" + whereClause + ")";
 
@@ -196,7 +185,7 @@ Game.prototype.defeat = function(meteorite) {
         game.meteorites.push(newMeteorite);
       }
     }
-    //ADD THIS METEORITE TO THE DB
+
     var family_id = "U";
     if(meteorite.recclass[0] == "L") {
       family_id = "L";
@@ -213,6 +202,10 @@ Game.prototype.defeat = function(meteorite) {
     });
 
     meteorite.generateStory();
-    game.checkFamilyVictory(meteorite);
+    if (game.checkFamilyVictory(meteorite)) {
+      game.score++;
+      $('#score').html(game.score);
+      game.resetFamily(meteorite);
+    }
   });
 }

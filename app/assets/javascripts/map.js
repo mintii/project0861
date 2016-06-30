@@ -90,7 +90,6 @@ Gamemap.prototype.renderMap = function() {
             var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
             var minigame = new Minigame2048(difficulty, winHandler);
 
-            // $("#popup-content").hide();
             $(".popup-content-wrapper").html('<div class="grid-container"><div class="goal"><p>Target:'+ Math.pow(2, difficulty) +'</p><button class="minigame-buttons" id="reset-button">RESET</button></div><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
 
             minigame.spawn();
@@ -104,7 +103,6 @@ Gamemap.prototype.renderMap = function() {
             var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
             var minigame = new Minigame2048(difficulty, winHandler);
 
-            // $("#popup-content").hide();
             $(".popup-content-wrapper").html('<div class="grid-container"><div class="goal"><p>Target:'+ Math.pow(2, difficulty) +'</p><button class="minigame-buttons" id="reset-button">RESET</button></div><div class="grid-row"><div class="grid-cell" id="0"></div><div class="grid-cell" id="1"></div><div class="grid-cell" id="2"></div><div class="grid-cell" id="3"></div></div><div class="grid-row"><div class="grid-cell" id="4"></div><div class="grid-cell" id="5"></div><div class="grid-cell" id="6"></div><div class="grid-cell" id="7"></div></div><div class="grid-row"><div class="grid-cell" id="8"></div><div class="grid-cell" id="9"></div><div class="grid-cell" id="10"></div><div class="grid-cell" id="11"></div></div><div class="grid-row"><div class="grid-cell" id="12"></div><div class="grid-cell" id="13"></div><div class="grid-cell" id="14"></div><div class="grid-cell" id="15"></div></div></div>');
 
             minigame.spawn();
@@ -153,15 +151,12 @@ var renderVictoryDisplay = function(game, meteorite) {
   }
 }
 
-
-
 var renderInfo = function(meteorite) {
   $('#name').text(meteorite.name);
   $('#year').text('year: ' + meteorite.getYear() + ' AD');
   $('#recclass').text('family: ' + meteorite.recclass);
   $('#latitude').text('latitude: ' + meteorite.getLat());
   $('#longitude').text('longitude: ' + meteorite.getLong());
-  // $('#m-image').html('<img src="p-blue.png"/>');
   $('#story').text(meteorite.tellStory());
   if (!meteorite.defeated) {
   $('#minigame-buttons').html("<button class='minigame-buttons' id='minigame-button'>Play Minigame!</button>");
