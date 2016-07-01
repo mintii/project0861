@@ -175,16 +175,16 @@ var renderInfo = function(meteorite) {
 var renderProfileImage = function(meteorite) {
   switch(meteorite.recclass.charAt(0).toLowerCase()) {
     case 'h':
-        $('#m-image').html('<img class="profile_pic" src="/assets/p-blue.png">');
+        $('#m-image').html('<img class="profile_pic" src="http://i.imgur.com/ATBdbnO.png">');
         break;
     case 'c':
-        $('#m-image').html('<img class="profile_pic" src="/assets/p-blue.png">');
+        $('#m-image').html('<img class="profile_pic" src="http://i.imgur.com/ATBdbnO.png">');
         break;
     case 'l':
-        $('#m-image').html('<img class="profile_pic" src="/assets/p-orange.png">');
+        $('#m-image').html('<img class="profile_pic" src="http://i.imgur.com/pS4awBN.png">');
         break;
     default:
-        $('#m-image').html('<img class="profile_pic" src="/assets/p-green.png">');
+        $('#m-image').html('<img class="profile_pic" src="http://i.imgur.com/pS4awBN.png">');
 }
 
 }
