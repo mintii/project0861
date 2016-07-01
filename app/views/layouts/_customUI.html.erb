@@ -6,6 +6,7 @@
           <div id="title-box" class="ui-box">
           </div>
         </td>
+    
         <td>
           <div id="user-info-box" class="ui-box">
             <% if logged_in? %>
@@ -15,11 +16,18 @@
                   <button type="submit" class="minigame-buttons" id="logout-button">LOGOUT</button>
                 </form>
               </div>
+              <div id="instruction-button-box">
+                <form><input type="submit" id="hint_button" value="INSTRUCTIONS"></form>
+              </div>
+              <div id="mute-button-box">
+                <form><input type="image" src="<%= asset_path('mute.png') %>" id="map-mute-button" value=""></form>
+              </div>
             <% end %>
-
-            <form><input type="image" src="<%= asset_path('mute.png') %>" id="mute_button" value=""></form>
-            <form><input type="submit" id="hint_button" value="instructions"></form>
           </div>
+        </td>
+
+
+
       </tr>
     </div>
   </table>

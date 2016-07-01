@@ -13,14 +13,6 @@ button, input {
   border: none;
 }
 
-#mute_button, #hint_button {
-  float: right;
-  top: 0;
-}
-
-
-
-
 h1 {
   color: white;
   font-smooth: never;

@@ -17,6 +17,43 @@
   margin: 5px 5px 0px 0px;
 }
 
+#welcome-user-box {
+  float: left;
+  margin-right: 5px;
+  display: inline-block;
+
+}
+
+#logout-button-box {
+  float:left;
+  display: inline-block;
+
+}
+
+#logout-button {
+  height: 18px;
+  margin: -3px;
+}
+
+#instruction-button-box {
+  margin: -10px 0px 0px 5px;
+  display: inline-block;
+}
+
+#hint_button {
+  height: 18px;
+}
+
+#mute-button-box {
+  float: right;
+  display: inline-block;
+  height
+}
+
+#map-mute-button {
+  height: 10px;
+}
+
 #sidebar {
   z-index: 1000;
   position: fixed;
@@ -67,18 +104,4 @@
   -webkit-animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
-
-#welcome-user-box {
-  float: left;
-  margin-right: 5px;
-}
-
-#logout-button-box {
-  float: right;
-}
-
-#logout-button {
-  height: 18px;
-  margin: -3px;
 }
