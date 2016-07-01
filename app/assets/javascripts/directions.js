@@ -6,4 +6,6 @@ $(document).ready(function() {
  $('#hint_button').on('click', function(){
     $("#direction_template").toggle();
   });
+
+
 });
