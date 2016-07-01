@@ -87,6 +87,7 @@ Gamemap.prototype.renderMap = function() {
 
         $(".cartodb-infowindow").on("click", "#reset-button", function() {
           if (!currentMeteorite.defeated) {
+            $(document).off("keydown");
             var difficulty = gamemap.game.findFamily(currentMeteorite).length+5;
             var minigame = new Minigame2048(difficulty, winHandler);
 
