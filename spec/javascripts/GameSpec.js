@@ -9,8 +9,7 @@ describe("a Game", function() {
       mapDiv.appendTo('body');
       game = new Game(1);
       done();
-    }, 10);
-
+    }, 0);
   });
 
   afterEach(function() {
@@ -20,8 +19,8 @@ describe("a Game", function() {
   describe("initiazation", function(){
     it("initializes with Nogata", function(done) {
       setTimeout(function() {
-         expect(game.meteorites[0].name).toEqual("Nogata");
-       done();
+        expect(game.meteorites[0].name).toEqual("Nogata");
+        done();
       }, 300);
     });
 
@@ -33,14 +32,22 @@ describe("a Game", function() {
     });
   });
 
-  // describe("extendeds revealed meteorites properly", function(){
-  //   beforeEach(function() {
-  //     game.extendMeteoritesAPI(meteorite);
-  //   });
 
-  //   it("adds the next set of meteorites", function() {
-  //     expect(game.meteorites.length).toEqual(37);
-  //   });
+  describe("extendeds revealed meteorites properly", function(){
+    // beforeEach(function(done) {
+    //   setTimeout(function() {
+    //     game.extendMeteoritesAPI(meteorite);
+    //     done();
+    //   }, 100);
+    // });
+
+    it("adds the next set of meteorites", function() {
+      // setTimeout(function() {
+        // game.extendMeteoritesAPI(meteorite);
+        expect(game.meteorites.length).toEqual(37);
+      //   done();
+      // }, 1000);
+    });
 
   //   it("stops adding meteorites when class is matched", function() {
   //     expect(game.meteorites[36].recclass).toEqual("L6");
@@ -55,7 +62,7 @@ describe("a Game", function() {
   //     game.extendMeteoritesAPI(game.meteorites[36]);
   //     expect(game.meteorites.length).toBeGreaterThan(37);
   //   });
-  // });
+  });
 
   // describe("sets a meteorites nextMeteorite", function(){
   //   it("sets a meteorites next meteorite", function() {
