@@ -32,7 +32,7 @@ var Game = function(startNewGame) {
   this.ufamily = [];
   this.saveFamilies();
 
-}
+};
 
 Game.prototype.saveFamilies = function() {
   rocktypes = ["L", "H", "I", "U"];
