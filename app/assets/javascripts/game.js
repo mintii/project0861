@@ -16,7 +16,6 @@ var Game = function(startNewGame) {
       }
     });
 
-    //LAZY SHIT -- ASK TEACHER
     var secondRequest = request.done(function() {
       setTimeout(function(){
         game.map.renderMap();
