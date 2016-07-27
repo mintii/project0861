@@ -13,11 +13,6 @@ button, input {
   border: none;
 }
 
-#mute_button, #hint_button {
-  float: right;
-  top: 0;
-}
-
 h1 {
   color: white;
   font-smooth: never;
@@ -82,12 +77,15 @@ h1 {
 }
 
 .high-scores-head {
+  margin-bottom: 15px;
   position: block;
   width: 100%;
 }
 
 .high-score-container li {
   text-align: left;
-  margin-left: 40%;
   width: 50%;
+  margin-left: 40%;
+  margin-bottom: 10px;
+  font-size: 1.1em;
 }
